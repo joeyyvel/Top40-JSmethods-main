@@ -1,0 +1,156 @@
+.header {
+  height: 50px;
+  background-color: hsla(0, 10%, 88%, 0.993);
+  position: relative;
+  top: 6rem;
+}
+/* -----------font awesome-------- */
+.fa-solid,
+.fa-regular {
+  font-size: 24px;
+  color: gray;
+}
+/* ------------ Run button---------- */
+.btnRun {
+  padding: 12px 20px;
+  margin-top: -14px;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* ------------button run hover---------- */
+.btnRun:hover {
+  background-color: green;
+}
+
+/* ----------getyour own website button------ */
+#getWebBtn {
+  background-color: black;
+  padding: 0px 20px;
+  border-radius: 5px;
+  color: white;
+}
+
+#getWebBtn:hover {
+  background-color: green;
+}
+
+.header-leftDiv {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header-leftDiv > div {
+  margin: 15px;
+}
+
+/* ------------- header right icon-------- */
+.header-rightDiv {
+  display: flex;
+  position: relative;
+  float: right;
+  top: -4.7rem;
+}
+
+.header-rightDiv > div {
+  margin: 10px;
+}
+
+.mainDiv {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: gray;
+  padding: 10px;
+  min-height: 100vh;
+  line-height: 80%;
+  width: 98%;
+  margin: auto;
+  position: relative;
+  top: 10px;
+}
+
+.mainDiv > div {
+  background-color: aliceblue;
+  text-align: left;
+  padding: 20px 40px;
+  width: 45%;
+}
+
+#copyDataThree,
+#copyDataTwo,
+#copyDataOne,
+#copyData {
+  background-color: white;
+  border: none;
+  line-height: 100%;
+}
+
+/*------------------- Dropdown button -----------------*/
+.dropbtn {
+  color: gray;
+  font-weight: bolder;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  margin-top: -5px;
+  background-color: hsla(0, 10%, 88%, 0.993);
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #9ba09b;
+}
+
+.dropbtn {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 380px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+/* -------------------input one data----------------- */
+#inputOne,
+#inputTwo,
+#inputThree,
+#inputFour {
+  width: 70px;
+  border-radius: 3px;
+  border: 1px solid green;
+  padding: 3px 10px;
+}
+
+#myButton {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 3px 10px;
+  border: 1px solid blue;
+}

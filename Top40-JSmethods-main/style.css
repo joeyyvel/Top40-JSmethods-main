@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  background-color: #ffffff;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.left-menu {
+  background-color: #f5f5f5;
+  width: 10%;
+}
+.main-content {
+  background-color: #ffffff;
+  width: 70%;
+}
+
+.right-menu {
+  background-color: #f5f5f5;
+  width: 20%;
+}

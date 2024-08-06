@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="every.css" />
+    <title>includes()</title>
+  </head>
+  <body>
+    <div class="header">
+      <!------------- header right div  ------------->
+      <div class="header-leftDiv">
+        <div>
+          <a href="index.html"><i class="fa-solid fa-house-chimney"></i></a>
+        </div>
+        <!------------ drop down menu  -------------->
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">&#9776</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href=""><i class="fa-solid fa-rotate-right"> </i> Change Orientation</a>
+            <a href=""><i class="fa-regular fa-floppy-disk "> </i> Save Code</a>
+            <a href=""><i class="fa-solid fa-circle-half-stroke"></i> Change Theme, Dark/Light</a>
+            <a href=""><i class="fa-solid fa-window-restore"></i> Go to spaces</a>
+            <div style="display: flex;"><a href="">Privacy Policy</a> <span style="margin-top: 12px;">and</span> <a href="">Copyright 2024</a></div>
+          </div>
+        </div>
+        <div><i class="fa-regular fa-floppy-disk"></i></div>
+        <div><i class="fa-solid fa-rotate-right"></i></div>
+        <div><i class="fa-solid fa-circle-half-stroke"></i></div>
+        <div>
+          <button class="btnRun">
+            Run <span style="font-size: 18px; padding-left: 5px"> > </span>
+          </button>
+        </div>
+      </div>
+      <!------------- header-rightDiv ---------->
+      <div class="header-rightDiv">
+        <div><p>Result Size</p></div>
+        <div id="getWebBtn">
+          <p>Get your own website</p>
+        </div>
+      </div>
+    </div>
+
+    <!------------------------------- main body ----------------------------->
+    <div class="mainDiv">
+      <div class="leftDiv">
+        <p style="color: gray;">< !DOCTYPE html ></p>
+        <p style="color: blue;" > < <span style="color: maroon;">  html </html> </span> >  </p>
+        <p style="color: blue;" > < <span style="color: maroon;">  body </html> </span> >  </p>
+
+
+        <h3>JavaScript Arrays</h3>
+        <h3>The includes() Method</h3>
+        
+       <p>includes() returns true if an array contains a specified element:</p>
+
+                
+        <div contenteditable="true" id="copyData"> <span style="color: blue;"> <  <span style="color: maroon" >  p <span style="color: red;" > id  </span> <span style="color: black;"> = </span>  <span style="color: blue;" > "demo" >  <  / </span>       p  </span>     >  </span>    </div>
+          
+         <br>
+                 
+         <button id="myButton" style="margin: 7px; padding: 5px 10px;">includes()</button> = 
+         <input type="text" id="inputOne" placeholder="insert array:" autocomplete="off">
+         <input type="text" id="inputTwo" placeholder="insert array:" autocomplete="off">
+         <input type="text" id="inputThree" placeholder="insert array:" autocomplete="off">
+         <input type="text" id="inputFour" placeholder="insert array:" autocomplete="off">
+         
+         <p>type the word below to check if it's included in the array above.</p>
+          <br>
+          <input type="text" id="inputFive" placeholder="check included array:" autocomplete="off">
+         
+         
+         <p style="color: blue;" > < <span style="color: maroon;">   script  </html> </span> >  </p>
+               
+        <p contenteditable="true"> <span style="color: blue;">const</span> fruits = [<span style="color: maroon"> " Banana" , " Orange " , " Apple " , " Mango "</span> ]  ; </p>
+                
+        <p contenteditable="true" id="copyDataThree">document.getElementById( <span style="color: red;"> "demo" </span>  ).innerHTML = fruits.includes ( <span style="color: red;"> " Mango " </span>  );            
+        </p>
+        
+        <p style="color: blue;" > <  / <span style="color: maroon;">   script  </html> </span> >  </p>
+        
+        <p>includes() is not supported in Edge 13 (or earlier).</p>
+        <p style="color: blue;" > <  /  <span style="color: maroon;">  body </html> </span> >  </p>
+        <p style="color: blue;" > <  /  <span style="color: maroon;">  html </html> </span> >  </p>
+        </div>
+
+
+      <div class="rightDiv">
+        <h3>JavaScript Arrays</h3>
+        <h3>
+         The includes() Method  
+        </h3>
+         includes() returns true if an array contains a specified element.
+         
+         
+        <br>
+         
+        <label id="myLabel"></label><br>
+        <label id="myLabelOne"></label><br>
+        <label id="myLabelTwo"></label><br>
+        <label id="myLabelThree"></label><br>
+        <br>
+        <label id="myLabelFour"></label>
+        <br>
+        <br><br>
+        <p>Includes() is not supported in Internet Explorer.</p>
+        <p> <span style="color: blue;" > includes()</span>  Result below is:</p>
+        <p id="popResult" style="background-color: rgb(101, 233, 60);
+        padding:  10px 20px; border-radius: 5px;"></p>
+
+        
+      </div>
+    </div>
+  </body>
+
+  <script src="includes.js"></script>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="parseInt.css" />
+    <title>parseInt()</title>
+  </head>
+  <body>
+    <div class="header">
+      <!------------- header right div  ------------->
+      <div class="header-leftDiv">
+        <div>
+          <a href="index.html"><i class="fa-solid fa-house-chimney"></i></a>
+        </div>
+        <!------------ drop down menu  -------------->
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">&#9776</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href=""><i class="fa-solid fa-rotate-right"> </i> Change Orientation</a>
+            <a href=""><i class="fa-regular fa-floppy-disk "> </i> Save Code</a>
+            <a href=""><i class="fa-solid fa-circle-half-stroke"></i> Change Theme, Dark/Light</a>
+            <a href=""><i class="fa-solid fa-window-restore"></i> Go to spaces</a>
+            <div style="display: flex;"><a href="">Privacy Policy</a> <span style="margin-top: 12px;">and</span> <a href="">Copyright 2024</a></div>
+          </div>
+        </div>
+        <div><i class="fa-regular fa-floppy-disk"></i></div>
+        <div><i class="fa-solid fa-rotate-right"></i></div>
+        <div><i class="fa-solid fa-circle-half-stroke"></i></div>
+        <div>
+          <button class="btnRun">
+            Run <span style="font-size: 18px; padding-left: 5px"> > </span>
+          </button>
+        </div>
+      </div>
+      <!------------- header-rightDiv ---------->
+      <div class="header-rightDiv">
+        <div><p>Result Size</p></div>
+        <div id="getWebBtn">
+          <p>Get your own website</p>
+        </div>
+      </div>
+    </div>
+
+    <!------------------------------- main body ----------------------------->
+    <div class="mainDiv">
+      <div class="leftDiv">
+        <p style="color: gray;">< !DOCTYPE html ></p>
+        <p style="color: blue;" > < <span style="color: maroon;">  html </html> </span> >  </p>
+        <p style="color: blue;" > < <span style="color: maroon;">  body </html> </span> >  </p>
+
+
+        <h3>JavaScript Global Methods</h3>
+        <h4>The parseInt() Method</h4>
+
+        <p>
+         parseInt() parses a string and returns the first integer:
+        </p>
+        
+         
+        <div contenteditable="true" id="copyData"> <span style="color: blue;"> <  <span style="color: maroon" >  p <span style="color: red;" > id  </span> <span style="color: black;"> = </span>  <span style="color: blue;" > "demo" >  <  / </span>       p  </span>     >  </span>    </div>
+          
+         <br>
+                 
+        
+         
+         <button id="myButton" style="margin: 7px; padding: 5px 10px;">Number()</button> = 
+         <input type="text" id="inputOne" placeholder=" insert number here:" autocomplete="off">
+             
+         <p style="color: blue;" > < <span style="color: maroon;">   script  </html> </span> >  </p>
+          <br>
+         <p style="color: red;"> // please enter one variable only at a time.</p>
+        
+        <p contenteditable="true" id="copyDataThree">document.getElementById("demo").innerHTML = 
+          <br>
+          parseInt( " 10 ") + " < br > " +
+          <br>
+          parseInt( " 10.00 ") + " < br > " +
+          <br>
+          parseInt( " 10.33 ") + " < br > " +
+          <br>
+          parseInt( " 34 45 66 ") + " < br > " +
+          <br>
+          parseInt( "    60    ") + " < br > " +
+          <br>
+          parseInt( " 40 years ") + " < br > " +
+          <br>
+          parseInt( " He was 40 " );
+        </p>
+        
+        <p style="color: blue;" > <  / <span style="color: maroon;">   script  </html> </span> >  </p>
+        <p style="color: blue;" > <  /  <span style="color: maroon;">  body </html> </span> >  </p>
+        <p style="color: blue;" > <  /  <span style="color: maroon;">  html </html> </span> >  </p>
+        </div>
+
+
+      <div class="rightDiv">
+        <h3>JavaScript Global Methods</h3>
+        <h4>The parseInt() Method</h4>
+
+        <p> 
+          parseInt() parses a string and returns the integer:
+        </p>
+         
+        <br>
+         
+        <label id="myLabel"></label>
+        <label id="myLabelOne"></label>
+        <br>
+        <br>
+        <br><br>
+        <p> <span style="color: blue;" > parseInt()</span>  Result below is:</p>
+        <p id="popResult"></p>
+
+        
+      </div>
+    </div>
+  </body>
+
+  <script src="parseInt.js"></script>
+</html>

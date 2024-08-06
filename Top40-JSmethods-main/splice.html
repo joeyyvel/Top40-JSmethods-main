@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="splice.css" />
+    <title>splice()</title>
+  </head>
+  <body>
+    <div class="header">
+      <!------------- header right div  ------------->
+      <div class="header-leftDiv">
+        <div>
+          <a href="index.html"><i class="fa-solid fa-house-chimney"></i></a>
+        </div>
+        <!------------ drop down menu  -------------->
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">&#9776</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href=""><i class="fa-solid fa-rotate-right"> </i> Change Orientation</a>
+            <a href=""><i class="fa-regular fa-floppy-disk "> </i> Save Code</a>
+            <a href=""><i class="fa-solid fa-circle-half-stroke"></i> Change Theme, Dark/Light</a>
+            <a href=""><i class="fa-solid fa-window-restore"></i> Go to spaces</a>
+            <div style="display: flex;"><a href="">Privacy Policy</a> <span style="margin-top: 12px;">and</span> <a href="">Copyright 2024</a></div>
+          </div>
+        </div>
+        <div><i class="fa-regular fa-floppy-disk"></i></div>
+        <div><i class="fa-solid fa-rotate-right"></i></div>
+        <div><i class="fa-solid fa-circle-half-stroke"></i></div>
+        <div>
+          <button class="btnRun">
+            Run <span style="font-size: 18px; padding-left: 5px"> > </span>
+          </button>
+        </div>
+      </div>
+      <!------------- header-rightDiv ---------->
+      <div class="header-rightDiv">
+        <div><p>Result Size</p></div>
+        <div id="getWebBtn">
+          <p>Get your own website</p>
+        </div>
+      </div>
+    </div>
+
+    <!------------------------------- main body ----------------------------->
+    <div class="mainDiv">
+      <div class="leftDiv">
+        <p>< !DOCTYPE html ></p>
+        <p>< html ></p>
+        <p>< body ></p>
+
+        <h3>JavaScript Arrays</h3>
+        <h4>The splice() Method</h4>
+
+        <p>splice() method adds or removes array elements.</p>
+        <div contenteditable="true" id="copyData"> < p id="demo" >  <  / p > </div>
+         <br>
+         <br>
+         <br>
+        <p> <  script >   </script>  </p>         
+         <p>Type words in each blank element below and click the splice() button</p>
+         <button id="myButton">splice()</button> = <input type="text" id="inputOne" autocomplete="off">
+         <input type="text" id="inputTwo" autocomplete="off"> <input type="text" id="inputThree" autocomplete="off">
+         <input type="text" id="inputFour" autocomplete="off"><input type="text" id="inputFive" autocomplete="off">
+         <input type="text" id="inputSix" autocomplete="off">          
+        <p contenteditable="true" id="copyDataTwo">data.splice();</p>
+        <p contenteditable="true" id="copyDataThree">document.getElementById("demo").innerHTML = fruits;</p>
+
+        <p> < / script >  </p>
+         <br>
+         <br>
+         <br>
+
+        <p>< / body ></p>
+        <p>< / html ></p>
+      </div>
+      <div class="rightDiv">
+        <h3>JavaScript Arrays</h3>
+        <h4>The splice() Method</h4>
+
+        <p>splice() method adds or removes array elements</p>
+        <br>
+         <p>The user input is highlighted in color red:</p>
+        <label id="myLabel"></label><span>,</span>
+        <label id="myLabelOne" ></label><span>,</span>
+        <label id="myLabelTwo"></label><span>,</span>
+        <label id="myLabelThree"></label><span>,</span>
+        <label id="myLabelFour"></label><span>,</span>
+        <label id="myLabelFive"></label><span>,</span>
+        <br>
+        <br>
+        <br><br>
+        <p>pop() Result below is:</p>
+        <p id="popResult"></p>
+
+        
+      </div>
+    </div>
+  </body>
+
+  <script src="splice.js"></script>
+</html>

@@ -1,0 +1,4057 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="dev-header" style="background-color: red">
+      <h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+        consequatur delectus aut facere minus? Totam omnis at nulla molestias
+        autem.
+      </h1>
+    </div>
+
+    <div class="main-container">
+      <div class="left-menu">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+        necessitatibus incidunt maiores molestiae optio obcaecati animi dolor id
+        natus ipsum consequuntur nostrum nemo ratione alias, labore nam tenetur,
+        illum porro officiis dolores accusamus est fugit, ex ab! Voluptatum
+        veritatis, labore, odio qui quod cumque perspiciatis voluptates
+        consectetur sint beatae molestias, mollitia deleniti at optio
+        accusantium quam ullam sequi in necessitatibus doloribus aliquam alias?
+        Voluptatem quas nobis tenetur. Blanditiis eos voluptatem quas, eaque
+        accusantium dicta deserunt a porro eligendi nulla expedita consectetur
+        omnis earum, nobis similique aspernatur ea quo voluptates! Temporibus,
+        autem explicabo porro molestias illo rerum facilis libero atque tenetur.
+      </div>
+      <!------------------------------main-content------------------------->
+      <div class="main-content">
+        <!-----------------------------header ---------------------------->
+        <header>
+          <p id="headerH1">UseFull JavaScript Methods You Must Know!</p>
+          <p id="signatories">&copy;2024joeysayadi</p>
+        </header>
+
+        <div class="content">
+          <div
+            class="introduction"
+            style="margin-top: 30px; padding: 20px 40px"
+          >
+            <p>
+              JavaScript is a programming language used to create web pages and
+              mobile apps. If you have been studying Javascript for so long and
+              still it looks scary to you, probably you haven't learnt these
+              methods yet. This article is for all javascript developers at any
+              level. If you are looking for a specific method, feel free to jump
+              and skip others. If you are familiar with javascript, I recommend
+              you to read
+              <span style="font-size: 15px; color: green; font-weight: bold">
+                ES6 The modern Javascript
+              </span>
+              to explore more about JS.
+            </p>
+          </div>
+          <div class="topics" style="padding: 1px 40px">
+            <p>1. <a href="#" id="anchorOne">Array</a></p>
+            <p>2. <a href="#" id="anchorOne">String</a></p>
+            <p>3. <a href="#" id="anchorOne">Objects</a></p>
+            <p>4. <a href="#" id="anchorOne">Numbers</a></p>
+            <p>5. <a href="#" id="anchorOne">ES6</a></p>
+          </div>
+        </div>
+
+        <div class="paraChoose" style="padding: 10px 40px">
+          <h3>
+            If you are already familiar with the definition of the above topics,
+            feel free to explore their methods only.
+          </h3>
+        </div>
+        <div class="arrayDiv" style="padding: 10px 40px">
+          <h2>Array</h2>
+          <p>
+            You may know that a variable can store only a value at a time, for
+            example var personName = "joey", this is totally fine and we may use
+            it many times while building a project, however, sometimes it is
+            required to collect many values in a single variable like a list of
+            students names, this is where we can use the Array concept. Array is
+            a single variable that store a list of values and each element is
+            specified by a single index.
+          </p>
+          <h5 style="font-size: 19px">Array methods</h5>
+        </div>
+
+        <!--------------------- POP() Method define area --------------->
+        <div class="popDiv" style="padding: 10px 40px">
+          <h2>. pop()</h2>
+          <p style="padding: 5px 0px">
+            The pop() method removes the last element of an array.
+          </p>
+        </div>
+
+        <!------------------- POP() Method script -------------->
+        <div
+          class="popTopic"
+          style="background-color: black; border-radius: 5px; padding: 20px"
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">personName</span>
+            <span id="varSign">=</span>
+            <span id="bracket">[</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Joey</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Joel</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">James</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">John</span>
+            <span id="varSingleQuote">'</span>
+            <span id="bracket">]</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">personName</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">personName</span>
+            <span id="period">.</span>
+            <span id="consolePrint">pop</span>
+            <span id="openParenthesisNoSpace">(</span>
+            <span id="closeParenthesisNoSpace">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">personName</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------POP() Method printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <p id="paraColorWhite">
+            [ ' Joey ' , ' Joel ' , ' James ' , ' John ' ]
+          </p>
+          <p id="paraColorWhite">[ ' Joey ' , ' Joel ' , ' James ' ]</p>
+        </div>
+
+        <div class="btn">
+          <a
+            href="pop.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------end of POP -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- Start of Shift Method ------------->
+        <!-------------------------------------------------------->
+        <div class="shiftDiv" style="margin-top: 30px">
+          <h2>. shift()</h2>
+          <p style="padding: 5px 0px">
+            The shift() method removes the first element from an array.
+          </p>
+        </div>
+
+        <!------------------- Shift() Method script -------------->
+        <div
+          class="shiftTopic"
+          style="background-color: black; border-radius: 5px; padding: 20px"
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">personName</span>
+            <span id="varSign">=</span>
+            <span id="bracket">[</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Joey</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Joel</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">James</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">John</span>
+            <span id="varSingleQuote">'</span>
+            <span id="bracket">]</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">personName</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">personName</span>
+            <span id="period">.</span>
+            <span id="consolePrint">shift</span>
+            <span id="openParenthesisNoSpace">(</span>
+            <span id="closeParenthesisNoSpace">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">personName</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------ SHIFT() printed output ----------------->
+        <div
+          class="shiftOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <p id="paraColorWhite">
+            [ ' Joey ' , ' Joel ' , ' James ' , ' John ' ]
+          </p>
+          <p id="paraColorWhite">[ ' Joel ' , ' James ' , ' John ' ]</p>
+        </div>
+
+        <div class="btn">
+          <a
+            href="shift.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+        <!------------------ end of ()shift method -------------------->
+        <!----------------------------------------------------------->
+
+        <!--------------------- start Push() of Method ------------->
+        <!-------------------------------------------------------->
+        <div class="pushDiv" style="margin-top: 30px">
+          <h2>. push()</h2>
+          <p style="padding: 5px 0px">
+            The push() method adds one or more elements to the end of an array.
+          </p>
+        </div>
+
+        <!------------------- Push() Method script -------------->
+        <div
+          class="pushTopic"
+          style="background-color: black; border-radius: 5px; padding: 20px"
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">personName</span>
+            <span id="varSign">=</span>
+            <span id="bracket">[</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Joey</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Joel</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">James</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">John</span>
+            <span id="varSingleQuote">'</span>
+            <span id="bracket">]</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">personName</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">personName</span>
+            <span id="period">.</span>
+            <span id="consolePrint">push</span>
+            <span id="openParenthesisNoSpace">(</span>
+            <!-- push added elements -->
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Yvelisse</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Yeoj</span>
+            <span id="varSingleQuote">'</span>
+
+            <span id="closeParenthesisNoSpace">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">personName</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------ PUSH Method printed output ----------------->
+        <div
+          class="pushOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <p id="paraColorWhite">
+            [ ' Joey ' , ' Joel ' , ' James ' , ' John ' ]
+          </p>
+          <p id="paraColorWhite">
+            [ ' Joey ' , ' Joel ' , ' James ' , ' John ' , ' Yvelisse ' , ' Yeoj
+            ' ]
+          </p>
+        </div>
+
+        <div class="btn">
+          <a
+            href="push.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!------------------ End of push method -------------------->
+        <!----------------------------------------------------------->
+
+        <!--------------------- start of Unshift() Method ------------->
+        <!-------------------------------------------------------->
+        <div class="unshiftDiv" style="margin-top: 30px">
+          <h2>. unshift()</h2>
+          <p style="padding: 5px 0px">
+            The unshift method adds one or more elements to the beginning of an
+            array.
+          </p>
+        </div>
+
+        <!------------------- unshift() Method script -------------->
+        <div
+          class="unshiftTopic"
+          style="background-color: black; border-radius: 5px; padding: 20px"
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">personName</span>
+            <span id="varSign">=</span>
+            <span id="bracket">[</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Joey</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Joel</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">James</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">John</span>
+            <span id="varSingleQuote">'</span>
+            <span id="bracket">]</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">personName</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">personName</span>
+            <span id="period">.</span>
+            <span id="consolePrint">unshift</span>
+            <span id="openParenthesisNoSpace">(</span>
+            <!------------ unshift added elements ------------->
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Trump</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Biden</span>
+            <span id="varSingleQuote">'</span>
+
+            <span id="closeParenthesisNoSpace">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">personName</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------ unshift Method printed output ----------------->
+        <div
+          class="unshiftOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <p id="paraColorWhite">
+            [ ' Joey ' , ' Joel ' , ' James ' , ' John ' ]
+          </p>
+          <p id="paraColorWhite">
+            [ ' Trump ' , ' Biden ' , ' Joey ' , ' Joel ' , ' James ' , ' John '
+            ]
+          </p>
+        </div>
+
+        <div class="btn">
+          <a
+            href="unshift.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!------------------ End of UNSHIFT method -------------------->
+        <!----------------------------------------------------------->
+
+        <!--------------------- start of Length() Method ------------->
+        <!-------------------------------------------------------->
+        <div class="lengthDiv" style="margin-top: 30px">
+          <h2>. length()</h2>
+          <p style="padding: 5px 0px">
+            The length returns the number of elements in an array.
+          </p>
+        </div>
+
+        <!------------------- length() Method script -------------->
+        <div
+          class="lengthTopic"
+          style="background-color: black; border-radius: 5px; padding: 20px"
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">personName</span>
+            <span id="varSign">=</span>
+            <span id="bracket">[</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Joey</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Joel</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">James</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">John</span>
+            <span id="varSingleQuote">'</span>
+            <span id="bracket">]</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">personName</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <!------------ start of length revision ------------>
+            <span id="varType">var</span>
+            <span id="varName">length</span>
+            <span id="varSign">=</span>
+            <span id="consolePrint">personName</span>
+            <span id="period">.</span>
+            <span id="consolePrint">length</span>
+            <span id="openParenthesisNoSpace">(</span>
+            <!------------ length() added elements ------------->
+
+            <span id="closeParenthesisNoSpace">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">length</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------ length Method printed output ----------------->
+        <div
+          class="unshiftOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <p id="paraColorWhite">
+            [ ' Joey ' , ' Joel ' , ' James ' , ' John ' ]
+          </p>
+          <p id="paraColorWhite">4</p>
+        </div>
+        <div class="btn">
+          <a
+            href="length.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+        <!------------------ End of length method -------------------->
+        <!----------------------------------------------------------->
+
+        <!--------------------- start of splice() Method ------------->
+        <!-------------------------------------------------------->
+        <div class="lengthDiv" style="margin-top: 30px">
+          <h2>. splice()</h2>
+          <p style="padding: 5px 0px">
+            The splice() method is used to add new elements to an array.
+          </p>
+        </div>
+
+        <!------------------- splice() Method script -------------->
+        <div
+          class="lengthTopic"
+          style="background-color: black; border-radius: 5px; padding: 20px"
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">personName</span>
+            <span id="varSign">=</span>
+            <span id="bracket">[</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Joey</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Joel</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">James</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">John</span>
+            <span id="varSingleQuote">'</span>
+            <span id="bracket">]</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">personName</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <!------------ start of splice revision ------------>
+            <span id="varName">personName</span>
+            <span id="period">.</span>
+            <span id="consolePrint">splice</span>
+            <span id="openParenthesis">(</span>
+
+            <!--------------number insertion ------------>
+            <span id="numberData">2</span>
+            <span id="varComma">,</span>
+            <span id="numberData">1</span>
+            <span id="varComma">,</span>
+            <span id="doubleQuote">"</span>
+            <span id="varPerson">YeojHenrie</span>
+            <span id="doubleQuote">"</span>
+            <span id="varComma">,</span>
+            <span id="doubleQuote">"</span>
+            <span id="varPerson">Yvelisse</span>
+            <span id="doubleQuote">"</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">personName</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------ splice Method printed output ----------------->
+        <div
+          class="unshiftOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <p id="paraColorWhite">
+            [ ' Joey ' , ' Joel ' , ' James ' , ' John ' ]
+          </p>
+          <p id="paraColorWhite">
+            [ ' Joey ' , ' Joel ' , ' YeojHenrie ' , ' Yvelisse ' , ' John ' ]
+          </p>
+        </div>
+        <div class="btn">
+          <a
+            href="splice.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+        <!------------------ End of splice method -------------------->
+        <!----------------------------------------------------------->
+
+        <!--------------------- start of concat() Method ------------->
+        <!-------------------------------------------------------->
+        <div class="lengthDiv" style="margin-top: 30px">
+          <p style="padding: 5px 0px">
+            As we said before, this method is used to add elements into an
+            array, however, we must indicate that where the new elements should
+            be added. In the above example, 2 indicates the index number where
+            the new elements should be placed and 1 shows the number of elements
+            that should be deleted, as we mentioned 1 element should be deleted,
+            we do not have the 'James' in the second array.
+          </p>
+          <h2>. concat()</h2>
+          <p style="padding: 5px 0px">
+            The concat() method is used to creates a new array by concatenaning
+            or merging existing arrays.
+          </p>
+        </div>
+
+        <!------------------- concat() Method script -------------->
+        <div
+          class="lengthTopic"
+          style="background-color: black; border-radius: 5px; padding: 20px"
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">personName</span>
+            <span id="varSign">=</span>
+            <span id="bracket">[</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Joey</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Joel</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">James</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">John</span>
+            <span id="varSingleQuote">'</span>
+            <span id="bracket">]</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">personName</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <!------------ start of concat revision ------------>
+            <span id="varType">var</span>
+            <span id="varName">myFriends</span>
+            <span id="varSign">=</span>
+            <span id="bracket">[</span>
+
+            <!--------------number insertion ------------>
+            <span id="doubleQuote">'</span>
+            <span id="varPerson">Christine</span>
+            <span id="doubleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="doubleQuote">'</span>
+            <span id="varPerson">Yvelisse</span>
+            <span id="doubleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="doubleQuote">'</span>
+            <span id="varPerson">Harrieta</span>
+            <span id="doubleQuote">'</span>
+            <span id="bracket">]</span>
+
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">myFriends</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <br />
+          <!----------------inserted concat ---------->
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">allNames</span>
+            <span id="varSign">=</span>
+            <span id="varName">personName</span>
+            <span id="period">.</span>
+            <span id="varName">concat</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">myFriends</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">allNames</span>
+            <span id="closeParenthesis">)</span>
+          </p>
+        </div>
+        <!------------------ concat Method printed output ----------------->
+        <div
+          class="unshiftOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <p id="paraColorWhite">
+            [ ' Joey ' , ' Joel ' , ' James ' , ' John ' ]
+          </p>
+          <p id="paraColorWhite">
+            [ ' Christine ' , ' Yvelisse ' , ' Harrieta ' ]
+          </p>
+          <p id="paraColorWhite">
+            [ ' Joey ' , ' Joel ' , ' James ' , ' John ' , ' Christine ' , '
+            Yvelisse ' , ' Harrieta ']
+          </p>
+        </div>
+        <div class="btn">
+          <a
+            href="concat.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+        <!------------------ End of concat method -------------------->
+        <!----------------------------------------------------------->
+
+        <!--------------------- start of slice() Method ------------->
+        <!-------------------------------------------------------->
+        <div class="lengthDiv" style="margin-top: 30px">
+          <h2>. slice()</h2>
+          <p style="padding: 5px 0px">
+            1. This method slices out a part of an array starting from mentioned
+            array element index.
+          </p>
+          <p style="padding: 5px 0px">
+            2. Slice can have two arguments, which indicate the starting and up
+            to (but not including) the end argument.
+          </p>
+          <p style="padding: 5px 0px">
+            3.This method also accept negative numbers.
+          </p>
+        </div>
+
+        <!------------------- slice() Method script -------------->
+        <div
+          class="lengthTopic"
+          style="background-color: black; border-radius: 5px; padding: 20px"
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">personName</span>
+            <span id="varSign">=</span>
+            <span id="bracket">[</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Joey</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Joel</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">James</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">John</span>
+            <span id="varSingleQuote">'</span>
+            <span id="bracket">]</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">personName</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <br />
+          <!----------------slice concat ---------->
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">newName</span>
+            <span id="varSign">=</span>
+            <span id="varName">personName</span>
+            <span id="period">.</span>
+            <span id="varName">slice</span>
+            <span id="openParenthesis">(</span>
+            <span id="numberData">3</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">newName</span>
+            <span id="closeParenthesis">)</span>
+          </p>
+        </div>
+        <!------------------ slice Method printed output ----------------->
+        <div
+          class="unshiftOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <p id="paraColorWhite">
+            [ ' Joey ' , ' Joel ' , ' James ' , ' John ' ]
+          </p>
+          <p id="paraColorWhite">[ ' John ' ]</p>
+        </div>
+        <!------------------------------------------------------->
+        <!------------------- newly sliced copy ----------------->
+        <!------------------- slice() Method script -------------->
+        <div
+          class="lengthTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">personName</span>
+            <span id="varSign">=</span>
+            <span id="bracket">[</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Joey</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Joel</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">James</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">John</span>
+            <span id="varSingleQuote">'</span>
+            <span id="bracket">]</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">personName</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <br />
+          <!----------------inserted slice ---------->
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">newName</span>
+            <span id="varSign">=</span>
+            <span id="varName">personName</span>
+            <span id="period">.</span>
+            <span id="varName">slice</span>
+            <span id="openParenthesis">(</span>
+            <span id="numberData">1</span>
+            <span id="varComma">,</span>
+            <span id="numberData">3</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">newName</span>
+            <span id="closeParenthesis">)</span>
+          </p>
+        </div>
+        <!------------------ slice Method printed output ----------------->
+        <div
+          class="unshiftOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <p id="paraColorWhite">
+            [ ' Joey ' , ' Joel ' , ' James ' , ' John ' ]
+          </p>
+          <p id="paraColorWhite">[ ' Joel ', ' James ' ]</p>
+        </div>
+
+        <!------------------------------------------------------->
+        <!------------------- newly sliced copy ----------------->
+        <!------------------- slice() Method script -------------->
+        <div
+          class="lengthTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">personName</span>
+            <span id="varSign">=</span>
+            <span id="bracket">[</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Joey</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Joel</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">James</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">John</span>
+            <span id="varSingleQuote">'</span>
+            <span id="bracket">]</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">personName</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <br />
+          <!----------------inserted slice ---------->
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">newName</span>
+            <span id="varSign">=</span>
+            <span id="varName">personName</span>
+            <span id="period">.</span>
+            <span id="varName">slice</span>
+            <span id="openParenthesis">(</span>
+            <span id="negativeSign">-</span>
+            <span id="numberData">1</span>
+
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">newName</span>
+            <span id="closeParenthesis">)</span>
+          </p>
+        </div>
+        <!------------------ slice Method printed output ----------------->
+        <div
+          class="unshiftOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <p id="paraColorWhite">
+            [ ' Joey ' , ' Joel ' , ' James ' , ' John ' ]
+          </p>
+          <p id="paraColorWhite">[ ' John ' ]</p>
+        </div>
+
+        <div class="btn">
+          <a
+            href="slice.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+        <!------------------ End of slice method -------------------->
+        <!----------------------------------------------------------->
+
+        <!--------------------- String define toUpperCase() --------------->
+        <div class="popDiv">
+          <h1 style="font-size: 25px; font-weight: bolder; margin-top: 40px">
+            String()
+          </h1>
+          <hr />
+          <p style="padding: 5px 0px; margin-top: 10px">
+            A JavaScript string stores a series of characters or a string is a
+            collection of characters. A string can be any text inside double or
+            single quotes.
+          </p>
+          <br />
+          <h2>toUpperCase()</h2>
+          <p style="margin-top: 10px">
+            The toUpperCase method is used to convert a string to upper case.
+          </p>
+        </div>
+
+        <!------------------- String Method script -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">str</span>
+            <span id="varSign">=</span>
+            <span id="doubleQuote">"</span>
+            <span id="loremIpsumWord"
+              >Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </span>
+            <span id="doubleQuote">"</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">var</span>
+            <span id="consolePrint">newStr</span>
+            <span id="varSign">=</span>
+            <span id="varName">str</span>
+            <span id="period">.</span>
+
+            <span id="varName">toUpperCase</span>
+            <span id="openParenthesis">(</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">newStr</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------string uppercase printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <p id="paraColorWhite">
+            LOREM IPSUM IS SIMPLY DUMMY TEXT OF THE PRINTING AND TYPESETTING
+            INDUSTRY.
+          </p>
+        </div>
+        <div class="btn">
+          <a
+            href="toUpperCase.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------string uppercase end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- String define toLowerCase() --------------->
+        <div class="popDiv">
+          <br />
+          <h2>toLowerCase()</h2>
+          <p style="margin-top: 10px">
+            The to Lowercase is used to convert a string to lower case.
+          </p>
+        </div>
+
+        <!------------------- toLowerCase Method script -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">str</span>
+            <span id="varSign">=</span>
+            <span id="doubleQuote">"</span>
+            <span id="loremIpsumWord"
+              >LOREM IPSUM IS SIMPLY DUMMY TEXT OF THE PRINTING AND TYPESETTING
+              INDUSTRY.
+            </span>
+            <span id="doubleQuote">"</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">var</span>
+            <span id="consolePrint">newStr</span>
+            <span id="varSign">=</span>
+            <span id="varName">str</span>
+            <span id="period">.</span>
+
+            <span id="varName">toLowerCase</span>
+            <span id="openParenthesis">(</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">newStr</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------string toLowerCase printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <p id="paraColorWhite">
+            lorem ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+        <div class="btn">
+          <a
+            href="toLowerCase.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------string toLowerCase end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- String define slice() --------------->
+        <div class="popDiv">
+          <br />
+          <h2>. slice()</h2>
+          <p style="margin-top: 10px">
+            This method is used to return the sliced part of a string, it takes
+            one or two arguments that indicate the initial and end of the slice.
+            The arguments can also be negative.
+          </p>
+        </div>
+
+        <!------------------- slice Method script -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">str</span>
+            <span id="varSign">=</span>
+            <span id="doubleQuote">"</span>
+            <span id="loremIpsumWord"
+              >lorem ipsum is simply dummy text of the printing and and
+              typesetting industry
+            </span>
+            <span id="doubleQuote">"</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">var</span>
+            <span id="consolePrint">newStr</span>
+            <span id="varSign">=</span>
+            <span id="varName">str</span>
+            <span id="period">.</span>
+            <span id="consolePrint">slice</span>
+
+            <span id="openParenthesis">(</span>
+            <span id="negativeSign">-</span>
+            <span id="numberData">8</span>
+            <span id="varComma">,</span>
+            <span id="negativeSign">-</span>
+            <span id="numberData">1</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">newStr</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------slice printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <p id="paraColorWhite">industr</p>
+        </div>
+        <div class="btn">
+          <a
+            href="sliceTwo.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------string slice() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- String define substring() --------------->
+        <div class="popDiv">
+          <br />
+          <h2>. substring()</h2>
+          <p style="margin-top: 10px">
+            This method is used to return the sliced part of a string, however,
+            it doesn't accept negative numbers as an argument.
+          </p>
+        </div>
+
+        <!------------------- substring Method script -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">str</span>
+            <span id="varSign">=</span>
+            <span id="doubleQuote">"</span>
+            <span id="loremIpsumWord"
+              >lorem ipsum is simply dummy text of the printing and and
+              typesetting industry
+            </span>
+            <span id="doubleQuote">"</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">var</span>
+            <span id="consolePrint">newStr</span>
+            <span id="varSign">=</span>
+            <span id="varName">str</span>
+            <span id="period">.</span>
+            <span id="consolePrint">substring</span>
+
+            <span id="openParenthesis">(</span>
+            <span id="numberData">1</span>
+            <span id="varComma">,</span>
+            <span id="numberData">6</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">newStr</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------substring printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <p id="paraColorWhite">orem</p>
+        </div>
+        <div class="btn">
+          <a
+            href="substring.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------string substring() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+        <!--------------------- String define substr() --------------->
+        <div class="popDiv">
+          <br />
+          <h2>. substr()</h2>
+          <p style="margin-top: 10px">
+            This method is similar to slice, however, the second parameter
+            indicates the length of the part that should be extracted.
+          </p>
+        </div>
+
+        <!------------------- substr Method script -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">str</span>
+            <span id="varSign">=</span>
+            <span id="doubleQuote">"</span>
+            <span id="loremIpsumWord"
+              >lorem ipsum is simply dummy text of the printing and and
+              typesetting industry
+            </span>
+            <span id="doubleQuote">"</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">var</span>
+            <span id="consolePrint">newStr</span>
+            <span id="varSign">=</span>
+            <span id="varName">str</span>
+            <span id="period">.</span>
+            <span id="consolePrint">substr</span>
+
+            <span id="openParenthesis">(</span>
+            <span id="numberData">8</span>
+            <span id="varComma">,</span>
+            <span id="numberData">13</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">newStr</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------substr printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <p id="paraColorWhite">sum is simply</p>
+        </div>
+        <div class="btn">
+          <a
+            href="substr.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------string substr() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- String define replace() --------------->
+        <div class="popDiv">
+          <br />
+          <h2>. replace()</h2>
+          <p style="margin-top: 10px">
+            The replace method is used to replace a part of a string with
+            another string. This method is case sensitive.
+          </p>
+        </div>
+
+        <!------------------- replace Method script -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">str</span>
+            <span id="varSign">=</span>
+            <span id="doubleQuote">"</span>
+            <span id="loremIpsumWord"
+              >lorem ipsum is simply dummy text of the printing and and
+              typesetting industry
+            </span>
+            <span id="doubleQuote">"</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">var</span>
+            <span id="consolePrint">newStr</span>
+            <span id="varSign">=</span>
+            <span id="varName">str</span>
+            <span id="period">.</span>
+            <span id="consolePrint">replace</span>
+
+            <span id="openParenthesis">(</span>
+            <span id="doubleQuote">"</span>
+            <span id="loremIpsumWord">is</span>
+            <span id="doubleQuote">"</span>
+            <span id="varComma">,</span>
+            <span id="doubleQuote">"</span>
+            <span id="loremIpsumWord">are</span>
+            <span id="doubleQuote">"</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">newStr</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------substr printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <p id="paraColorWhite">
+            lorem ipsum are simply dummy text of the printing and typesetting
+            industry
+          </p>
+        </div>
+        <div class="btn">
+          <a
+            href="replace.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------string replace() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- starting concat String define() --------------->
+        <div class="popDiv">
+          <br />
+          <h2>. concat()</h2>
+          <p style="margin-top: 10px">
+            This method is used to concatenate two or more strings.
+          </p>
+        </div>
+
+        <!------------------- concat String Method script -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">str1</span>
+            <span id="varSign">=</span>
+            <span id="doubleQuote">"</span>
+            <span id="loremIpsumWord">Java</span>
+            <span id="doubleQuote">"</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">str2</span>
+            <span id="varSign">=</span>
+            <span id="doubleQuote">"</span>
+            <span id="loremIpsumWord">Script</span>
+            <span id="doubleQuote">"</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+
+          <p>
+            <span id="varType">var</span>
+            <span id="consolePrint">str</span>
+            <span id="varSign">=</span>
+            <span id="varName">str1</span>
+            <span id="period">.</span>
+            <span id="consolePrint">concat</span>
+
+            <span id="openParenthesis">(</span>
+            <span id="varName">str2</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">str</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------concat String printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <p id="paraColorWhite">JavaScript</p>
+        </div>
+        <div class="btn">
+          <a
+            href="concatString.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------string concat() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- starting trim String define() --------------->
+        <div class="popDiv">
+          <br />
+          <h2>. trim()</h2>
+          <p style="margin-top: 10px">
+            This method is used to remove the spaces from both sides of the
+            string.
+          </p>
+        </div>
+
+        <!------------------- trim String Method script -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">str1</span>
+            <span id="varSign">=</span>
+            <span id="doubleQuote">"</span>
+            <span id="loremIpsumWord" style="padding: 0px 50px">
+              JavaScript
+            </span>
+            <span id="doubleQuote">"</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">str2</span>
+            <span id="varSign">=</span>
+            <span id="varName">str1</span>
+            <span id="period">.</span>
+            <span id="varName">trim</span>
+            <span id="openParenthesis">(</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">str2</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------trim String printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <p id="paraColorWhite">JavaScript</p>
+        </div>
+        <div class="btn">
+          <a
+            href="trim.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------string trim() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- starting split String define() --------------->
+        <div class="popDiv">
+          <br />
+          <h2>. split()</h2>
+          <p style="margin-top: 10px">
+            The split is used to convert a string to an array.
+          </p>
+        </div>
+
+        <!------------------- split String Method script -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">str</span>
+            <span id="varSign">=</span>
+            <span id="doubleQuote">"</span>
+            <span id="loremIpsumWord">JavaScript ,</span>
+            <span id="loremIpsumWord">is ,</span>
+            <span id="loremIpsumWord">nice</span>
+            <span id="doubleQuote">"</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">newStr</span>
+            <span id="varSign">=</span>
+            <span id="varName">str</span>
+            <span id="period">.</span>
+            <span id="varName">split</span>
+            <span id="openParenthesis">(</span>
+            <span id="doubleQuote">"</span>
+            <span id="loremIpsumWord">,</span>
+            <span id="doubleQuote">"</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">newStr</span>
+            <span id="bracket">[</span>
+            <span id="numberData">0</span>
+            <span id="bracket">]</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------split String printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <br />
+          <p id="paraColorWhite">JavaScript</p>
+        </div>
+        <div class="btn">
+          <a
+            href="split.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------string split() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- starting charCodeAt String define() --------------->
+        <div class="popDiv">
+          <br />
+          <h2>. charCodeAt()</h2>
+          <p style="margin-top: 10px">
+            The charCodeAt returns the unicode of the character at a specified
+            index in a string.
+          </p>
+        </div>
+
+        <!------------------- charCodeAt String Method script -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">str</span>
+            <span id="varSign">=</span>
+            <span id="doubleQuote">"</span>
+            <span id="loremIpsumWord">JavaScript</span>
+            <span id="loremIpsumWord">is</span>
+            <span id="loremIpsumWord">nice</span>
+            <span id="doubleQuote">"</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">newStr</span>
+            <span id="varSign">=</span>
+            <span id="varName">str</span>
+            <span id="period">.</span>
+            <span id="varName">charCodeAt</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">str</span>
+            <span id="bracket">[</span>
+            <span id="numberData" style="color: pink">1</span>
+            <span id="bracket">]</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">newStr</span>
+
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------charCodeAt String printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <br />
+          <p id="paraColorWhite">74</p>
+        </div>
+        <div class="btn">
+          <a
+            href="charCodeAt.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------string charCodeAt() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- starting charAt String define() --------------->
+        <div class="popDiv">
+          <br />
+          <h2>. charAt()</h2>
+          <p style="margin-top: 10px">
+            This method returns the character of a specific index in a string.
+          </p>
+        </div>
+
+        <!------------------- charAt String Method script -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">str</span>
+            <span id="varSign">=</span>
+            <span id="doubleQuote">"</span>
+            <span id="loremIpsumWord">JavaScript</span>
+            <span id="loremIpsumWord">is</span>
+            <span id="loremIpsumWord">nice</span>
+            <span id="doubleQuote">"</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">newStr</span>
+            <span id="varSign">=</span>
+            <span id="varName">str</span>
+            <span id="period">.</span>
+            <span id="varName">charAt</span>
+            <span id="openParenthesis">(</span>
+            <span id="numberData" style="color: pink">1</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">newStr</span>
+
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------charAt String printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <br />
+          <p id="paraColorWhite">a</p>
+        </div>
+        <div class="btn">
+          <a
+            href="charAt.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------string charAt() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- padStart charAt String define() --------------->
+        <div class="popDiv">
+          <br />
+          <h2>. padStart()</h2>
+          <p style="margin-top: 10px">
+            This method is used to add padding at the starting of a string.
+          </p>
+        </div>
+
+        <!------------------- padStart String Method script -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">str</span>
+            <span id="varSign">=</span>
+            <span id="doubleQuote">"</span>
+            <span id="loremIpsumWord">15</span>
+            <span id="doubleQuote">"</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">newStr</span>
+            <span id="varSign">=</span>
+            <span id="varName">str</span>
+            <span id="period">.</span>
+            <span id="varName">padStart</span>
+            <span id="openParenthesis">(</span>
+            <span id="numberData" style="color: pink">4</span>
+            <span id="varComma">,</span>
+            <span id="loremIpsumWord">"3"</span>
+
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">newStr</span>
+
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------padStart String printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <br />
+          <p id="paraColorWhite">3315</p>
+        </div>
+        <div class="btn">
+          <a
+            href="padStart.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------string padStart() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- padEnd charAt String define() --------------->
+        <div class="popDiv">
+          <br />
+          <h2>. padEnd()</h2>
+          <p style="margin-top: 10px">
+            It adds padding at the end of the string.
+          </p>
+        </div>
+
+        <!------------------- padEnd String Method script -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">str</span>
+            <span id="varSign">=</span>
+            <span id="doubleQuote">"</span>
+            <span id="loremIpsumWord">15</span>
+            <span id="doubleQuote">"</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">newStr</span>
+            <span id="varSign">=</span>
+            <span id="varName">str</span>
+            <span id="period">.</span>
+            <span id="varName">padEnd</span>
+            <span id="openParenthesis">(</span>
+            <span id="numberData" style="color: pink">4</span>
+            <span id="varComma">,</span>
+            <span id="loremIpsumWord">"3"</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">newStr</span>
+
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------padEnd String printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <br />
+          <p id="paraColorWhite">1533</p>
+        </div>
+        <div class="btn">
+          <a
+            href="padEnd.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------string padEnd() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- lengthString String define() --------------->
+        <div class="popDiv">
+          <br />
+          <h2>. length()</h2>
+          <p style="margin-top: 10px">
+            This method is used to return the length of a string.
+          </p>
+        </div>
+
+        <!------------------- lengthString String Method script -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">str</span>
+            <span id="varSign">=</span>
+            <span id="doubleQuote">"</span>
+            <span id="loremIpsumWord">Javascript is nice.</span>
+            <span id="doubleQuote">"</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">newStr</span>
+            <span id="varSign">=</span>
+            <span id="varName">str</span>
+            <span id="period">.</span>
+            <span id="varName">length</span>
+
+            <span id="semiColonNoSpace">;</span>
+          </p>
+
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">newStr</span>
+
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------lengthString String printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <br />
+          <p id="paraColorWhite">19</p>
+        </div>
+        <div class="btn">
+          <a
+            href="lengthString.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------string length() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- Start of Objects --------------->
+        <div class="popDiv">
+          <h1 style="font-size: 28px; font-weight: bolder">Objects</h1>
+          <p>
+            The Object is the JavaScript data type. It is used to store various
+            keyed collections and each key can have a value.
+          </p>
+          <hr />
+          <br />
+          <h2>. keys()</h2>
+          <p style="margin-top: 10px">
+            This method returns the keys of an object.
+          </p>
+        </div>
+
+        <!------------------- objects -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">const</span>
+            <span id="varName">object1</span>
+            <span id="varSign">=</span>
+            <span id="bracket">{</span>
+            <br />
+            <span id="varName">name</span>
+            <span id="semiColonNoSpace">:</span>
+            <span id="doubleQuote">'</span>
+            <span id="loremIpsumWord">John</span>
+            <span id="varComma">,</span>
+            <span id="doubleQuote">'</span>
+            <br />
+            <span id="varName">age</span>
+            <span id="semiColonNoSpace">:</span>
+            <span id="numberData" style="color: pink">20</span>
+            <span id="varComma">,</span>
+            <br />
+            <span id="bracket">}</span>
+          </p>
+          <br />
+
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="openParenthesis">Object</span>
+            <span id="period">.</span>
+            <span id="varName">keys</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">object1</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------objects printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <br />
+          <p id="paraColorWhite">[ ' name ' , ' age ' ]</p>
+        </div>
+        <div class="btn">
+          <a
+            href="keys.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------Objects() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+        <!--------------------- Start of values --------------->
+        <div class="popDiv">
+          <h2>. values()</h2>
+          <p style="margin-top: 10px">
+            This method returns the values of an object.
+          </p>
+        </div>
+
+        <!------------------- values() -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">const</span>
+            <span id="varName">object1</span>
+            <span id="varSign">=</span>
+            <span id="bracket">{</span>
+            <br />
+            <span id="varName">name</span>
+            <span id="semiColonNoSpace">:</span>
+            <span id="doubleQuote">'</span>
+            <span id="loremIpsumWord">John</span>
+            <span id="varComma">,</span>
+            <span id="doubleQuote">'</span>
+            <br />
+            <span id="varName">age</span>
+            <span id="semiColonNoSpace">:</span>
+            <span id="numberData" style="color: pink">20</span>
+            <span id="varComma">,</span>
+            <br />
+            <span id="bracket">}</span>
+          </p>
+          <br />
+
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="openParenthesis">Object</span>
+            <span id="period">.</span>
+            <span id="varName">values</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">object1</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------values() printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <br />
+          <p id="paraColorWhite">[ ' John ' , ' 20 ' ]</p>
+        </div>
+        <div class="btn">
+          <a
+            href="values.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------values() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- Start of create() --------------->
+        <div class="popDiv">
+          <h2>. create()</h2>
+          <p style="margin-top: 10px">
+            This method is used to create an new object from existing object.
+          </p>
+        </div>
+
+        <!------------------- create() -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">const</span>
+            <span id="varName">person</span>
+            <span id="varSign">=</span>
+            <span id="bracket">{</span>
+            <br />
+            <span id="varName">name</span>
+            <span id="semiColonNoSpace">:</span>
+            <span id="doubleQuote">"</span>
+            <span id="loremIpsumWord">John</span>
+            <span id="doubleQuote">"</span>
+            <span id="varComma">,</span>
+            <br />
+            <span id="varName">introduction</span>
+            <span id="semiColonNoSpace">:</span>
+            <span id="varType">function</span>
+            <span id="openParenthesis">(</span>
+            <span id="closeParenthesis">)</span>
+            <span id="bracket">{</span>
+            <br />
+            <span id="varName">console</span>
+            <span id="varComma">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="doubleQuote">'</span>
+            <span id="loremIpsumWord">My name is </span>
+            <span id="varComma">$</span>
+            <span id="bracket">{</span>
+            <span id="varType">this</span>
+            <span id="period">.</span>
+            <span id="consolePrint">name</span>
+            <span id="bracket">}</span>
+            <span id="doubleQuote">'</span>
+            <span id="openParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+            <span id="bracket">}</span>
+            <br />
+            <span id="bracket">}</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+          </p>
+          <br />
+
+          <p>
+            <span id="varType">const</span>
+            <span id="consolePrint">me</span>
+            <span id="varSign">=</span>
+            <span id="openParenthesis">Object</span>
+            <span id="period">.</span>
+            <span id="varName">create</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">person</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <br />
+          <p>
+            <span id="consolePrint">me</span>
+            <span id="period">.</span>
+            <span id="consolePrint">name</span>
+            <span id="varSign">=</span>
+            <span id="doubleQuote">'</span>
+            <span id="varType">Joey</span>
+            <span id="doubleQuote">'</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <br />
+          <p>
+            <span id="consolePrint">me</span>
+            <span id="period">.</span>
+            <span id="consolePrint">introduction</span>
+            <span id="openParenthesis">(</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------create() printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <br />
+          <p id="paraColorWhite">My name is Joey</p>
+        </div>
+        <div class="btn">
+          <a
+            href="create.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------create() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- Start of freeze() --------------->
+        <div class="popDiv">
+          <h2>. freeze()</h2>
+          <p style="margin-top: 10px">
+            The Object.freeze() method freezes an object. This method will allow
+            an object to be changed, freezing an object prevents changing, for
+            example, adding new properties to it, removing existing properties
+            from it.
+          </p>
+        </div>
+
+        <!------------------- freeze() -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">const</span>
+            <span id="varName">person</span>
+            <span id="varSign">=</span>
+            <span id="bracket">{</span>
+            <br />
+            <span id="varName">name</span>
+            <span id="semiColonNoSpace">:</span>
+            <span id="doubleQuote">"</span>
+            <span id="loremIpsumWord">John</span>
+            <span id="doubleQuote">"</span>
+            <span id="varComma">,</span>
+            <br />
+            <br />
+            <span id="bracket">}</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+          </p>
+          <br />
+
+          <p>
+            <span id="openParenthesis">Object</span>
+            <span id="period">.</span>
+            <span id="varName">freeze</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">person</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <br />
+          <p>
+            <span id="consolePrint">person</span>
+            <span id="period">.</span>
+            <span id="consolePrint">name</span>
+            <span id="varSign">=</span>
+            <span id="doubleQuote">'</span>
+            <span id="varType">Joey</span>
+            <span id="doubleQuote">'</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <br />
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="consolePrint">person</span>
+            <span id="period">.</span>
+            <span id="consolePrint">name</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------freeze() printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <br />
+          <p id="paraColorWhite">John</p>
+        </div>
+        <div class="btn">
+          <a
+            href="freeze.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------freeze() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- Start of assign() --------------->
+        <div class="popDiv">
+          <h2>. assign()</h2>
+          <p style="margin-top: 10px">
+            This method is used to copy the properties of one object to another
+            object.
+          </p>
+        </div>
+
+        <!------------------- assign() -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">const</span>
+            <span id="varName">person</span>
+            <span id="varSign">=</span>
+            <span id="bracket">{</span>
+            <br />
+            <span id="varName">name</span>
+            <span id="semiColonNoSpace">:</span>
+            <span id="doubleQuote">"</span>
+            <span id="loremIpsumWord">John</span>
+            <span id="doubleQuote">"</span>
+            <span id="varComma">,</span>
+            <br />
+            <span id="varName">age</span>
+            <span id="semiColonNoSpace">:</span>
+            <span id="numberData" style="color: pink">20</span>
+            <span id=""></span>
+            <br />
+            <span id="bracket">}</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+          </p>
+          <br />
+
+          <p>
+            <span id="varType">const</span>
+            <span id="varName">obj</span>
+            <span id="varSign">=</span>
+            <span id="bracket">{</span>
+            <br />
+            <span id="varName">isHuman</span>
+            <span id="semiColonNoSpace">:</span>
+            <span id="doubleQuote">"</span>
+            <span id="loremIpsumWord">true</span>
+            <span id="doubleQuote">"</span>
+
+            <br />
+            <span id="bracket">}</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+
+            <span id="openParenthesis">Object</span>
+            <span id="period">.</span>
+            <span id="varName">assign</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">person</span>
+            <span id="varComma">,</span>
+            <span id="varName">obj</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+
+          <br />
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="consolePrint">person</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------assign() printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <br />
+          <p id="paraColorWhite">
+            { name: ' John ' , age : 20 , isHuman : true }
+          </p>
+        </div>
+        <div class="btn">
+          <a
+            href="assign.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------assign() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- Start of toFixed() --------------->
+        <div class="popDiv">
+          <h1 style="font-size: 30px; font-weight: bolder; margin-top: 30px">
+            Numbers
+          </h1>
+          <p>
+            The number is the numeric data type of Javascript that stores a
+            normal integer, floating-point values.
+          </p>
+          <hr style="margin-bottom: 20px" />
+
+          <h2>. toFixed()</h2>
+          <p style="margin-top: 10px">
+            This method writes the number with a specified number of decimals
+            and return its value as a string.
+          </p>
+        </div>
+
+        <!------------------- toFixed() -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">x</span>
+            <span id="varSign">=</span>
+            <span id="numberData" style="color: pink">9.656</span>
+            <br />
+            <span id="varType">var</span>
+            <span id="varName">newX</span>
+            <span id="varSign">=</span>
+            <span id="varName">x</span>
+            <span id="period">.</span>
+            <span id="varName">toFixed</span>
+            <span id="openParenthesis">(</span>
+            <span id="numberData" style="color: pink">0</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">newX</span>
+            <span id="closeParenthesis">)</span>
+            <br />
+            <span id="varType">var</span>
+            <span id="varName">newX</span>
+            <span id="varSign">=</span>
+            <span id="varName">x</span>
+            <span id="period">.</span>
+            <span id="varName">toFixed</span>
+            <span id="openParenthesis">(</span>
+            <span id="numberData" style="color: pink">2</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">newX</span>
+            <span id="closeParenthesis">)</span>
+            <br />
+            <span id="varType">var</span>
+            <span id="varName">newX</span>
+            <span id="varSign">=</span>
+            <span id="varName">x</span>
+            <span id="period">.</span>
+            <span id="varName">toFixed</span>
+            <span id="openParenthesis">(</span>
+            <span id="numberData" style="color: pink">4</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">newX</span>
+            <span id="closeParenthesis">)</span>
+            <br />
+            <span id="varType">var</span>
+            <span id="varName">newX</span>
+            <span id="varSign">=</span>
+            <span id="varName">x</span>
+            <span id="period">.</span>
+            <span id="varName">toFixed</span>
+            <span id="openParenthesis">(</span>
+            <span id="numberData" style="color: pink">6</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">newX</span>
+            <span id="closeParenthesis">)</span>
+            <br />
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varType">typeof</span>
+            <span id="varName">newX</span>
+            <span id="closeParenthesis">)</span>
+            <br />
+
+            >
+          </p>
+        </div>
+
+        <!------------------toFixed() printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <br />
+          <p id="paraColorWhite">
+            10
+            <br />
+            9.66
+            <br />
+            9.6560
+            <br />
+            9.656000
+            <br />
+            string
+          </p>
+        </div>
+        <div class="btn">
+          <a
+            href="toFixed.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------toFixed() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- Start of toPrecision() --------------->
+        <div class="popDiv">
+          <h2 style="margin-top: 30px">. toPrecision()</h2>
+          <p style="margin-top: 10px">
+            This method is used to convert a number to a specified precision and
+            return its value as a string.
+          </p>
+        </div>
+
+        <!------------------- toPrecision() -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">x</span>
+            <span id="varSign">=</span>
+            <span id="numberData" style="color: pink">9.656</span>
+
+            <br />
+            <span id="varType">var</span>
+            <span id="varName">newX</span>
+            <span id="varSign">=</span>
+            <span id="varName">x</span>
+            <span id="period">.</span>
+            <span id="varName">toPrecision</span>
+            <span id="openParenthesis">(</span>
+            <span id="numberData" style="color: pink">2</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">newX</span>
+            <span id="closeParenthesis">)</span>
+            <br />
+            <span id="varType">var</span>
+            <span id="varName">newX</span>
+            <span id="varSign">=</span>
+            <span id="varName">x</span>
+            <span id="period">.</span>
+            <span id="varName">toPrecision</span>
+            <span id="openParenthesis">(</span>
+            <span id="numberData" style="color: pink">4</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">newX</span>
+            <span id="closeParenthesis">)</span>
+            <br />
+            <span id="varType">var</span>
+            <span id="varName">newX</span>
+            <span id="varSign">=</span>
+            <span id="varName">x</span>
+            <span id="period">.</span>
+            <span id="varName">toPrecision</span>
+            <span id="openParenthesis">(</span>
+            <span id="numberData" style="color: pink">6</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">newX</span>
+            <span id="closeParenthesis">)</span>
+            <br />
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varType">typeof</span>
+            <span id="varName">newX</span>
+            <span id="closeParenthesis">)</span>
+            <br />
+
+            >
+          </p>
+        </div>
+
+        <!------------------toPrecision() printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+
+          <p id="paraColorWhite">
+            9.7
+            <br />
+            9.656
+            <br />
+            9.65600
+            <br />
+            string
+          </p>
+        </div>
+        <div class="btn">
+          <a
+            href="toPrecision.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------toPrecision() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- Start of parseFLoat() --------------->
+        <div class="popDiv">
+          <h2 style="margin-top: 30px">. parseFloat()</h2>
+          <p style="margin-top: 10px">
+            This method converts the function argument to a string first and
+            returns a floating-point number.
+          </p>
+        </div>
+
+        <!------------------- parseFloat() -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">function</span>
+            <span id="varName">addition</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">r</span>
+            <span id="closeParenthesis">)</span>
+
+            <span id="bracket">{</span>
+            <br />
+            <span id="varSign">return</span>
+            <span id="varName">parseFLoat</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">r</span>
+            <span id="closeParenthesis">)</span>
+            <span id="varType">*</span>
+
+            <span id="numberData" style="color: pink"> 2.0</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+            <span id="bracket">}</span>
+            <br />
+            <br />
+
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">addition</span>
+            <span id="openParenthesis">(</span>
+            <span id="numberData" style="color: pink">2</span>
+            <span id="closeParenthesis">)</span>
+            <span id="closeParenthesis">)</span>
+            <br />
+
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">addition</span>
+            <span id="openParenthesis">(</span>
+            <span id="doubleQuote">"</span>
+            <span id="numberData" style="color: pink">2</span>
+            <span id="doubleQuote">"</span>
+            <span id="closeParenthesis">)</span>
+            <span id="closeParenthesis">)</span>
+            <br />
+
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">addition</span>
+            <span id="openParenthesis">(</span>
+            <span id="doubleQuote">"</span>
+            <span id="numberData" style="color: pink">3</span>
+            <span id="period">.</span>
+            <span id="numberData" style="color: pink">3</span>
+            <span id="doubleQuote">"</span>
+            <span id="closeParenthesis">)</span>
+            <span id="closeParenthesis">)</span>
+            <br />
+
+            >
+          </p>
+        </div>
+
+        <!------------------parseFloat() printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+
+          <p id="paraColorWhite">
+            4
+            <br />
+            4
+            <br />
+            6.6
+            <br />
+          </p>
+        </div>
+        <div class="btn">
+          <a
+            href="parseFloat.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------parseFloat() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- Start of Number() --------------->
+        <div class="popDiv">
+          <h2 style="margin-top: 30px">. Number()</h2>
+          <p style="margin-top: 10px">
+            This method is used to convert the value of other data types to
+            numbers.
+          </p>
+        </div>
+
+        <!------------------- number() -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">x</span>
+            <span id="varSign">=</span>
+            <span id="varSign">true</span>
+            <span id="semiColonNoSpace">;</span>
+
+            <br />
+
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">Number</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">x</span>
+            <span id="closeParenthesis">)</span>
+            <span id="closeParenthesis">)</span>
+            <br />
+
+            <span id="varType">var</span>
+            <span id="varName">x</span>
+            <span id="varSign">=</span>
+            <span id="varSign">false</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">Number</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">x</span>
+            <span id="closeParenthesis">)</span>
+            <span id="closeParenthesis">)</span>
+            <br />
+
+            <span id="varType">var</span>
+            <span id="varName">x</span>
+            <span id="varSign">=</span>
+            <span id="doubleQuote">"</span>
+            <span id="varSign">999</span>
+            <span id="doubleQuote">"</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">Number</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">x</span>
+            <span id="closeParenthesis">)</span>
+            <span id="closeParenthesis">)</span>
+            <br />
+
+            >
+          </p>
+        </div>
+
+        <!------------------number() printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+
+          <p id="paraColorWhite">
+            1
+            <br />
+            0
+            <br />
+            999
+            <br />
+          </p>
+        </div>
+        <div class="btn">
+          <a
+            href="number.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------Number() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- Start of parseInt() --------------->
+        <div class="popDiv">
+          <h2 style="margin-top: 30px">. parseInt()</h2>
+          <p style="margin-top: 10px">
+            This method converts the function argument to a string first and
+            returns an integer.
+          </p>
+        </div>
+
+        <!------------------- parseInt() -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">function</span>
+            <span id="varName">addition</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">r</span>
+            <span id="closeParenthesis">)</span>
+            <span id="bracket">{</span>
+            <br />
+            <span id="varSign">return</span>
+            <span id="varName">parseInt</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">r</span>
+            <span id="closeParenthesis">)</span>
+            <span id="varSign">*</span>
+            <span id="numberData" style="color: pink">2</span>
+            <span id="period">.</span>
+            <span id="numberData" style="color: pink">0</span>
+            <br />
+            <span id="bracket">}</span>
+            <br />
+            <br />
+
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">addition</span>
+            <span id="openParenthesis">(</span>
+            <span id="numberData" style="color: pink">2</span>
+            <span id="closeParenthesis">)</span>
+            <span id="closeParenthesis">)</span>
+            <br />
+
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">addition</span>
+            <span id="openParenthesis">(</span>
+            <span id="doubleQuote">"</span>
+            <span id="varType">2</span>
+            <span id="doubleQuote">"</span>
+            <span id="closeParenthesis">)</span>
+            <span id="closeParenthesis">)</span>
+            <br />
+
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">addition</span>
+            <span id="openParenthesis">(</span>
+            <span id="doubleQuote">"</span>
+            <span id="varType">3</span>
+            <span id="period">.</span>
+            <span id="varType">3</span>
+            <span id="doubleQuote">"</span>
+            <span id="closeParenthesis">)</span>
+            <span id="closeParenthesis">)</span>
+            <br />
+
+            >
+          </p>
+        </div>
+
+        <!------------------parseInt() printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+
+          <p id="paraColorWhite">
+            4
+            <br />
+            4
+            <br />
+            6
+            <br />
+          </p>
+        </div>
+        <div class="btn">
+          <a
+            href="parseInt.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------parseInt() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- Start of ES6() --------------->
+        <div class="popDiv">
+          <h1 style="font-size: 30px; font-weight: bolder; margin-top: 30px">
+            ES6
+          </h1>
+          <p>
+            ES6 introduced many important methods in javascript that we will
+            discuss in this article. If you don't know the ES6 yet, I recommend
+            you to have a look at this article because, in the below paragraphs,
+            we used a few topics which might look tough, however, they include
+            their definition and example.
+          </p>
+          <hr style="margin-bottom: 20px" />
+
+          <h2>. map()</h2>
+          <p style="margin-top: 10px">
+            This method takes an array, and performs a particular function on
+            each of the elements of the array, and returns a new array.
+          </p>
+        </div>
+
+        <!------------------- map() -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">arr</span>
+            <span id="varSign">=</span>
+            <span id="bracket">[</span>
+            <span id="numberData" style="color: pink">2.1</span>
+            <span id="varComma">,</span>
+            <span id="numberData" style="color: pink">3.5</span>
+            <span id="varComma">,</span>
+            <span id="numberData" style="color: pink">4.7</span>
+            <span id="bracket">]</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+            <br />
+
+            <span id="varType">var</span>
+            <span id="varName">result</span>
+            <span id="varSign">=</span>
+            <span id="varName">arr</span>
+            <span id="period">.</span>
+            <span id="varName">map</span>
+            <span id="openParenthesis">(</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">num</span>
+            <span id="closeParenthesis">)</span>
+            <span id="varSign">=></span>
+            <span id="numberData" style="color: pink">2</span>
+            <span id="varSign">*</span>
+            <span id="varName">num</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">result</span>
+            <span id="closeParenthesis">)</span>
+            <br />
+
+            >
+          </p>
+        </div>
+
+        <!------------------map() printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <br />
+          <p id="paraColorWhite">[ 4.2, 7, 9.4 ]</p>
+        </div>
+        <div class="btn">
+          <a
+            href="map.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------Es6 map() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- Start of every() --------------->
+        <div class="popDiv">
+          <h2 style="margin-top: 40px">. every()</h2>
+          <p style="margin-top: 20px">
+            This method is used to check whether elements in a given array
+            satisfy a particular given condition or not. It returns true if all
+            of the array elements satisfy the condition, otherwise, it return
+            false
+          </p>
+        </div>
+
+        <!------------------- every() -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">const</span>
+            <span id="varName">ages</span>
+            <span id="varSign">=</span>
+            <span id="bracket">[</span>
+            <span id="numberData" style="color: pink">32</span>
+            <span id="varComma">,</span>
+            <span id="numberData" style="color: pink">33</span>
+            <span id="varComma">,</span>
+            <span id="numberData" style="color: pink">16</span>
+            <span id="varComma">,</span>
+            <span id="numberData" style="color: pink">40</span>
+            <span id="bracket">]</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+            <br />
+
+            <span id="varType">function</span>
+            <span id="varName">checkAge</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">age</span>
+            <span id="closeParenthesis">)</span>
+            <span id="bracket">{</span>
+            <br />
+            <span id="varSign">return</span>
+            <span id="varName">age</span>
+            <span id="varSign"> > </span>
+            <span id="numberData" style="color: pink">18</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+            <span id="bracket">}</span>
+
+            <br />
+            <br />
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">ages</span>
+            <span id="period">.</span>
+            <span id="varName">every</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">checkAge</span>
+            <span id="closeParenthesis">)</span>
+            <span id="closeParenthesis">)</span>
+            <br />
+
+            >
+          </p>
+        </div>
+
+        <!------------------every() printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <br />
+          <p id="paraColorWhite">false</p>
+        </div>
+        <div class="btn">
+          <a
+            href="every.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------Es6 every() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- Start of includes() --------------->
+        <div class="popDiv">
+          <h2 style="margin-top: 40px">. includes()</h2>
+          <p style="margin-top: 20px">
+            This method is used to check a particular element exists in an array
+            or not. it returns true if the element includes in the array.
+          </p>
+        </div>
+
+        <!------------------- includes() -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">const</span>
+            <span id="varName">ages</span>
+            <span id="varSign">=</span>
+            <span id="bracket">[</span>
+            <span id="numberData" style="color: pink">32</span>
+            <span id="varComma">,</span>
+            <span id="numberData" style="color: pink">33</span>
+            <span id="varComma">,</span>
+            <span id="numberData" style="color: pink">16</span>
+            <span id="varComma">,</span>
+            <span id="numberData" style="color: pink">40</span>
+            <span id="bracket">]</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+
+            <br />
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">ages</span>
+            <span id="period">.</span>
+            <span id="varName">includes</span>
+            <span id="openParenthesis">(</span>
+            <span id="numberData" style="color: pink">33</span>
+            <span id="closeParenthesis">)</span>
+            <span id="closeParenthesis">)</span>
+            <br />
+
+            >
+          </p>
+        </div>
+
+        <!------------------includes() printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <br />
+          <p id="paraColorWhite">true</p>
+        </div>
+        <div class="btn">
+          <a
+            href="includes.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------Es6 includes() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- Start for... of iterator() --------------->
+        <div class="popDiv">
+          <h2 style="margin-top: 40px">. for... of iterator()</h2>
+          <p style="margin-top: 20px">
+            The for ...of creates a loop over object and array.
+          </p>
+        </div>
+
+        <!------------------- for... of iterator() -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">const</span>
+            <span id="varName">ages</span>
+            <span id="varSign">=</span>
+            <span id="bracket">[</span>
+            <span id="numberData" style="color: pink">33</span>
+            <span id="varComma">,</span>
+            <span id="numberData" style="color: pink">32</span>
+            <span id="varComma">,</span>
+            <span id="numberData" style="color: pink">16</span>
+
+            <span id="bracket">]</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+
+            <br />
+            <span id="varType">for</span>
+            <span id="openParenthesis">(</span>
+            <span id="varType">const</span>
+            <span id="varName">element</span>
+            <span id="varType">of</span>
+            <span id="varName">ages</span>
+            <span id="closeParenthesis">)</span>
+            <span id="bracket">{</span>
+
+            <br />
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">element</span>
+            <span id="variablePlus" style="color: red">+</span>
+            <span id="doubleQuote">"</span>
+            <span id="varType">b</span>
+            <span id="doubleQuote">"</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+
+            <span id="bracket">}</span>
+
+            >
+          </p>
+        </div>
+
+        <!------------------ for... of iterator() printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <br />
+          <p id="paraColorWhite">
+            33b
+            <br />
+            32b
+            <br />
+            16b
+          </p>
+        </div>
+        <div class="btn">
+          <a
+            href="ofIterator.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------Es6 for of...iterator() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- Start for... of iterator() --------------->
+        <div class="popDiv">
+          <h2 style="margin-top: 40px">. Spread operator</h2>
+          <p style="margin-top: 20px">
+            The spread operator is used to )take an array and expands it into
+            individual elements. The ... indicates the spread operator.
+          </p>
+        </div>
+
+        <!------------------- Spread Operator() -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">const</span>
+            <span id="varName">ages</span>
+            <span id="varSign">=</span>
+            <span id="bracket">[</span>
+            <span id="numberData" style="color: pink">33</span>
+            <span id="varComma">,</span>
+            <span id="numberData" style="color: pink">32</span>
+            <span id="varComma">,</span>
+            <span id="numberData" style="color: pink">16</span>
+
+            <span id="bracket">]</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+
+            <br />
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="period">.</span>
+            <span id="period">.</span>
+            <span id="period">.</span>
+            <span id="varName">ages</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+
+            <span id="bracket">}</span>
+
+            >
+          </p>
+        </div>
+
+        <!------------------ Spread Operator() printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <br />
+          <p id="paraColorWhite">33 32 16</p>
+        </div>
+        <div class="btn">
+          <a
+            href="spread.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------Es6 Spread operator() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- Start of filter() --------------->
+        <div class="popDiv">
+          <h2 style="margin-top: 40px">. filter()</h2>
+          <p style="margin-top: 20px">
+            This method creates a new array with all elements that pass the
+            provided condition.
+          </p>
+        </div>
+
+        <!------------------- filter() -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">const</span>
+            <span id="varName">ages</span>
+            <span id="varSign">=</span>
+            <span id="bracket">[</span>
+            <span id="numberData" style="color: pink">33</span>
+            <span id="varComma">,</span>
+            <span id="numberData" style="color: pink">32</span>
+            <span id="varComma">,</span>
+            <span id="numberData" style="color: pink">16</span>
+
+            <span id="bracket">]</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+
+            <br />
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">ages</span>
+            <span id="period">.</span>
+            <span id="varName">filter</span>
+            <span id="openParenthesis">(</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">age</span>
+            <span id="closeParenthesis">)</span>
+            <span id="varSign">=></span>
+            <span id="varName">age</span>
+            <span id="varSign">></span>
+            <span id="numberData" style="color: pink">20</span>
+            <span id="closeParenthesis">)</span>
+            <span id="closeParenthesis">)</span>
+
+            <br />
+
+            >
+          </p>
+        </div>
+
+        <!------------------ filter() printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <br />
+          <p id="paraColorWhite">[ 33, 32 ]</p>
+        </div>
+        <div class="btn">
+          <a
+            href="filter.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------Es6 Spread filter() end of string -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- Start of reduce() --------------->
+        <div class="popDiv">
+          <h2 style="margin-top: 40px">. reduce()</h2>
+          <p style="margin-top: 20px">
+            This method is used to reduces an array to a value.
+          </p>
+        </div>
+
+        <!------------------- reduce() -------------->
+        <div
+          class="popTopic"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 10px;
+          "
+        >
+          <p>
+            <span id="varType">const</span>
+            <span id="varName">ages</span>
+            <span id="varSign">=</span>
+            <span id="bracket">[</span>
+            <span id="numberData" style="color: pink">33</span>
+            <span id="varComma">,</span>
+            <span id="numberData" style="color: pink">32</span>
+            <span id="varComma">,</span>
+            <span id="numberData" style="color: pink">16</span>
+
+            <span id="bracket">]</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+            <br />
+
+            <span id="varType">const</span>
+            <span id="varName">reducer</span>
+            <span id="varSign">=</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">first</span>
+            <span id="varComma">,</span>
+            <span id="varName">second</span>
+            <span id="closeParenthesis">)</span>
+            <span id="varSign">=></span>
+            <span id="varName">first</span>
+            <span id="varSign">+</span>
+            <span id="varName">first</span>
+            <span id="semiColonNoSpace">;</span>
+            <br />
+            <br />
+            <span id="varName">console</span>
+            <span id="period">.</span>
+            <span id="varName">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">ages</span>
+            <span id="period">.</span>
+            <span id="varName">reducer</span>
+            <span id="openParenthesis">(</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">reducer</span>
+            <span id="closeParenthesis">)</span>
+            <span id="closeParenthesis">)</span>
+
+            <br />
+
+            >
+          </p>
+        </div>
+
+        <!------------------ reduce() printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <br />
+          <p id="paraColorWhite">81</p>
+        </div>
+
+        <div class="btn">
+          <a
+            href="reduce.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <div id="myEnd" style="margin-top: 40px">
+          <p id="paraEnd">
+            That's all for now. Thanks for reading, I hope you found this
+            article useful. Feel free to connect with me on facebook :)
+          </p>
+        </div>
+
+        <!-------------------------Es6 reduce() end of string -------------------------------->
+        <!---------------------------------- end of center content -------------------->
+      </div>
+
+      <!----------------------------------------right menu----------------------------------->
+      <div class="right-menu">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta iure
+        tempore repellat inventore officiis minima incidunt omnis voluptatem ut
+        veniam in pariatur, exercitationem laboriosam labore aspernatur
+        nesciunt, commodi deleniti debitis? Adipisci cumque officia accusamus
+        obcaecati ratione quasi, nihil totam ex accusantium odit perspiciatis
+        molestias asperiores id assumenda natus mollitia porro odio voluptatem
+        aut et minima eveniet qui. Fugit libero recusandae, enim, accusamus
+        inventore animi labore eum, ratione officia velit esse. Tempore
+        similique perferendis distinctio? Dignissimos, ut! Neque assumenda,
+        deserunt quisquam eum ullam reiciendis modi placeat deleniti animi,
+        earum veniam rem distinctio ipsam repudiandae suscipit fuga laudantium
+        maxime. Velit, reprehenderit quis.
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="values.css" />
+    <title>Create</title>
+  </head>
+  <body>
+    <div class="header">
+      <!------------- header right div  ------------->
+      <div class="header-leftDiv">
+        <div>
+          <a href="index.html"><i class="fa-solid fa-house-chimney"></i></a>
+        </div>
+        <!------------ drop down menu  -------------->
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">&#9776</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href=""><i class="fa-solid fa-rotate-right"> </i> Change Orientation</a>
+            <a href=""><i class="fa-regular fa-floppy-disk "> </i> Save Code</a>
+            <a href=""><i class="fa-solid fa-circle-half-stroke"></i> Change Theme, Dark/Light</a>
+            <a href=""><i class="fa-solid fa-window-restore"></i> Go to spaces</a>
+            <div style="display: flex;"><a href="">Privacy Policy</a> <span style="margin-top: 12px;">and</span> <a href="">Copyright 2024</a></div>
+          </div>
+        </div>
+        <div><i class="fa-regular fa-floppy-disk"></i></div>
+        <div><i class="fa-solid fa-rotate-right"></i></div>
+        <div><i class="fa-solid fa-circle-half-stroke"></i></div>
+        <div>
+          <button class="btnRun">
+            Run <span style="font-size: 18px; padding-left: 5px"> > </span>
+          </button>
+        </div>
+      </div>
+      <!------------- header-rightDiv ---------->
+      <div class="header-rightDiv">
+        <div><p>Result Size</p></div>
+        <div id="getWebBtn">
+          <p>Get your own website</p>
+        </div>
+      </div>
+    </div>
+
+    <!------------------------------- main body ----------------------------->
+    <div class="mainDiv">
+      <div class="leftDiv">
+        <p>< !DOCTYPE html ></p>
+        <p>< html ></p>
+        <p>< body ></p>
+
+        <h3> Creating JavaScript Objects</h3>
+        <h4>Using an object Literal</h4>
+    
+
+        <div contenteditable="true" id="copyData">  < p id="demo1" >  <  / p >  </pre></div>
+         
+        <br>
+         <br>
+         <br>
+        <p> <  script >   </script>  </p>         
+    
+        
+          <button id="myButton">values()</button> = 
+          <br><input type="text" id="inputOne" value = "John" placeholder="firstName:" style="text-align: center; background-color: red;" autocomplete="off">
+          <br><input type="text" id="inputTwo" placeholder="lastName:" autocomplete="off">
+          <br><input type="text" id="inputThree" placeholder="language:" autocomplete="off"> 
+                    
+        
+        <p contenteditable="true" id="copyDataOne">const person = {</p>
+        <p contenteditable="true" id="copyDataTwo"> firstName: "John" ,</p>
+        <p contenteditable="true" id="copyDataThree">lastName: "Doe" ,</p>
+        <p contenteditable="true" id="copyDataFour">language: "EN" ,</p>
+        <p contenteditable="true" id="copyDataFive">} ;</p>
+        
+        <p contenteditable="true">//Create new Object</p>
+        <p contenteditable="true" >              
+              const man = Object.create(person);
+              man.firstName = "Peter";
+        </p>
+        
+          <br><input type="text" id="inputFour" placeholder="insert firstName:" value="Peter" style="text-align: center; background-color: yellow;" autocomplete="off">
+          <p contenteditable="true">//Display Properties</p>
+          <p contenteditable="true">              
+              document.getElementById("demo").innerHTML = person.firstName + "and" + man.firstName;
+          </p>
+
+        <p> < / script >  </p>
+         <br>
+         <br>
+         <br>
+
+        <p>< / body ></p>
+        <p>< / html ></p>
+      </div>
+      <div class="rightDiv">
+        <h3>JavaScript Objects</h3>
+        <h4>The Object.create() Method</h4>
+
+        <p> 
+          Create a new object from the prototype of another project
+        </p>
+         
+        <br>
+         
+        <label id="myLabel"></label>
+        <label id="myLabelOne"></label>
+        <label id="myLabelTwo"></label><br>
+        <label id="andValue"></label><br>
+        <label id="myLabelThree"></label>
+        <br>
+        <br>
+        <br><br>
+        <p>create() Result below is:</p>
+        <p id="popResult"></p>
+
+        
+      </div>
+    </div>
+  </body>
+
+  <script src="create.js"></script>
+</html>

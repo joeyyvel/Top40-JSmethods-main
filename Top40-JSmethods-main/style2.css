@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Nunito;
+  font-size: 18px;
+}
+
+.mainContainer {
+  background-color: pink;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  border: 3px solid orange;
+}
+.left {
+  background-color: blue;
+  height: 100%;
+  width: 10%;
+  border: 3px solid maroon;
+}
+.center {
+  background-color: green;
+  height: 100%;
+  width: 60%;
+  display: block;
+  border: 3px solid red;
+}
+.right {
+  background-color: blueviolet;
+  height: 100%;
+  width: 30%;
+  border: 3px solid black;
+}
+
+header {
+  background-color: black;
+  width: 90%;
+  height: 12rem;
+  margin: auto;
+}
+
+#headerH1 {
+  text-align: center;
+  width: 30%;
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 4rem;
+}
+
+#signatories {
+  color: blue;
+  font-size: 13px;
+  margin-top: 3px;
+  text-align: center;
+  width: 30%;
+  position: relative;
+  top: 4rem;
+}
+
+/* anchor short cut display string adjustment */
+#anchorOne {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* inside content sample for all black squares */
+#varType,
+#varSign,
+#varPerson,
+#varSingleQuote,
+#doubleQuote,
+#loremIpsumWord {
+  color: orange;
+  padding: 0px 3px;
+}
+
+#varName {
+  color: green;
+  padding: 0px 3px;
+}
+#bracket {
+  padding: 0px 5px;
+}
+
+#consolePrint {
+  color: green;
+}
+
+#bracket,
+#varComma,
+#semiColon,
+#openParenthesis,
+#closeParenthesis,
+#numberData {
+  color: white;
+  padding: 0px 3px;
+}
+
+#openParenthesisNoSpace,
+#closeParenthesisNoSpace,
+#semiColonNoSpace {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: -5px;
+}
+/* -------------negative number---------- */
+#negativeSign {
+  color: red;
+}
+
+#period {
+  color: white;
+}
+/* ------------------paragraph color white in line color----------- */
+#paraColorWhite {
+  color: white;
+}
+
+/* -------------------------Button Family--------------------------------- */
+.btn {
+  margin: auto;
+  padding: 10px 20px;
+  border: 2px solid gray;
+  width: 144px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  position: relative;
+  top: 10px;
+  font-size: 13px;
+}
