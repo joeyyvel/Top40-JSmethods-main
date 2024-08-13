@@ -1,0 +1,18 @@
+.left-menu {
+  text-align: center;
+  position: fixed;
+  left: 0;
+}
+
+.fa-ellipsis,
+.fa-bookmark,
+.fa-comment,
+.fa-heart-circle-plus {
+  text-align: center;
+  font-size: 28px;
+  color: rgb(63, 61, 61);
+}
+
+/* .fa-heart-circle-plus {
+  font-size: 45px;
+} */
