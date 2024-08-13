@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 .dev-header {
   background-color: #eee;
   height: 60px;
@@ -23,14 +25,54 @@
 /* ------------head two search box--------- */
 
 #headTwo {
-  background-color: orange;
+  background-color: #eee;
   display: flex;
+  width: 53%;
+  margin-left: 5px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(212, 206, 206);
+  margin-right: 5px;
 }
 
 .fa-magnifying-glass {
-  background-color: aqua;
+  background-color: #eee;
+  font-size: 23px;
+  height: 38px;
+  align-items: center;
+  vertical-align: middle;
+  border-radius: 5px;
+  padding: 9px 8px;
 }
 
 #myInputId {
-  background-color: blue;
+  background-color: #eee;
+  height: 38px;
+  border: none;
+  width: 35.7rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#myInputId:focus {
+  outline: none;
+}
+/* ----------Log in button-------------- */
+#headThree {
+  color: rgb(88, 87, 87);
+  font-weight: 400;
+  margin-left: 16rem;
+  font-size: 16px;
+}
+
+#headFour {
+  margin-left: 25px;
+}
+/*--------- create account button------- */
+#myBtn {
+  color: blue;
+  font-size: 16px;
+  padding: 9px 14px;
+  border-radius: 5px;
+  border: 0.2px solid gray;
 }
