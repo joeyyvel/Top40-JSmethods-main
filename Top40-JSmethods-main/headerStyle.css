@@ -10,5 +10,12 @@
 .headOne {
   background-color: black;
   color: white;
+  height: 40px;
+  font-size: 50px;
+  margin: 0 10px;
+  padding: 8px 5px;
   vertical-align: middle;
+  align-items: center;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
 }

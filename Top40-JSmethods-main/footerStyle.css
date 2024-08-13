@@ -1,0 +1,14 @@
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 10px;
+  color: black;
+  text-align: center;
+  background-color: aquamarine;
+}
+
+#myCreator {
+  color: blue;
+  font-size: 25px;
+}

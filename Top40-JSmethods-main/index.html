@@ -3,6 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="footerStyle.css" />
     <link rel="stylesheet" href="headerStyle.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="style2.css" />
@@ -13,10 +21,12 @@
       <!-----------Header--------->
       <div class="headOne"><h1>DEV</h1></div>
       <div id="headTwo">
-        <input type="text" placeholder="Find related post..." />
+        <form action="">
+          <input type="text" />
+        </form>
       </div>
       <div id="headThree">log in</div>
-      <div id="headFour">create account</div>
+      <div id="headFour"><button>Create account</button></div>
     </div>
 
     <div class="main-container">
@@ -4029,7 +4039,7 @@
 
         <div id="myEnd" style="margin-top: 40px">
           <p id="paraEnd">
-            That's all for now. Thanks for reading, I hope you found this
+            That's all for now. <br />Thanks for reading, I hope you found this
             article useful. Feel free to connect with me on facebook :)
           </p>
         </div>
@@ -4054,7 +4064,11 @@
         maxime. Velit, reprehenderit quis.
       </div>
     </div>
-
+    <div class="footer">
+      <h1>
+        CopyrRight &copy;2024 <span id="myCreator">JoeyAbaoSayadi@teach</span>
+      </h1>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
