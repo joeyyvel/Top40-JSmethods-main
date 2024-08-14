@@ -13,7 +13,8 @@
 
 .left-menu {
   background-color: orange;
-  width: 10%;
+  width: 7%;
+  min-height: 100vh;
 }
 .main-content {
   background-color: #ffffff;
