@@ -1,7 +1,12 @@
+/* ------------------------left nav bar--------------------------------- */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .main-container {
@@ -12,13 +17,50 @@
 }
 
 .left-menu {
-  background-color: orange;
-  width: 6.5%;
+  background-color: #eee;
+  width: 8%;
   min-height: 100vh;
+  top: 60px;
+  padding-top: 50px;
 }
+/* ---------------------------------Left Menu Icon----------------------------- */
+
+/* ---------heart icon------- */
+.fa-heart-circle-plus,
+.fa-comment,
+.fa-bookmark,
+.fa-ellipsis {
+  font-size: 25px;
+}
+
+.fa-heart-circle-plus:hover {
+  color: red;
+}
+
+/* ---------comment icon------ */
+.fa-comment:hover {
+  color: orange;
+}
+
+/* ---------bookmark icon------ */
+.fa-bookmark:hover {
+  color: blue;
+}
+
+/* ---------ellipsis icon---------- */
+.fa-ellipsis:hover {
+  color: rgb(161, 9, 34);
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #c9c6c6;
+}
+
+/* ---------------------------------Main container------------------------ */
 .main-content {
-  background-color: #ffffff;
-  width: 70%;
+  background-color: pink;
+  width: 60%;
+  padding: 1px 30px 1px 10px;
 }
 
 .right-menu {

@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 .dev-header {
-  background-color: #eee;
   height: 60px;
   display: inline-flex;
   width: 100%;
-  border: 1px solid gray;
   align-items: center;
+  background-color: aqua;
+  position: fixed;
 }
 /* ------------DEV logo------------------ */
 .headOne {
@@ -25,18 +25,18 @@
 /* ------------head two search box--------- */
 
 #headTwo {
-  background-color: #eee;
+  background-color: red;
   display: flex;
-  width: 53%;
+  width: 683px;
   margin-left: 5px;
   height: 40px;
   border-radius: 5px;
   border: 0.5px solid rgb(212, 206, 206);
   margin-right: 5px;
 }
-
+/* --------------fa icon------------- */
 .fa-magnifying-glass {
-  background-color: #eee;
+  background-color: brown;
   font-size: 23px;
   height: 38px;
   align-items: center;
@@ -60,8 +60,9 @@
 /* ----------Log in button-------------- */
 #headThree {
   color: rgb(88, 87, 87);
+  background-color: blue;
+  display: inline-block;
   font-weight: 400;
-  margin-left: 16rem;
   font-size: 16px;
 }
 
