@@ -7,6 +7,7 @@
   align-items: center;
   background-color: white;
   position: fixed;
+  border: 0.2px solid rgb(196, 192, 192);
 }
 /* ------------DEV logo------------------ */
 .headOne {
