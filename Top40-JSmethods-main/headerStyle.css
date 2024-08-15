@@ -8,6 +8,7 @@
   background-color: orange;
   position: fixed;
   border: 0.2px solid rgb(196, 192, 192);
+  z-index: 10;
 }
 /* ------------DEV logo------------------ */
 .headOne {
