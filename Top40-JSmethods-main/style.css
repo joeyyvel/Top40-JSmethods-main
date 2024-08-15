@@ -181,3 +181,31 @@ html {
   color: black;
   font-size: 15px;
 }
+
+/*--------second creators page------------*/
+#secondDivCreatorsPage {
+  height: 400px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 0.1px solid gray;
+}
+
+/*---------second section para page--------*/
+
+#creatorsPara {
+  background-color: #eee;
+  border: 0.1px solid gray;
+  padding: 12px;
+}
+
+#creatorName0 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.creatorsName {
+  color: blue;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
