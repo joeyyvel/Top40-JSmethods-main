@@ -123,7 +123,7 @@ html {
 .toCreator-page {
   border: 0.2px solid rgb(206, 202, 202);
   border-radius: 5px;
-  height: 300px;
+  height: 450px;
   margin: 10px;
 }
 
@@ -172,8 +172,12 @@ html {
   color: white;
   text-decoration: none;
 }
+/*---------creator about paragraph--------*/
+.creatorsParagraph {
+  padding: 10px 15px;
+}
 
 .toCreator-page p {
-  color: gray;
-  font-size: 16px;
+  color: black;
+  font-size: 15px;
 }
