@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="leftcontainer.css" />
+    <link rel="stylesheet" href="footerStyle.css" />
+    <link rel="stylesheet" href="headerStyle.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <title>Code of Conduct</title>
+  </head>
+  <body>
+    <div class="dev-header">
+      <!-----------Header--------->
+      <div class="headOne"><h1>DEV</h1></div>
+      <!-- input section type for searching @ header -->
+      <div id="headTwo">
+        <div><i class="fa-solid fa-magnifying-glass"></i></div>
+        <div>
+          <input
+            type="text"
+            placeholder="Find related posts..."
+            id="myInputId"
+          />
+        </div>
+      </div>
+      <div id="headThree">Log in</div>
+      <div id="headFour"><button id="myBtn">Create account</button></div>
+    </div>
+
+    <div class="main-container">
+      <!-----------------------------left container with icon------------------------------>
+
+      <div class="left-menu">
+        <div id="myId" onclick="funcLikes()">
+          <i class="fa-solid fa-heart-circle-plus"></i>
+        </div>
+        <br />
+        <p><span id="likesID">0</span></p>
+        <br /><br />
+
+        <!----------------------Link to Comment ----------------->
+        <div>
+          <a href="#comment-section"><i class="fa-regular fa-comment"></i></a>
+        </div>
+        <br /><br />
+        <div><i class="fa-regular fa-bookmark"></i></div>
+        <br /><br />
+        <div><i class="fa-solid fa-ellipsis"></i></div>
+      </div>
+
+      <!------------------------------main-content----------------------------------------->
+      <div class="main-content">
+        <!-----------------------------header --------------------------------------------->
+       
+
+        
+
+        
+        
+
+        
+
+        
+        
+
+        
+
+        
+
+        
+       
+       
+
+        
+        <!-------------------------Es6 reduce() end of string -------------------------------->
+
+        <div class="inserted">
+          <h2 id="myEllipse"><i class="fa-solid fa-ellipsis"></i></h2>
+          <h1>👋 Before you go</h1>
+          <br />
+          <h2>
+            Do your career a favor.
+            <strong style="color: blue">Join DEV.</strong>(The website you're on
+            right now)
+          </h2>
+          <br />
+          <h1>
+            it takes <i>one minute</i>, it's free, and is worth it for your
+            career.
+          </h1>
+          <!------------Get Started Button-------->
+          <div class="parentElement">
+            <div class="childElement">
+              <h1>Get started</h1>
+            </div>
+          </div>
+        </div>
+
+        <!--------------------------End of Inserted ------------------------------------------->
+
+        <!--------------------starts comments section-------------->
+
+        <div class="main-comments" id="comment-section">
+          <div id="comments-childHeader">
+            <h1 class="topComments">Top comments (0)</h1>
+            <button class="subscribeBtn">Subscribe</button>
+          </div>
+          <div class="comments-childBody">
+            <div id="devLogoComment"> 
+            <p id="devCommentsLogo">DEV</p>  
+          </div>
+            <textarea name="usersFeedBack" placeholder="Add to the discussion" id="usersComments" style="font-size: 16px;"></textarea>
+          </div>
+          <br>
+          <div>
+            <p class="codeOfConduct"><span><a href="#" id="codeOne">Code of Conduct</a></span> . <span><a href="#" id="reportOne">Report abuse</a></span></p>
+          </div>
+
+        </div>
+
+        <!---------------------------------- end of center content -------------------->
+      </div>
+
+      <!----------------------------------------right menu----------------------------------->
+      <div class="right-menu">
+        <div class="toCreator-page">
+          <div class="rightHeaderBlackPad"></div>
+
+          <img src="image/longhair.jpg" class="myPicture" alt="" />
+          <strong class="creatorName"> Joey Sayadi <i class="fa-solid fa-spider" style="color: red;"></i></strong>          
+          </p>
+          <p><strong  class="creatorTitle">Front-end Developer 👉 pinoy dev.</strong></p>
+          <p
+            style="
+              color: green;
+              font-size: 15px;
+              font-weight: 400;
+              text-align: center;
+            "
+          >
+            About the creator
+          </p>
+          <p class="creatorsBtn">
+            <a href="https://www.facebook.com/" id="myLink" target="_blank"
+              >Follow</a
+            >
+          </p>
+          <!------------------Start of Paragraph ---------------->
+          <div class="creatorsParagraph">
+            <p style="margin-top: 10px; color: green; font-weight: bold">
+              Programming Tools:
+            </p>
+            <p id="paraCreator">
+              <span id="tools">#</span> ReactJS,
+              <span id="tools">#</span> Javascript,              
+               <span id="tools">#</span> Html,
+              <span id="tools">#</span> Css,
+              <span id="tools">#</span> Bootstrap,
+            </p>
+            <p id="paraCreator">
+              <span id="tools">#</span>Chakra-ui, <span id="tools">#</span>Sass,
+              <span id="tools">#</span> jQuery, <span id="tools">#</span> GitHub, <span id="tools">#</span> Gitbash,<span id="tools">#</span
+              >CLI,<span id="tools">#</span>DreamWeaver <span id="tools">#</span>Figma.
+            </p>
+            <br>
+            <p id="paraCreator">Computer Engineer.</p>
+            <p id="paraCreator">linux system administration.</p>
+            <p id="paraCreator">PC networking and system administration.</p>
+            <p id="paraCreator">Core  <i class="fa-brands fa-java" style="color: red; font-size: 25px;"></i>  java .</p>
+            <p id="paraCreator">PC / Laptop trouble shooting.</p>
+            <p id="paraCreator">Auto CADD <i class="fa-solid fa-hat-cowboy" style="font-size: 25px; color: maroon;"></i>
+              R-14.</p>
+            
+             
+             
+              </p>
+          </div>
+        </div>
+
+        <div id="secondDivCreatorsPage">
+          <div id="creatorsPara">
+            <h1>
+              <span id="creatorName0">More from</span>
+              <span class="creatorsName"> Joey Sayadi</span>
+            </h1>
+          </div>
+          <div id="creatorsPara">
+            <p>Learn Javascript Functions</p>
+            <p>#javascript #beginners #programming #tutorial</p>
+          </div>
+          <div id="creatorsPara">
+            <p>Learn Javascript__part1</p>
+            <p>#javascript #beginners #programming #tutorial</p>
+          </div>
+          <div id="creatorsPara">
+            <p>Top 6 Javascript Chart Libraries</p>
+            <p>#javascript #webdev #opensource</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h1>
+        CopyrRight &copy;2024 <span id="myCreator">JoeyAbaoSayadi@teach</span>
+      </h1>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
