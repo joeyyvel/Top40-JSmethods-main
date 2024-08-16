@@ -72,10 +72,12 @@
 #headThree {
   color: rgb(88, 87, 87);
   display: inline-block;
-  font-weight: 400;
+  font-weight: bold;
   font-size: 16px;
   margin-left: 18rem;
   padding: 8px 15px;
+  background-color: #eee;
+  border-radius: 5px;
 }
 
 #headThree:hover {
