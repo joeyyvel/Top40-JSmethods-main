@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.dev-header {
+  height: 60px;
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  background-color: orange;
+  position: fixed;
+  border: 0.2px solid rgb(196, 192, 192);
+  z-index: 10;
+}
+/* ------------DEV logo------------------ */
+.headOne {
+  background-color: black;
+  color: white;
+  height: 40px;
+  font-size: 50px;
+  margin: 0 10px;
+  padding: 8px 5px;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 4px;
+}
+
+/* ------------head two search box--------- */
+
+#headTwo {
+  display: flex;
+  width: 690px;
+  margin-left: 5px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(212, 206, 206);
+  margin-right: 5px;
+}
+/* --------------fa icon magnifying glass------------- */
+.fa-magnifying-glass {
+  font-size: 22px;
+  height: 38px;
+  align-items: center;
+  vertical-align: middle;
+  border-radius: 5%;
+  padding: 9px 8px;
+}
+
+.fa-magnifying-glass:hover {
+  color: blue;
+  font-size: 100;
+  background-color: rgb(223, 223, 245);
+}
+
+/* --------------input area at header---------- */
+#myInputId {
+  background-color: white;
+  height: 38px;
+  border: none;
+  width: 36.1rem;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 17px;
+}
+
+#myInputId:focus {
+  outline: none;
+}
+/* ----------Log in button-------------- */
+#headThree {
+  color: rgb(88, 87, 87);
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 18rem;
+  padding: 8px 15px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+#headThree:hover {
+  background-color: #eee;
+  border-radius: 5%;
+}
+/* ------------------create account---------- */
+#headFour {
+  margin-left: 12px;
+}
+/*--------- create account button------- */
+#myBtn {
+  color: blue;
+  background-color: white;
+  font-weight: 900px;
+  font-size: 16px;
+  padding: 9px 18px;
+  border-radius: 5px;
+  border: 0.2px solid rgb(75, 39, 206);
+}
+
+#myBtn:hover {
+  background-color: green;
+  color: white;
+  border: none;
+}
+
+#myBtn:focus {
+  border: none;
+}
+
+#tools {
+  color: green;
+  font-size: 15px;
+  font-weight: bold;
+}
