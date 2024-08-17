@@ -149,6 +149,15 @@
   padding: 3px 10px;
 }
 
+/* ------------------splice input variable---------- */
+
+#spliceOne,
+#spliceTwo {
+  width: 20px;
+  text-align: center;
+  color: red;
+}
+
 #myButton {
   background-color: black;
   color: white;

@@ -10,24 +10,29 @@ myButton.addEventListener("click", () => {
 
   let inputThree = document.getElementById("inputThree").value;
   document.getElementById("myLabelTwo").innerText = inputThree;
-  myLabelTwo.style.backgroundColor = "red";
-  myLabelTwo.style.padding = "3px 5px";
-  myLabelTwo.style.borderRadius = "5px";
 
   let inputFour = document.getElementById("inputFour").value;
   document.getElementById("myLabelThree").innerText = inputFour;
-  myLabelThree.style.backgroundColor = "yellow";
-  myLabelThree.style.padding = "3px 5px";
-  myLabelThree.style.borderRadius = "5px";
+
+  // converting given input from string to number value data type
+  let valOne = document.getElementById("spliceOne").value;
+  let val1 = Number(valOne);
+  console.log(val1);
+
+  let valTwo = document.getElementById("spliceTwo").value;
+  let val2 = Number(valTwo);
+  console.log(val2);
 
   let inputFive = document.getElementById("inputFive").value;
   document.getElementById("myLabelFour").innerText = inputFive;
+  myLabelFour.style.color = "red";
 
   let inputSix = document.getElementById("inputSix").value;
   document.getElementById("myLabelFive").innerText = inputSix;
+  myLabelFive.style.color = "red";
 
-  const data = [inputOne, inputTwo, inputThree, inputFour, inputFive];
-  data.splice(2, 0, inputThree, inputFour);
+  const data = [inputOne, inputTwo, inputThree, inputFour];
+  data.splice(val1, val2, inputFive, inputSix);
 
   document.getElementById("popResult").innerText = data;
 });
