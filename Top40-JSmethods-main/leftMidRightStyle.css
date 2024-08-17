@@ -31,29 +31,29 @@ html {
 /* ---------------------------------Left Menu Icon----------------------------- */
 /* ---------------------------------------------------------------------------- */
 
-/* ---------heart icon------- */
-.fa-heart-circle-plus,
-.fa-comment,
-.fa-bookmark,
-.fa-ellipsis {
+/* ---------fa icon sizes------- */
+.left-menu .fa-heart-circle-plus,
+.left-menu .fa-comment,
+.left-menu .fa-bookmark,
+.left-menu .fa-ellipsis {
   font-size: 25px;
 }
-
-.fa-heart-circle-plus:hover {
+/* ---------fa heart icon------ */
+.left-menu .fa-heart-circle-plus:hover {
   color: red;
 }
 
-/* ---------comment icon------ */
+/* ---------fa comment icon------ */
 .fa-comment:hover {
   color: orange;
 }
 
-/* ---------bookmark icon------ */
+/* ---------fa bookmark icon------ */
 .fa-bookmark:hover {
   color: blue;
 }
 
-/* ---------ellipsis icon---------- */
+/* ---------fa ellipsis icon---------- */
 .fa-ellipsis:hover {
   color: rgb(161, 9, 34);
   border: none;
