@@ -1,23 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Questrial&family=Ramabhadra&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-/* .ramabhadra-regular {
-  font-family: "Ramabhadra", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-} */
-
 /* ------------------------left nav bar--------------------------------- */
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+/* ---------------------------------------------------------------------- */
 
+/* ---------------scroll smooth to footer div where comments section is located */
 html {
   scroll-behavior: smooth;
 }
 
 /*-------------------------------main container of the whole body-----------------------  */
+/* -------------------------------------------------------------------------------------- */
 .main-container {
   background-color: green;
   display: flex;

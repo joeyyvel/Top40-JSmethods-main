@@ -2,40 +2,15 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
+/* ---------------------------------Main HTML document--------------------------- */
+/* ----------------------------------------------------------------------------- */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Nunito;
   font-size: 18px;
-}
-
-.mainContainer {
-  background-color: pink;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: flex-start;
-  border: 3px solid orange;
-}
-.left {
-  background-color: blue;
-  height: 100%;
-  width: 10%;
-  border: 3px solid maroon;
-}
-.center {
-  background-color: green;
-  height: 100%;
-  width: 60%;
-  display: block;
-  border: 3px solid red;
-}
-.right {
-  background-color: blueviolet;
-  height: 100%;
-  width: 30%;
-  border: 3px solid black;
 }
 
 header {
