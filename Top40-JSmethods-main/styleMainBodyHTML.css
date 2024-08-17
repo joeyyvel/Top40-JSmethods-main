@@ -16,29 +16,33 @@
 header {
   background-color: black;
   width: 96%;
-  height: 12rem;
+  height: 415px;
   margin: auto;
 }
 
+/* -------------text inside black square header-------------------------------------    */
 #headerH1 {
   text-align: center;
-  width: 30%;
+  width: 70%;
   color: white;
-  font-size: 20px;
+  font-size: 40px;
+  font-weight: bolder;
   position: relative;
-  top: 4rem;
+  top: 15.5rem;
 }
 
 /* ----------------creators name inside the color black square box ------------------------- */
 
 #signatories {
-  color: blue;
+  color: rgb(22, 22, 82);
   font-size: 13px;
   margin-top: 3px;
   text-align: center;
   width: 30%;
+  margin-left: -30px;
   position: relative;
-  top: 4rem;
+  top: 7.6rem;
+  font-weight: bold;
 }
 
 /* anchor tag short cut display string adjustment */
