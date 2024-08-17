@@ -2,7 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
-/* ---------------------------------Main container HTML document--------------------------- */
+/* ---------------------------------middle body container HTML document--------------------------- */
 /* ----------------------------------------------------------------------------- */
 
 * {
@@ -29,8 +29,9 @@ header {
   top: 4rem;
 }
 
+/* -------------------------creators name and year created ------------------------- */
 #signatories {
-  color: blue;
+  color: yellow;
   font-size: 13px;
   margin-top: 3px;
   text-align: center;
@@ -39,13 +40,13 @@ header {
   top: 4rem;
 }
 
-/* anchor short cut display string adjustment */
+/* anchor tag short cut display string adjustment */
 #anchorOne {
   font-weight: bold;
   font-size: 18px;
 }
 
-/* inside content sample for all black squares */
+/* inside (span) content sample for all black squares */
 #varType,
 #varSign,
 #varPerson,
@@ -98,7 +99,7 @@ header {
   color: white;
 }
 
-/* -------------------------Button Family--------------------------------- */
+/* -------------------------button black link to new page display/ html method page--------------------------------- */
 .btn {
   margin: auto;
   padding: 10px 20px;

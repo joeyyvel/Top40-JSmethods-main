@@ -4,6 +4,7 @@
 /* ---------------------------------------------------------------------- */
 
 /* ---------------scroll smooth to footer div where comments section is located */
+
 html {
   scroll-behavior: smooth;
 }
@@ -11,20 +12,24 @@ html {
 /*-------------------------------main container of the whole body-----------------------  */
 /* -------------------------------------------------------------------------------------- */
 .main-container {
-  background-color: green;
-  display: flex;
+  background-color: maroon;
   width: 100%;
-  justify-content: center;
+  display: flex;
   align-content: space-around;
   margin-bottom: 10px;
   padding-bottom: 10px;
 }
 
+/* ----------------------------Temporary left container freeze--------- */
+
 .left-menu {
-  background-color: maroon;
+  background-color: #eee;
   width: 6.4%;
   top: 60px;
   padding-top: 50px;
+  text-align: center;
+  margin-top: 60px;
+
   /* position: fixed; */
 }
 
@@ -67,7 +72,7 @@ html {
 
 .main-content {
   background-color: pink;
-  width: 60%;
+  width: 30%;
 }
 
 /* ------------------------------------Right Menu-------------------------------------- */
@@ -79,7 +84,7 @@ html {
   margin-top: 60px;
 }
 
-/* ------------Inserted Join DEV before comments section-------------------- */
+/* ------------Inserted in between the main content and foot div/  Join DEV before comments section-------------------- */
 .inserted {
   margin-top: 50px;
   border: 0.2px solid rgb(214, 213, 213);

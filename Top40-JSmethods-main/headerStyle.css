@@ -10,7 +10,7 @@
   border: 0.2px solid rgb(196, 192, 192);
   z-index: 10;
 }
-/* ------------DEV logo------------------ */
+/* ------------DEV logo with black background color------------------ */
 .headOne {
   background-color: black;
   color: white;
@@ -23,7 +23,7 @@
   border-radius: 4px;
 }
 
-/* ------------head two search box--------- */
+/* ------------head two search box and input box to find related topics--------- */
 
 #headTwo {
   display: flex;
@@ -50,7 +50,7 @@
   background-color: rgb(223, 223, 245);
 }
 
-/* --------------input area at header---------- */
+/* --------------input area at header to find related post---------- */
 #myInputId {
   background-color: white;
   height: 38px;
@@ -64,11 +64,11 @@
   font-weight: 100;
   font-size: 17px;
 }
-
+/* ---------Remove outline border line------------ */
 #myInputId:focus {
   outline: none;
 }
-/* ----------Log in button-------------- */
+/* ----------------------------Log in button-------------------------- */
 #headThree {
   color: rgb(88, 87, 87);
   display: inline-block;
