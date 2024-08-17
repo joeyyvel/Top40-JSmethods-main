@@ -23,7 +23,7 @@ html {
 /* ----------------------------Temporary left container freeze--------- */
 
 .left-menu {
-  background-color: #eee;
+  background-color: yellow;
   width: 6.4%;
   top: 60px;
   padding-top: 50px;
@@ -72,7 +72,7 @@ html {
 
 .main-content {
   background-color: pink;
-  width: 30%;
+  width: 70%;
 }
 
 /* ------------------------------------Right Menu-------------------------------------- */

@@ -15,7 +15,7 @@
 
 header {
   background-color: black;
-  width: 90%;
+  width: 96%;
   height: 12rem;
   margin: auto;
 }
@@ -29,9 +29,10 @@ header {
   top: 4rem;
 }
 
-/* -------------------------creators name and year created ------------------------- */
+/* ----------------creators name inside the color black square box ------------------------- */
+
 #signatories {
-  color: yellow;
+  color: blue;
   font-size: 13px;
   margin-top: 3px;
   text-align: center;
