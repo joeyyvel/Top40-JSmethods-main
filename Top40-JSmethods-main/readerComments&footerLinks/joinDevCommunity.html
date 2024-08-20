@@ -15,22 +15,23 @@
       referrerpolicy="no-referrer"
     />
 
-    <link rel="stylesheet" href="../headerStyle.css" />
+    <!----------------StyleMainBodyHTML and headerStyle must be merge -------------------------------->
+    <link rel="stylesheet" href="../styleMainBodyHTML.css">
+    <link rel="stylesheet" href="../headerStyle.css">
     <title>Welcome!-DEV Community</title>
   </head>
   <body>
+    
+    <!--------------------------------Header section--------------------------------------->
     <div class="dev-header">
       <!-----------Brand LOGO with color black background---------------->
-      <div class="headOne">
-        <h1 id="brand">DEV</h1>
-      </div>
+      <div id="brand"><h1>DEV</h1></div>
       <!-- input section, where users can type and search for specific topic at the page---- -->
 
       <div id="headTwo">
-        <!-- icon type of magnifying glass inside the type search element ------------------->
+      <!-- icon type of magnifying glass inside the type search element ------------------->
         <div><i class="fa-solid fa-magnifying-glass"></i></div>
-
-        <!--------------------------  -->
+   
         <div>
           <input
             type="text"
@@ -39,10 +40,16 @@
           />
         </div>
       </div>
-      <div id="headThree">Log in</div>
+      <div id="loginHeader">Log in</div>
       <div id="headFour"><button id="myBtn">Create account</button></div>
     </div>
 
-    <h1>Hello im the dev community</h1>
+    <div class="main-container">
+
+    
+
+
+
+
   </body>
 </html>
