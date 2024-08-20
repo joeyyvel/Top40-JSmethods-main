@@ -5,10 +5,25 @@
   font-size: 10px;
   color: black;
   text-align: center;
-  background-color: aquamarine;
+  background-color: #e5e5e5;
 }
 
 #myCreator {
+  color: rgb(42, 42, 116);
+  font-size: 15px;
+}
+
+/* ----------------style for links to other pages at the footer---------- */
+
+#footNeonDev {
+  text-decoration: none;
   color: blue;
-  font-size: 25px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#footLinkToOtherPage {
+  text-decoration: none;
+  color: blue;
+  font-size: 15px;
 }

@@ -12,7 +12,6 @@ html {
 /*-------------------------------main container of the whole body-----------------------  */
 /* -------------------------------------------------------------------------------------- */
 .main-container {
-  background-color: maroon;
   width: 100%;
   display: flex;
   align-content: space-around;
@@ -71,7 +70,6 @@ html {
 /* ------------------------------------------------------------------------------------ */
 
 .main-content {
-  background-color: pink;
   width: 70%;
 }
 
@@ -93,28 +91,38 @@ html {
   border-radius: 5px;
   padding: 20px;
 }
-/* -------------Button of Get started---------------------- */
+/* -------------Okey let's go button styling---------------------- */
 /* parent element of input */
 
 .parentElement {
   margin-top: 20px;
 }
 
+.parentElement:hover {
+  color: white;
+}
+
 .childElement {
   text-align: center;
-  border: 0.2px solid blue;
+  border: 0.2px solid green;
   border-radius: 5px;
+  padding-top: 10px;
+  height: 40px;
 }
 
-.childElement h1 {
-  color: blue;
-  font-size: 18px;
-  padding: 10px 0px;
+.childElement:hover {
+  background-color: rgb(54, 218, 54);
 }
 
-.childElement h1:hover {
+.itsOkey {
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+}
+
+.itsOkey:hover {
   color: white;
-  background-color: blue;
+  font-weight: bold;
 }
 
 /* -------------------------ellipse on Join DEV----------------------- */
@@ -189,7 +197,7 @@ html {
 textarea::placeholder {
   color: red;
 }
-/* ------------------------code of conduct section under comments---------- */
+/* ------------------------code of conduct section under comments div---------- */
 .codeOfConduct {
   color: blue;
   text-align: center;
@@ -312,4 +320,16 @@ textarea::placeholder {
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
+}
+/* ---------------------------------- Start of Responsive sizes---------------------------------- */
+/* -------------------------------------------------------------------------------------------- */
+
+body {
+  background-color: green;
+}
+
+@media only screen and(max-width: 600px) {
+  body {
+    background-color: blue;
+  }
 }

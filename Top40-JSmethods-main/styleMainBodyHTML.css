@@ -14,9 +14,12 @@
 }
 
 header {
-  background-color: black;
   width: 96%;
   height: 415px;
+  background-image: url("./image/myPicture.jpg ");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   margin: auto;
 }
 
@@ -25,24 +28,26 @@ header {
   text-align: center;
   width: 70%;
   color: white;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: bolder;
   position: relative;
-  top: 15.5rem;
+  top: 12.5rem;
+  z-index: 5;
 }
 
-/* ----------------creators name inside the color black square box ------------------------- */
+/* ----------------creators name inside the color black square box header------------------------- */
 
 #signatories {
-  color: rgb(22, 22, 82);
-  font-size: 13px;
-  margin-top: 3px;
+  color: yellow;
+  font-size: 15px;
+  margin-top: -80px;
   text-align: center;
   width: 30%;
-  margin-left: -30px;
+  margin-left: 80px;
   position: relative;
   top: 7.6rem;
   font-weight: bold;
+  z-index: 5;
 }
 
 /* anchor tag short cut display string adjustment */
