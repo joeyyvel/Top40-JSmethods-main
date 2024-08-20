@@ -23,8 +23,9 @@ header {
   margin: auto;
 }
 
-/* -------------text inside black square header-------------------------------------    */
-#headerH1 {
+/* -------------text inside black square header------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+#projectTitle {
   text-align: center;
   width: 70%;
   color: white;

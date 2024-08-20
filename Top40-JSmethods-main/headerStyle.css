@@ -11,16 +11,16 @@
   z-index: 10;
 }
 /* ------------DEV logo with black background color------------------ */
-.headOne {
+#brand {
   background-color: black;
   color: white;
-  height: 40px;
-  font-size: 50px;
+  height: 30px;
+  font-size: 20px;
   margin: 0 10px;
-  padding: 8px 5px;
-  vertical-align: middle;
-  align-items: center;
+  padding: 6px 5px;
   border-radius: 4px;
+  font-family: Nunito;
+  text-align: center;
 }
 
 /* ------------head two search box and input box to find related topics--------- */
