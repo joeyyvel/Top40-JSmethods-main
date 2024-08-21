@@ -10,6 +10,14 @@
   border: 0.2px solid rgb(196, 192, 192);
   z-index: 10;
 }
+/* -------------------------Burger menu--------------------------- */
+
+#burgerMenu {
+  font-size: 22px;
+  padding: 10px;
+  cursor: pointer;
+}
+
 /* ------------DEV logo with black background color------------------ */
 #brand {
   background-color: black;
@@ -88,7 +96,7 @@
 #headFour {
   margin-left: 12px;
 }
-/*--------- create account button------- */
+/*-------------- create account button  upper right corner----------- */
 #myBtn {
   color: blue;
   background-color: white;
@@ -114,3 +122,6 @@
   font-size: 15px;
   font-weight: bold;
 }
+
+/* ------------------------------------------------------------------- */
+/* ------------------------ media queries------------------------------ */

@@ -127,55 +127,56 @@ header {
 
 /* ------------------------------------------------------------------- */
 /* ------------------------ media queries------------------------------ */
-
-body {
-  background-color: maroon;
-}
-
-@media screen and (min-width: 700px) {
-  body {
-    background-color: green;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  body {
-    background-color: blue;
-  }
-}
-
-@media screen and (min-width: 900px) {
-  body {
-    background-color: orange;
-  }
-}
-
-@media screen and (min-width: 1000px) {
+@media (min-width: 500px) {
   body {
     background-color: red;
   }
 }
 
-@media screen and (min-width: 1100px) {
+@media (min-width: 600px) {
   body {
-    background-color: pink;
+    background-color: antiquewhite;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media (min-width: 700px) {
   body {
-    background-color: cyan;
+    background-color: green;
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media (min-width: 800px) {
+  body {
+    background-color: orange;
+  }
+}
+
+@media (min-width: 900px) {
+  body {
+    background-color: orangered;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media (min-width: 1100px) {
+  body {
+    background-color: blueviolet;
+  }
+}
+
+@media (min-width: 1200px) {
   body {
     background-color: burlywood;
   }
 }
 
-@media screen and (min-width: 1350px) {
+@media (min-width: 1300px) {
   body {
-    background-color: gold;
+    background-color: red;
   }
 }
