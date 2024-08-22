@@ -330,31 +330,57 @@ textarea::placeholder {
   }
   /* ------------head two search box and input box to find related topics--------- */
 
+  .dev-header {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  /* ------------- @media 500px hiding search box------------------- */
+
   #headTwo {
     display: flex;
     width: 690px;
-    margin-left: 5px;
     height: 40px;
     border-radius: 5px;
     border: 0.5px solid rgb(212, 206, 206);
     margin-right: 5px;
     display: none;
   }
+
   /* --------------fa icon magnifying glass------------- */
   .fa-magnifying-glass {
     font-size: 22px;
     height: 38px;
-    align-items: center;
-    vertical-align: middle;
     border-radius: 5%;
     padding: 9px 8px;
-    display: none;
   }
 
   .fa-magnifying-glass:hover {
     color: blue;
     font-size: 100;
     background-color: rgb(223, 223, 245);
+  }
+
+  /*-------------- create account button  upper right corner----------- */
+  /* --------------------queries create account---------------- */
+  #myBtn {
+    color: blue;
+    background-color: white;
+    font-weight: 900px;
+    font-size: 16px;
+    padding: 9px 18px;
+    border-radius: 5px;
+    border: 0.2px solid rgb(75, 39, 206);
+  }
+
+  #myBtn:hover {
+    background-color: red;
+    color: white;
+    border: none;
+  }
+
+  #myBtn:focus {
+    border: none;
   }
 }
 
