@@ -113,10 +113,9 @@ header {
 
 /* -------------------------button black link to new page display/ html method page--------------------------------- */
 .btn {
-  margin: auto;
   padding: 10px 20px;
   border: 2px solid gray;
-  width: 144px;
+  width: 142px;
   color: white;
   background-color: black;
   border-radius: 10px;
@@ -131,7 +130,7 @@ header {
   body {
     background-color: green;
   }
-  #headTwo {
+  #searchBox {
     display: flex;
     width: 690px;
     margin-left: 5px;
@@ -141,13 +140,14 @@ header {
     margin-right: 5px;
     display: none;
   }
-
   #magnifyingTwo {
     color: red;
     margin-left: 160px;
   }
+
   /* create button */
   #headFour {
+    margin-left: 25px;
   }
 }
 
@@ -190,6 +190,7 @@ header {
     margin-left: 360px;
   }
 }
+/* -------------------------------------------------- */
 /* ----------search box first break point---------- */
 @media (min-width: 750px) {
   body {
@@ -205,7 +206,7 @@ header {
     display: none;
   }
 
-  /* displaying break point */
+  /*-----------displaying search box break point------- */
   #searchBox {
     display: flex;
     margin-left: 10px;
@@ -213,30 +214,32 @@ header {
     border-radius: 5px;
     border: 0.5px solid rgb(212, 206, 206);
     margin-right: 5px;
-    width: 426px;
+    width: 420px;
   }
 
   /*------------- search input size--------  */
   #myInputId {
     background-color: yellow;
-    width: 368px;
+    width: 364px;
   }
 
-  /* -------------login first break point --------- */
+  /* -------------login button first break point --------- */
   #loginHeader {
     display: inline-block;
-    width: 90px;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
     background-color: blueviolet;
+    margin-left: 5px;
   }
 }
+
+/* -------------------------------------------------------------------- */
 
 @media (min-width: 800px) {
   body {
     background-color: rgb(14, 78, 68);
-  }
-  #magnifyingTwo {
-    color: red;
-    margin-left: 10px;
   }
 }
 
@@ -244,18 +247,11 @@ header {
   body {
     background-color: rgb(55, 16, 145);
   }
-  #magnifyingTwo {
-    color: red;
-    margin-left: 550px;
-  }
 }
 
 @media (min-width: 900px) {
   body {
     background-color: rgb(172, 32, 14);
-  }
-  #magnifyingTwo {
-    color: red;
   }
 }
 
@@ -310,9 +306,5 @@ header {
 @media (min-width: 1350px) {
   body {
     background-color: rgb(8, 68, 83);
-  }
-  #magnifyingTwo {
-    color: red;
-    margin-left: 1000px;
   }
 }
