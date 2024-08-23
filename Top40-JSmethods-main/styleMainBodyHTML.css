@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 /* ---------------------------------middle body container HTML document--------------------------- */
-/* ----------------------------------------------------------------------------- */
+/* --------------------------------- All Queries are indicated here -------------------------------------------- */
 
 /* -------set all margin and borders to zero------ */
 * {
@@ -129,54 +129,190 @@ header {
 /* ------------------------ media queries------------------------------ */
 @media (min-width: 500px) {
   body {
-    background-color: red;
+    background-color: green;
+  }
+  #headTwo {
+    display: flex;
+    width: 690px;
+    margin-left: 5px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(212, 206, 206);
+    margin-right: 5px;
+    display: none;
+  }
+
+  #magnifyingTwo {
+    color: red;
+    margin-left: 160px;
+  }
+  /* create button */
+  #headFour {
+  }
+}
+
+@media (min-width: 550px) {
+  body {
+    background-color: blueviolet;
+  }
+  #magnifyingTwo {
+    color: red;
+    margin-left: 210px;
   }
 }
 
 @media (min-width: 600px) {
   body {
-    background-color: antiquewhite;
+    background-color: rgb(43, 226, 134);
+  }
+  #magnifyingTwo {
+    color: red;
+    margin-left: 260px;
+  }
+}
+
+@media (min-width: 650px) {
+  body {
+    background-color: blueviolet;
+  }
+  #magnifyingTwo {
+    color: red;
+    margin-left: 310px;
   }
 }
 
 @media (min-width: 700px) {
   body {
-    background-color: green;
+    background-color: rgb(13, 194, 83);
+  }
+  #magnifyingTwo {
+    color: red;
+    margin-left: 360px;
+  }
+}
+/* ----------search box first break point---------- */
+@media (min-width: 750px) {
+  body {
+    background-color: blue;
+  }
+  #burgerMenu {
+    display: none;
+  }
+
+  #magnifyingTwo {
+    color: red;
+    margin-left: 10px;
+    display: none;
+  }
+
+  /* displaying break point */
+  #searchBox {
+    display: flex;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(212, 206, 206);
+    margin-right: 5px;
+    width: 426px;
+  }
+
+  /*------------- search input size--------  */
+  #myInputId {
+    background-color: yellow;
+    width: 368px;
+  }
+
+  /* -------------login first break point --------- */
+  #loginHeader {
+    display: inline-block;
+    width: 90px;
+    background-color: blueviolet;
   }
 }
 
 @media (min-width: 800px) {
   body {
-    background-color: orange;
+    background-color: rgb(14, 78, 68);
+  }
+  #magnifyingTwo {
+    color: red;
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 850px) {
+  body {
+    background-color: rgb(55, 16, 145);
+  }
+  #magnifyingTwo {
+    color: red;
+    margin-left: 550px;
   }
 }
 
 @media (min-width: 900px) {
   body {
-    background-color: orangered;
+    background-color: rgb(172, 32, 14);
+  }
+  #magnifyingTwo {
+    color: red;
+  }
+}
+
+@media (min-width: 950px) {
+  body {
+    background-color: rgb(141, 10, 91);
   }
 }
 
 @media (min-width: 1000px) {
   body {
-    background-color: blue;
+    background-color: brown;
+  }
+}
+
+@media (min-width: 1050px) {
+  body {
+    background-color: rgb(78, 14, 161);
   }
 }
 
 @media (min-width: 1100px) {
   body {
-    background-color: blueviolet;
+    background-color: rgb(16, 102, 91);
+  }
+}
+
+@media (min-width: 1150px) {
+  body {
+    background-color: rgb(223, 108, 31);
   }
 }
 
 @media (min-width: 1200px) {
   body {
-    background-color: burlywood;
+    background-color: rgb(165, 60, 18);
+  }
+}
+
+@media (min-width: 1250px) {
+  body {
+    background-color: rgb(7, 95, 26);
   }
 }
 
 @media (min-width: 1300px) {
   body {
-    background-color: red;
+    background-color: rgb(102, 6, 30);
+  }
+}
+
+@media (min-width: 1350px) {
+  body {
+    background-color: rgb(8, 68, 83);
+  }
+  #magnifyingTwo {
+    color: red;
+    margin-left: 1000px;
   }
 }

@@ -22,12 +22,13 @@
 #brand {
   background-color: black;
   color: white;
-  height: 30px;
+  height: 40px;
   font-size: 20px;
-  margin: 0 10px;
-  padding: 5px;
+  margin: 7px;
+  padding: 10px 5px;
   border-radius: 4px;
   font-family: Nunito;
+  justify-content: center;
   text-align: center;
 }
 
@@ -82,7 +83,6 @@
   display: inline-block;
   font-weight: bold;
   font-size: 16px;
-  margin-left: 6rem;
   padding: 8px 15px;
   background-color: #eee;
   border-radius: 5px;
@@ -95,7 +95,7 @@
 }
 /* ------------------create account---------- */
 #headFour {
-  margin-left: 12px;
+  margin-left: 28px;
 }
 /*-------------- create account button  upper right corner----------- */
 #myBtn {
@@ -106,7 +106,6 @@
   padding: 9px 18px;
   border-radius: 5px;
   border: 0.2px solid rgb(75, 39, 206);
-  margin-right: 5px;
 }
 
 #myBtn:hover {
@@ -124,6 +123,3 @@
   font-size: 15px;
   font-weight: bold;
 }
-
-/* ------------------------------------------------------------------- */
-/* ------------------------ media queries------------------------------ */
