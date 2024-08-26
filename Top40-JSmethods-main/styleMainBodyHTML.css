@@ -141,67 +141,299 @@ header {
     display: none;
   }
   #magnifyingTwo {
-    color: red;
-    margin-left: 160px;
+    color: hsl(0, 20%, 30%);
+    margin-left: 10rem;
+    font-size: 23px;
   }
 
-  /* create button */
+  /* --------create account button-------- */
   #headFour {
-    margin-left: 25px;
+    margin-left: 5px;
+  }
+}
+
+@media (min-width: 510px) {
+  body {
+    background-color: blueviolet;
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 10.3rem;
+  }
+}
+
+@media (min-width: 520px) {
+  body {
+    background-color: rgb(43, 226, 134);
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 10.7rem;
+  }
+}
+
+@media (min-width: 530px) {
+  body {
+    background-color: rgb(53, 145, 168);
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 11.8rem;
+  }
+}
+
+@media (min-width: 540px) {
+  body {
+    background-color: rgb(13, 25, 194);
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 12.4rem;
   }
 }
 
 @media (min-width: 550px) {
   body {
-    background-color: blueviolet;
+    background-color: rgb(19, 179, 27);
   }
   #magnifyingTwo {
-    color: red;
-    margin-left: 210px;
+    color: hsl(0, 20%, 30%);
+    margin-left: 13.2rem;
+  }
+}
+
+@media (min-width: 560px) {
+  body {
+    background-color: rgb(4, 185, 155);
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 13.9rem;
+  }
+}
+
+@media (min-width: 570px) {
+  body {
+    background-color: rgb(192, 212, 13);
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 14.3rem;
+  }
+}
+
+@media (min-width: 580px) {
+  body {
+    background-color: rgb(211, 102, 13);
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 14.9rem;
+  }
+}
+
+@media (min-width: 590px) {
+  body {
+    background-color: rgb(116, 180, 12);
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 15.4rem;
   }
 }
 
 @media (min-width: 600px) {
   body {
-    background-color: rgb(43, 226, 134);
+    background-color: rgb(15, 141, 163);
   }
   #magnifyingTwo {
-    color: red;
-    margin-left: 260px;
+    color: hsl(0, 20%, 30%);
+    margin-left: 15.9rem;
+  }
+}
+
+@media (min-width: 610px) {
+  body {
+    background-color: rgb(40, 163, 15);
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 16.6rem;
+  }
+}
+
+@media (min-width: 620px) {
+  body {
+    background-color: rgb(94, 6, 28);
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 17.1rem;
+  }
+}
+
+@media (min-width: 630px) {
+  body {
+    background-color: rgb(88, 9, 71);
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 17.5rem;
+  }
+}
+
+@media (min-width: 640px) {
+  body {
+    background-color: rgb(151, 15, 15);
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 18.2rem;
   }
 }
 
 @media (min-width: 650px) {
   body {
-    background-color: blueviolet;
+    background-color: rgb(27, 150, 11);
   }
   #magnifyingTwo {
-    color: red;
-    margin-left: 310px;
+    color: hsl(0, 20%, 30%);
+    margin-left: 19rem;
+  }
+}
+
+@media (min-width: 660px) {
+  body {
+    background-color: rgb(142, 170, 18);
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 19.4rem;
+  }
+}
+
+@media (min-width: 670px) {
+  body {
+    background-color: rgb(197, 214, 41);
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 19.8rem;
+  }
+}
+
+@media (min-width: 680px) {
+  body {
+    background-color: rgb(17, 20, 192);
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 20.3rem;
+  }
+}
+
+@media (min-width: 690px) {
+  body {
+    background-color: rgb(236, 233, 12);
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 20.9rem;
   }
 }
 
 @media (min-width: 700px) {
   body {
-    background-color: rgb(13, 194, 83);
+    background-color: rgb(63, 17, 138);
   }
   #magnifyingTwo {
-    color: red;
-    margin-left: 360px;
+    color: hsl(0, 20%, 30%);
+    margin-left: 21.2rem;
   }
 }
-/* -------------------------------------------------- */
-/* ----------search box first break point---------- */
+
+@media (min-width: 710px) {
+  body {
+    background-color: rgb(143, 199, 13);
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 22.4rem;
+  }
+}
+
+@media (min-width: 710px) {
+  body {
+    background-color: rgb(52, 19, 95);
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 22.2rem;
+  }
+}
+
+@media (min-width: 720px) {
+  body {
+    background-color: rgb(7, 161, 66);
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 22.8rem;
+  }
+}
+
+@media (min-width: 730px) {
+  body {
+    background-color: rgb(161, 7, 97);
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 23.4rem;
+  }
+}
+
+@media (min-width: 740px) {
+  body {
+    background-color: rgb(16, 131, 121);
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 24rem;
+  }
+}
+
 @media (min-width: 750px) {
   body {
-    background-color: blue;
+    background-color: rgb(37, 16, 131);
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 24rem;
+  }
+}
+
+@media (min-width: 750px) {
+  body {
+    background-color: rgb(96, 12, 231);
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 24.9rem;
+  }
+}
+
+/* -------------------------------------------------- */
+/* ----------search box first break point---------- */
+@media (min-width: 780px) {
+  body {
+    background-color: rgb(148, 21, 95);
   }
   #burgerMenu {
     display: none;
   }
 
   #magnifyingTwo {
-    color: red;
+    color: hsl(0, 20%, 30%);
     margin-left: 10px;
     display: none;
   }
