@@ -414,7 +414,17 @@ header {
 
 @media (min-width: 750px) {
   body {
-    background-color: rgb(96, 12, 231);
+    background-color: rgb(159, 24, 238);
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 24.2rem;
+  }
+}
+
+@media (min-width: 760px) {
+  body {
+    background-color: rgb(218, 221, 15);
   }
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
@@ -422,11 +432,83 @@ header {
   }
 }
 
+/* ------------------change break preview------------ */
+/* --------------------------------------------------- */
+
+@media (min-width: 770px) {
+  body {
+    background-color: rgb(161, 151, 8);
+  }
+  #burgerMenu {
+    display: none;
+  }
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    display: none;
+  }
+
+  /* ---------Login button change width break point------- */
+  #loginHeader {
+    display: inline;
+    margin-left: 13.4rem;
+  }
+
+  /*-----------displaying search box break point------- */
+  #searchBox {
+    display: flex;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(212, 206, 206);
+    margin-right: 5px;
+    width: 200px;
+  }
+  #myInputId {
+    background-color: red;
+    width: 389px;
+  }
+
+  @media (min-width: 780px) {
+    body {
+      background-color: rgb(29, 15, 105);
+    }
+    #burgerMenu {
+      display: none;
+    }
+    #magnifyingTwo {
+      color: hsl(0, 20%, 30%);
+      display: none;
+    }
+
+    /* ---------Login button change width break point------- */
+    #loginHeader {
+      display: inline;
+      margin-left: 13.4rem;
+      background-color: blue;
+    }
+
+    /*-----------displaying search box break point------- */
+    #searchBox {
+      display: flex;
+      margin-left: 10px;
+      height: 40px;
+      border-radius: 5px;
+      border: 0.5px solid rgb(212, 206, 206);
+      margin-right: 5px;
+      width: 200px;
+    }
+    #myInputId {
+      background-color: red;
+      width: 389px;
+    }
+  }
+}
+
 /* -------------------------------------------------- */
 /* ----------search box first break point---------- */
-@media (min-width: 780px) {
+@media (min-width: 790px) {
   body {
-    background-color: rgb(148, 21, 95);
+    background-color: orange;
   }
   #burgerMenu {
     display: none;
@@ -438,7 +520,7 @@ header {
     display: none;
   }
 
-  /*-----------displaying search box break point------- */
+  /*-----------find related posts displaying search box break point------- */
   #searchBox {
     display: flex;
     margin-left: 10px;
@@ -446,97 +528,70 @@ header {
     border-radius: 5px;
     border: 0.5px solid rgb(212, 206, 206);
     margin-right: 5px;
-    width: 420px;
+    width: 450px;
   }
 
   /*------------- search input size--------  */
   #myInputId {
-    background-color: yellow;
-    width: 364px;
+    background-color: rgb(76, 0, 255);
+    width: 410px;
   }
 
-  /* -------------login button first break point --------- */
+  /* -------------Log-in login button first break point --------- */
   #loginHeader {
     display: inline-block;
     width: 80px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 15px;
-    background-color: blueviolet;
-    margin-left: 5px;
+    margin-left: 15px;
+  }
+}
+
+/* -------------------------------------------------- */
+/* ----------search box first break point---------- */
+@media (min-width: 800px) {
+  body {
+    background-color: orange;
+  }
+  #burgerMenu {
+    display: none;
+  }
+
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 10px;
+    display: none;
+  }
+
+  /*-----------find related posts displaying search box break point------- */
+  #searchBox {
+    display: flex;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(212, 206, 206);
+    margin-right: 5px;
+    width: 475px;
+  }
+
+  /*------------- search input size--------  */
+  #myInputId {
+    background-color: rgb(76, 0, 255);
+    width: 440px;
+    border-radius: 5px;
+  }
+
+  /* -------------Log-in login button first break point --------- */
+  #loginHeader {
+    display: inline-block;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 15px;
   }
 }
 
 /* -------------------------------------------------------------------- */
-
-@media (min-width: 800px) {
-  body {
-    background-color: rgb(14, 78, 68);
-  }
-}
-
-@media (min-width: 850px) {
-  body {
-    background-color: rgb(55, 16, 145);
-  }
-}
-
-@media (min-width: 900px) {
-  body {
-    background-color: rgb(172, 32, 14);
-  }
-}
-
-@media (min-width: 950px) {
-  body {
-    background-color: rgb(141, 10, 91);
-  }
-}
-
-@media (min-width: 1000px) {
-  body {
-    background-color: brown;
-  }
-}
-
-@media (min-width: 1050px) {
-  body {
-    background-color: rgb(78, 14, 161);
-  }
-}
-
-@media (min-width: 1100px) {
-  body {
-    background-color: rgb(16, 102, 91);
-  }
-}
-
-@media (min-width: 1150px) {
-  body {
-    background-color: rgb(223, 108, 31);
-  }
-}
-
-@media (min-width: 1200px) {
-  body {
-    background-color: rgb(165, 60, 18);
-  }
-}
-
-@media (min-width: 1250px) {
-  body {
-    background-color: rgb(7, 95, 26);
-  }
-}
-
-@media (min-width: 1300px) {
-  body {
-    background-color: rgb(102, 6, 30);
-  }
-}
-
-@media (min-width: 1350px) {
-  body {
-    background-color: rgb(8, 68, 83);
-  }
-}
+/* ---------------------------------------------------------------- */
