@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 /* ---------------------------------middle body container HTML document--------------------------- */
@@ -38,7 +37,6 @@ header {
 }
 
 /* ----------------creators name inside the color black square box header------------------------- */
-
 #signatories {
   color: yellow;
   font-size: 15px;
@@ -176,6 +174,7 @@ header {
   body {
     background-color: rgb(53, 145, 168);
   }
+
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
     margin-left: 11.8rem;
@@ -214,7 +213,7 @@ header {
 
 @media (min-width: 570px) {
   body {
-    background-color: rgb(192, 212, 13);
+    background-color: rgb(117, 6, 84);
   }
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
@@ -304,7 +303,7 @@ header {
 
 @media (min-width: 660px) {
   body {
-    background-color: rgb(142, 170, 18);
+    background-color: #dd1b1b;
   }
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
@@ -334,7 +333,7 @@ header {
 
 @media (min-width: 690px) {
   body {
-    background-color: rgb(236, 233, 12);
+    background-color: orange;
   }
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
@@ -424,7 +423,7 @@ header {
 
 @media (min-width: 760px) {
   body {
-    background-color: rgb(218, 221, 15);
+    background-color: rgb(7, 143, 14);
   }
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
@@ -437,7 +436,7 @@ header {
 
 @media (min-width: 770px) {
   body {
-    background-color: rgb(161, 151, 8);
+    background-color: rgb(12, 105, 133);
   }
   #burgerMenu {
     display: none;
@@ -446,13 +445,11 @@ header {
     color: hsl(0, 20%, 30%);
     display: none;
   }
-
   /* ---------Login button change width break point------- */
   #loginHeader {
     display: inline;
-    margin-left: 13.4rem;
+    margin-left: 10px;
   }
-
   /*-----------displaying search box break point------- */
   #searchBox {
     display: flex;
@@ -461,10 +458,10 @@ header {
     border-radius: 5px;
     border: 0.5px solid rgb(212, 206, 206);
     margin-right: 5px;
-    width: 200px;
+    width: 430px;
   }
+
   #myInputId {
-    background-color: red;
     width: 389px;
   }
 
@@ -483,7 +480,6 @@ header {
     /* ---------Login button change width break point------- */
     #loginHeader {
       display: inline;
-      margin-left: 13.4rem;
     }
 
     /*-----------displaying search box break point------- */
@@ -496,6 +492,7 @@ header {
       margin-right: 5px;
       width: 200px;
     }
+
     #myInputId {
       width: 389px;
     }
@@ -708,7 +705,6 @@ header {
   #myInputId {
     width: 450px;
     border-radius: 5px;
-    background-color: blue;
   }
 
   /* -------------Log-in login button first break point --------- */
