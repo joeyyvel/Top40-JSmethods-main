@@ -484,7 +484,6 @@ header {
     #loginHeader {
       display: inline;
       margin-left: 13.4rem;
-      background-color: blue;
     }
 
     /*-----------displaying search box break point------- */
@@ -498,7 +497,6 @@ header {
       width: 200px;
     }
     #myInputId {
-      background-color: red;
       width: 389px;
     }
   }
@@ -508,7 +506,7 @@ header {
 /* ----------search box first break point---------- */
 @media (min-width: 790px) {
   body {
-    background-color: orange;
+    background-color: blue;
   }
   #burgerMenu {
     display: none;
@@ -533,7 +531,6 @@ header {
 
   /*------------- search input size--------  */
   #myInputId {
-    background-color: rgb(76, 0, 255);
     width: 410px;
   }
 
@@ -551,6 +548,94 @@ header {
 /* -------------------------------------------------- */
 /* ----------search box first break point---------- */
 @media (min-width: 800px) {
+  body {
+    background-color: red;
+  }
+  #burgerMenu {
+    display: none;
+  }
+
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 10px;
+    display: none;
+  }
+
+  /*-----------find related posts displaying search box break point------- */
+  #searchBox {
+    display: flex;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(212, 206, 206);
+    margin-right: 5px;
+    width: 450px;
+  }
+
+  /*------------- search input size--------  */
+  #myInputId {
+    width: 420px;
+    border-radius: 5px;
+  }
+
+  /* -------------Log-in login button first break point --------- */
+  #loginHeader {
+    display: inline-block;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 15px;
+  }
+}
+
+/* -------------------------------------------------- */
+/* ----------search box first break point---------- */
+@media (min-width: 810px) {
+  body {
+    background-color: blue;
+  }
+  #burgerMenu {
+    display: none;
+  }
+
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 10px;
+    display: none;
+  }
+
+  /*-----------find related posts displaying search box break point------- */
+  #searchBox {
+    display: flex;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(212, 206, 206);
+    margin-right: 5px;
+    width: 450px;
+  }
+
+  /*------------- search input size--------  */
+  #myInputId {
+    width: 430px;
+    border-radius: 5px;
+  }
+
+  /* -------------Log-in login button first break point --------- */
+  #loginHeader {
+    display: inline-block;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 20px;
+  }
+}
+
+/* -------------------------------------------------- */
+/* ----------search box first break point---------- */
+@media (min-width: 820px) {
   body {
     background-color: orange;
   }
@@ -572,12 +657,11 @@ header {
     border-radius: 5px;
     border: 0.5px solid rgb(212, 206, 206);
     margin-right: 5px;
-    width: 475px;
+    width: 200px;
   }
 
   /*------------- search input size--------  */
   #myInputId {
-    background-color: rgb(76, 0, 255);
     width: 440px;
     border-radius: 5px;
   }
@@ -589,7 +673,536 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 15px;
-    margin-left: 15px;
+    margin-left: 290px;
+  }
+}
+
+/* -------------------------------------------------- */
+/* ----------search box first break point---------- */
+@media (min-width: 830px) {
+  body {
+    background-color: green;
+  }
+  #burgerMenu {
+    display: none;
+  }
+
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 10px;
+    display: none;
+  }
+
+  /*-----------find related posts displaying search box break point------- */
+  #searchBox {
+    display: flex;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(212, 206, 206);
+    margin-right: 5px;
+    width: 480px;
+  }
+
+  /*------------- search input size--------  */
+  #myInputId {
+    width: 450px;
+    border-radius: 5px;
+    background-color: blue;
+  }
+
+  /* -------------Log-in login button first break point --------- */
+  #loginHeader {
+    display: inline-block;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 5px;
+  }
+}
+
+/* -------------------------------------------------- */
+/* ----------search box first break point---------- */
+@media (min-width: 840px) {
+  body {
+    background-color: red;
+  }
+  #burgerMenu {
+    display: none;
+  }
+
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 10px;
+    display: none;
+  }
+
+  /*-----------find related posts displaying search box break point------- */
+  #searchBox {
+    display: flex;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(212, 206, 206);
+    margin-right: 5px;
+    width: 400px;
+  }
+
+  /*------------- search input size--------  */
+  #myInputId {
+    width: 460px;
+    border-radius: 5px;
+  }
+
+  /* -------------Log-in login button first break point --------- */
+  #loginHeader {
+    display: inline-block;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 110px;
+  }
+}
+
+/* -------------------------------------------------- */
+/* ----------search box first break point---------- */
+@media (min-width: 850px) {
+  body {
+    background-color: blue;
+  }
+  #burgerMenu {
+    display: none;
+  }
+
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 10px;
+    display: none;
+  }
+
+  /*-----------find related posts displaying search box break point------- */
+  #searchBox {
+    display: flex;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(212, 206, 206);
+    margin-right: 5px;
+    width: 500px;
+  }
+
+  /*------------- search input size--------  */
+  #myInputId {
+    width: 470px;
+    border-radius: 5px;
+  }
+
+  /* -------------Log-in login button first break point --------- */
+  #loginHeader {
+    display: inline-block;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 17px;
+  }
+}
+
+/* -------------------------------------------------- */
+/* ----------search box first break point---------- */
+@media (min-width: 860px) {
+  body {
+    background-color: yellow;
+  }
+  #burgerMenu {
+    display: none;
+  }
+
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 10px;
+    display: none;
+  }
+
+  /*-----------find related posts displaying search box break point------- */
+  #searchBox {
+    display: flex;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(212, 206, 206);
+    margin-right: 5px;
+    width: 500px;
+  }
+
+  /*------------- search input size--------  */
+  #myInputId {
+    width: 480px;
+    border-radius: 5px;
+  }
+
+  /* -------------Log-in login button first break point --------- */
+  #loginHeader {
+    display: inline-block;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 30px;
+  }
+}
+
+/* -------------------------------------------------- */
+/* ----------search box first break point---------- */
+@media (min-width: 870px) {
+  body {
+    background-color: orange;
+  }
+  #burgerMenu {
+    display: none;
+  }
+
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 10px;
+    display: none;
+  }
+
+  /*-----------find related posts displaying search box break point------- */
+  #searchBox {
+    display: flex;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(212, 206, 206);
+    margin-right: 5px;
+    width: 500px;
+  }
+
+  /*------------- search input size--------  */
+  #myInputId {
+    width: 480px;
+    border-radius: 5px;
+  }
+
+  /* -------------Log-in login button first break point --------- */
+  #loginHeader {
+    display: inline-block;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 25px;
+  }
+}
+
+/* -------------------------------------------------- */
+/* ----------search box first break point---------- */
+@media (min-width: 880px) {
+  body {
+    background-color: blue;
+  }
+  #burgerMenu {
+    display: none;
+  }
+
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 10px;
+    display: none;
+  }
+
+  /*-----------find related posts displaying search box break point------- */
+  #searchBox {
+    display: flex;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(212, 206, 206);
+    margin-right: 5px;
+    width: 500px;
+  }
+
+  /*------------- search input size--------  */
+  #myInputId {
+    width: 490px;
+    border-radius: 5px;
+  }
+
+  /* -------------Log-in login button first break point --------- */
+  #loginHeader {
+    display: inline-block;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 40px;
+  }
+}
+
+/* -------------------------------------------------- */
+/* ----------search box first break point---------- */
+@media (min-width: 890px) {
+  body {
+    background-color: red;
+  }
+  #burgerMenu {
+    display: none;
+  }
+
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 10px;
+    display: none;
+  }
+
+  /*-----------find related posts displaying search box break point------- */
+  #searchBox {
+    display: flex;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(212, 206, 206);
+    margin-right: 5px;
+    width: 500px;
+  }
+
+  /*------------- search input size--------  */
+  #myInputId {
+    width: 500px;
+    border-radius: 5px;
+  }
+
+  /* -------------Log-in login button first break point --------- */
+  #loginHeader {
+    display: inline-block;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 45px;
+  }
+}
+
+/* -------------------------------------------------- */
+/* ----------search box first break point---------- */
+@media (min-width: 900px) {
+  body {
+    background-color: red;
+  }
+  #burgerMenu {
+    display: none;
+  }
+
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 10px;
+    display: none;
+  }
+
+  /*-----------find related posts displaying search box break point------- */
+  #searchBox {
+    display: flex;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(212, 206, 206);
+    margin-right: 5px;
+    width: 500px;
+  }
+
+  /*------------- search input size--------  */
+  #myInputId {
+    width: 520px;
+    border-radius: 5px;
+  }
+
+  /* -------------Log-in login button first break point --------- */
+  #loginHeader {
+    display: inline-block;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 65px;
+  }
+}
+
+/* -------------------------------------------------- */
+/* ----------search box first break point---------- */
+@media (min-width: 910px) {
+  body {
+    background-color: blue;
+  }
+  #burgerMenu {
+    display: none;
+  }
+
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 10px;
+    display: none;
+  }
+
+  /*-----------find related posts displaying search box break point------- */
+  #searchBox {
+    display: flex;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(212, 206, 206);
+    margin-right: 5px;
+    width: 500px;
+  }
+
+  /*------------- search input size--------  */
+  #myInputId {
+    width: 520px;
+    border-radius: 5px;
+  }
+
+  /* -------------Log-in login button first break point --------- */
+  #loginHeader {
+    display: inline-block;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 65px;
+  }
+}
+
+/* -------------------------------------------------- */
+/* ----------search box first break point---------- */
+@media (min-width: 920px) {
+  body {
+    background-color: blue;
+  }
+  #burgerMenu {
+    display: none;
+  }
+
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 10px;
+    display: none;
+  }
+
+  /*-----------find related posts displaying search box break point------- */
+  #searchBox {
+    display: flex;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(212, 206, 206);
+    margin-right: 5px;
+    width: 450px;
+  }
+
+  /*------------- search input size--------  */
+  #myInputId {
+    width: 540px;
+    border-radius: 5px;
+  }
+
+  /* -------------Log-in login button first break point --------- */
+  #loginHeader {
+    display: inline-block;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 140px;
+  }
+}
+
+/* -------------------------------------------------- */
+/* ----------search box first break point---------- */
+@media (min-width: 930px) {
+  body {
+    background-color: orange;
+  }
+  #burgerMenu {
+    display: none;
+  }
+
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 10px;
+    display: none;
+  }
+
+  /*-----------find related posts displaying search box break point------- */
+  #searchBox {
+    display: flex;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(212, 206, 206);
+    margin-right: 5px;
+    width: 545px;
+  }
+
+  /*------------- search input size--------  */
+  #myInputId {
+    width: 545px;
+    border-radius: 5px;
+  }
+
+  /* -------------Log-in login button first break point --------- */
+  #loginHeader {
+    display: inline-block;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 60px;
+  }
+}
+
+/* -------------------------------------------------- */
+/* ----------search box first break point---------- */
+@media (min-width: 940px) {
+  body {
+    background-color: red;
+  }
+  #burgerMenu {
+    display: none;
+  }
+
+  #magnifyingTwo {
+    color: hsl(0, 20%, 30%);
+    margin-left: 10px;
+    display: none;
+  }
+
+  /*-----------find related posts displaying search box break point------- */
+  #searchBox {
+    display: flex;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(212, 206, 206);
+    margin-right: 5px;
+    width: 545px;
+  }
+
+  /*------------- search input size--------  */
+  #myInputId {
+    width: 545px;
+    border-radius: 5px;
+  }
+
+  /* -------------Log-in login button first break point --------- */
+  #loginHeader {
+    display: inline-block;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 55px;
   }
 }
 
