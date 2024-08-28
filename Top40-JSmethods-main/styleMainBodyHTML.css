@@ -12,7 +12,7 @@
   font-family: Nunito;
   font-size: 18px;
 }
-
+/* ------------------- image-------------------- */
 header {
   width: 96%;
   height: 415px;
@@ -128,16 +128,43 @@ header {
   body {
     background-color: green;
   }
-
-  /* --------- adjusting image size to fix the header section----------- */
-  header {
+  /* -----------------------main body of the content------------------- */
+  .main-content {
     width: 100%;
-    height: 260px;
-    background-image: url("./image/myPicture.jpg ");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: auto;
+  }
+
+  /* --------------- creator name---------------  */
+  #signatories {
+    color: yellow;
+    font-size: 10px;
+    margin-top: -75px;
+    text-align: center;
+    width: 30%;
+    margin-left: 10px;
+    position: relative;
+    top: 7.6rem;
+    font-weight: bold;
+    z-index: 5;
+  }
+
+  /* ----------------Title of the project--------- */
+  #projectTitle {
+    text-align: center;
+    width: 70%;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    top: 9rem;
+    margin-left: -3rem;
+    z-index: 5;
+  }
+
+  /* --------- adjusting image size on 500px break point----------- */
+  header {
+    background-image: url("./image/myPicture.jpg");
+    width: 500px;
+    height: 264px;
   }
 
   #searchBox {

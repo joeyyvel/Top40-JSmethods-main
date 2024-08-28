@@ -17,6 +17,7 @@ html {
   align-content: space-around;
   margin-bottom: 10px;
   padding-bottom: 10px;
+  border: 3px solid black;
 }
 
 /* ----------------------------Temporary left container freeze--------- */
@@ -71,6 +72,7 @@ html {
 
 .main-content {
   width: 70%;
+  background-color: orange;
 }
 
 /* ------------------------------------Right Menu-------------------------------------- */
