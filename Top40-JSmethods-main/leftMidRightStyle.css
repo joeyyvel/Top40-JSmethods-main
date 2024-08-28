@@ -82,7 +82,7 @@ html {
   margin-top: 60px;
 }
 
-/* ------------Inserted in between the main content and foot div/  Join DEV before comments section-------------------- */
+/* ------------Inserted section / inserted div in between the main content and foot div/  Join DEV before comments section-------------------- */
 .inserted {
   margin-top: 50px;
   border: 0.2px solid rgb(214, 213, 213);
@@ -91,7 +91,7 @@ html {
   border-radius: 5px;
   padding: 20px;
 }
-/* -------------Okey let's go button styling---------------------- */
+/* -------------Oke'y let's go button styling---------------------- */
 /* parent element of input */
 
 .parentElement {
