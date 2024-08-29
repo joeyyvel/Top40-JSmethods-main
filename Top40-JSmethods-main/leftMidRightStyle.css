@@ -23,21 +23,21 @@ html {
   align-content: space-around;
   margin-bottom: 10px;
   padding-bottom: 10px;
-  border: 3px solid black;
 }
 
-/* ----------------------------Temporary left container freeze--------- */
-
+/*----------------------------Temporary left container freeze--------- */
+/* 
 .left-menu {
   background-color: yellow;
-  width: 6.4%;
+  width: 5%;
   top: 60px;
   padding-top: 50px;
   text-align: center;
   margin-top: 60px;
 
-  /* position: fixed; */
-}
+ position: fixed; 
+ 
+ */
 
 /* ---------------------------------Left Menu Icon----------------------------- */
 /* ---------------------------------------------------------------------------- */

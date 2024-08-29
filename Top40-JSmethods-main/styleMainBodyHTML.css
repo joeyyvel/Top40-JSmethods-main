@@ -2726,7 +2726,7 @@
 
 @media (min-width: 1180px) {
   body {
-    background-color: rgb(18, 132, 167);
+    background-color: orangered;
   }
   #burgerMenu {
     display: none;
@@ -2753,6 +2753,10 @@
   #myInputId {
     width: 640px;
     border-radius: 5px;
+  }
+
+  .left-menu {
+    width: 9.2%;
   }
 
   /* -------------Log-in login button first break point --------- */
@@ -2814,7 +2818,7 @@
 /* ----------search box first break point---------- */
 @media (min-width: 1200px) {
   body {
-    background-color: blue;
+    background-color: orange;
   }
   #burgerMenu {
     display: none;
@@ -2851,6 +2855,9 @@
     font-weight: 400;
     font-size: 15px;
     margin-left: 10rem;
+  }
+  .left-menu {
+    width: 9%;
   }
 }
 
@@ -2938,7 +2945,7 @@
 /* ----------search box first break point---------- */
 @media (min-width: 1240px) {
   body {
-    background-color: rgb(32, 5, 54);
+    background-color: orange;
   }
   #burgerMenu {
     display: none;
@@ -2976,13 +2983,16 @@
     font-size: 15px;
     margin-left: 12rem;
   }
+  .left-menu {
+    width: 9%;
+  }
 }
 
 /* -------------------------------------------------- */
 /* ----------search box first break point---------- */
 @media (min-width: 1260px) {
   body {
-    background-color: rgb(218, 15, 208);
+    background-color: yellow;
   }
   #burgerMenu {
     display: none;
@@ -3020,13 +3030,17 @@
     font-size: 15px;
     margin-left: 11rem;
   }
+  /* -------------------left menu----------- */
+  .left-menu {
+    width: 8.6%;
+  }
 }
 
 /* -------------------------------------------------- */
 /* ----------search box first break point---------- */
 @media (min-width: 1280px) {
   body {
-    background-color: blue;
+    background-color: orangered;
   }
   #burgerMenu {
     display: none;
@@ -3105,7 +3119,7 @@
 /* ----------search box first break point---------- */
 @media (min-width: 1300px) {
   body {
-    background-color: orange;
+    background-color: blue;
   }
   #burgerMenu {
     display: none;
@@ -3143,13 +3157,17 @@
     font-size: 15px;
     margin-left: 16rem;
   }
+
+  .left-menu {
+    width: 8.3%;
+  }
 }
 
 /* -------------------------------------------------- */
 /* ----------search box first break point---------- */
 @media (min-width: 1320px) {
   body {
-    background-color: green;
+    background-color: yellow;
   }
   #burgerMenu {
     display: none;
@@ -3222,5 +3240,8 @@
     top: -170px;
     text-align: left;
     z-index: 5;
+  }
+  .left-menu {
+    width: 7.6%;
   }
 }
