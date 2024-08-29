@@ -1893,7 +1893,7 @@
 /* ----------search box first break point---------- */
 @media (min-width: 1020px) {
   body {
-    background-color: blue;
+    background-color: green;
   }
   #burgerMenu {
     display: none;
@@ -1941,7 +1941,7 @@
   /* ----------------------------  image break point  ----------------- */
   .responsive {
     margin-top: 65px;
-    height: 382px;
+    height: 260px;
     border-radius: 7px 7px 0 0;
   }
 
@@ -1962,8 +1962,7 @@
   /* ------------------------------------------------------------------------------------ */
 
   .right-menu {
-    /* background-color: #f5f5f5; */
-    background-color: orange;
+    background-color: #f5f5f5;
     width: 30%;
     margin-top: 65px;
     display: block;
@@ -2065,7 +2064,7 @@
 /* ----------search box first break point---------- */
 @media (min-width: 1050px) {
   body {
-    background-color: orange;
+    background-color: rgb(84, 9, 146);
   }
   #burgerMenu {
     display: none;
@@ -2153,7 +2152,7 @@
 /* ----------search box first break point---------- */
 @media (min-width: 1070px) {
   body {
-    background-color: orange;
+    background-color: green;
   }
   #burgerMenu {
     display: none;
@@ -2182,6 +2181,13 @@
     border-radius: 5px;
   }
 
+  /* ----------------------------  image break point  ----------------- */
+  .responsive {
+    margin-top: 65px;
+    height: 273px;
+    border-radius: 7px 7px 0 0;
+  }
+
   /* -------------Log-in login button first break point --------- */
   #loginHeader {
     display: inline-block;
@@ -2190,6 +2196,35 @@
     font-weight: 400;
     font-size: 15px;
     margin-left: 20px;
+  }
+
+  /* --------- @2024JOEYSAYADI--------------------- */
+  #signatories {
+    color: yellow;
+    font-size: 10px;
+    margin-top: -399px;
+    text-align: center;
+    width: 30%;
+    margin-left: -5px;
+    position: relative;
+    top: 8rem;
+    font-weight: bold;
+    z-index: 5;
+  }
+  /* -------------text inside black square header------------------------------------- */
+  /* --------------------------------------------------------------------------------- */
+  #projectTitle {
+    text-align: center;
+    width: 70%;
+    color: white;
+    font-size: 28px;
+    font-weight: bolder;
+    position: relative;
+    line-height: 1;
+    margin-left: 50px;
+    top: -145px;
+    text-align: left;
+    z-index: 5;
   }
 }
 
@@ -2285,7 +2320,7 @@
 /* ----------search box first break point---------- */
 @media (min-width: 1100px) {
   body {
-    background-color: rgb(8, 77, 109);
+    background-color: orange;
   }
   #burgerMenu {
     display: none;
@@ -2373,7 +2408,7 @@
 /* ----------search box first break point---------- */
 @media (min-width: 1120px) {
   body {
-    background-color: rgb(29, 11, 58);
+    background-color: green;
   }
   #burgerMenu {
     display: none;
@@ -2411,6 +2446,42 @@
     font-size: 15px;
     margin-left: 60px;
   }
+
+  /* ----------------------------  image break point  ----------------- */
+  .responsive {
+    margin-top: 65px;
+    height: 290px;
+    border-radius: 7px 7px 0 0;
+  }
+
+  /* --------- @2024JOEYSAYADI--------------------- */
+  #signatories {
+    color: yellow;
+    font-size: 10px;
+    margin-top: -420px;
+    text-align: center;
+    width: 30%;
+    margin-left: -5px;
+    position: relative;
+    top: 8rem;
+    font-weight: bold;
+    z-index: 5;
+  }
+  /* -------------text inside black square header------------------------------------- */
+  /* --------------------------------------------------------------------------------- */
+  #projectTitle {
+    text-align: center;
+    width: 70%;
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    position: relative;
+    line-height: 1;
+    margin-left: 50px;
+    top: -145px;
+    text-align: left;
+    z-index: 5;
+  }
 }
 
 /* -------------------------------------------------- */
@@ -2444,6 +2515,35 @@
   #myInputId {
     width: 640px;
     border-radius: 5px;
+  }
+
+  /* --------- @2024JOEYSAYADI--------------------- */
+  #signatories {
+    color: yellow;
+    font-size: 12px;
+    margin-top: -399px;
+    text-align: center;
+    width: 30%;
+    margin-left: -5px;
+    position: relative;
+    top: 8rem;
+    font-weight: bold;
+    z-index: 5;
+  }
+  /* -------------text inside black square header------------------------------------- */
+  /* --------------------------------------------------------------------------------- */
+  #projectTitle {
+    text-align: center;
+    width: 70%;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    line-height: 1;
+    margin-left: 50px;
+    top: -145px;
+    text-align: left;
+    z-index: 5;
   }
 
   /* -------------Log-in login button first break point --------- */
@@ -2549,7 +2649,7 @@
 /* ----------search box first break point---------- */
 @media (min-width: 1170px) {
   body {
-    background-color: rgb(119, 13, 218);
+    background-color: orange;
   }
   #burgerMenu {
     display: none;
@@ -2586,6 +2686,41 @@
     font-weight: 400;
     font-size: 15px;
     margin-left: 8rem;
+  }
+  /* ----------------------------  image break point  ----------------- */
+  .responsive {
+    margin-top: 65px;
+    height: 300px;
+    border-radius: 7px 7px 0 0;
+  }
+
+  /* --------- @2024JOEYSAYADI--------------------- */
+  #signatories {
+    color: yellow;
+    font-size: 12px;
+    margin-top: -430px;
+    text-align: center;
+    width: 30%;
+    margin-left: -10px;
+    position: relative;
+    top: 8rem;
+    font-weight: bold;
+    z-index: 5;
+  }
+  /* -------------text inside black square header------------------------------------- */
+  /* --------------------------------------------------------------------------------- */
+  #projectTitle {
+    text-align: center;
+    width: 70%;
+    color: white;
+    font-size: 37px;
+    font-weight: bolder;
+    position: relative;
+    line-height: 1;
+    margin-left: 50px;
+    top: -145px;
+    text-align: left;
+    z-index: 5;
   }
 }
 
@@ -2723,7 +2858,7 @@
 /* ----------search box first break point---------- */
 @media (min-width: 1220px) {
   body {
-    background-color: rgb(6, 124, 51);
+    background-color: orange;
   }
   #burgerMenu {
     display: none;
@@ -2760,6 +2895,42 @@
     font-weight: 400;
     font-size: 15px;
     margin-left: 11rem;
+  }
+
+  /* ----------------------------  image break point  ----------------- */
+  .responsive {
+    margin-top: 65px;
+    height: 315px;
+    border-radius: 7px 7px 0 0;
+  }
+
+  /* --------- @2024JOEYSAYADI--------------------- */
+  #signatories {
+    color: yellow;
+    font-size: 13px;
+    margin-top: -440px;
+    text-align: center;
+    width: 30%;
+    margin-left: -5px;
+    position: relative;
+    top: 8rem;
+    font-weight: bold;
+    z-index: 5;
+  }
+  /* -------------text inside black square header------------------------------------- */
+  /* --------------------------------------------------------------------------------- */
+  #projectTitle {
+    text-align: center;
+    width: 70%;
+    color: white;
+    font-size: 38px;
+    font-weight: bolder;
+    position: relative;
+    line-height: 1;
+    margin-left: 50px;
+    top: -145px;
+    text-align: left;
+    z-index: 5;
   }
 }
 

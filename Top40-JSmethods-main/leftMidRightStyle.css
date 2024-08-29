@@ -316,11 +316,22 @@ textarea::placeholder {
   border: 0.1px solid gray;
   margin-bottom: 2px;
   padding: 12px;
+  font-size: 15px;
+}
+
+#topicTitle {
+  font-size: 16px;
+  color: blue;
+}
+
+#topicId {
+  font-size: 14px;
+  color: gray;
 }
 
 #creatorName0 {
   font-weight: bold;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .creatorsName {
