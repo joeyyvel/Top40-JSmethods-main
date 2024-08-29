@@ -3026,7 +3026,7 @@
 /* ----------search box first break point---------- */
 @media (min-width: 1280px) {
   body {
-    background-color: rgb(128, 197, 16);
+    background-color: blue;
   }
   #burgerMenu {
     display: none;
@@ -3064,13 +3064,48 @@
     font-size: 15px;
     margin-left: 14rem;
   }
+  /* ----------------------------  image break point  ----------------- */
+  .responsive {
+    margin-top: 65px;
+    height: 340px;
+    border-radius: 7px 7px 0 0;
+  }
+
+  /* --------- @2024JOEYSAYADI--------------------- */
+  #signatories {
+    color: yellow;
+    font-size: 10px;
+    margin-top: -470px;
+    text-align: center;
+    width: 30%;
+    margin-left: -20px;
+    position: relative;
+    top: 8rem;
+    font-weight: bold;
+    z-index: 5;
+  }
+  /* -------------text inside black square header------------------------------------- */
+  /* --------------------------------------------------------------------------------- */
+  #projectTitle {
+    text-align: center;
+    width: 70%;
+    color: white;
+    font-size: 42px;
+    font-weight: bolder;
+    position: relative;
+    line-height: 1;
+    margin-left: 50px;
+    top: -170px;
+    text-align: left;
+    z-index: 5;
+  }
 }
 
 /* -------------------------------------------------- */
 /* ----------search box first break point---------- */
 @media (min-width: 1300px) {
   body {
-    background-color: rgb(93, 3, 116);
+    background-color: orange;
   }
   #burgerMenu {
     display: none;
@@ -3114,7 +3149,7 @@
 /* ----------search box first break point---------- */
 @media (min-width: 1320px) {
   body {
-    background-color: rgb(131, 4, 131);
+    background-color: green;
   }
   #burgerMenu {
     display: none;
@@ -3151,5 +3186,41 @@
     font-weight: 400;
     font-size: 15px;
     margin-left: 17rem;
+  }
+
+  /* ----------------------------  image break point  ----------------- */
+  .responsive {
+    margin-top: 65px;
+    height: 352px;
+    border-radius: 7px 7px 0 0;
+  }
+
+  /* --------- @2024JOEYSAYADI--------------------- */
+  #signatories {
+    color: yellow;
+    font-size: 14px;
+    margin-top: -490px;
+    text-align: center;
+    width: 30%;
+    margin-left: -5px;
+    position: relative;
+    top: 8rem;
+    font-weight: bold;
+    z-index: 5;
+  }
+  /* -------------text inside black square header------------------------------------- */
+  /* --------------------------------------------------------------------------------- */
+  #projectTitle {
+    text-align: center;
+    width: 70%;
+    color: white;
+    font-size: 45px;
+    font-weight: bolder;
+    position: relative;
+    line-height: 1;
+    margin-left: 50px;
+    top: -170px;
+    text-align: left;
+    z-index: 5;
   }
 }

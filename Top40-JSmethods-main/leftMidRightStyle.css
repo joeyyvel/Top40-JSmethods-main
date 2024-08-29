@@ -87,6 +87,7 @@ html {
   background-color: #f5f5f5;
   width: 30%;
   margin-top: 60px;
+  align-items: center;
 }
 
 /* ------------Inserted section / inserted div in between the main content and foot div/  Join DEV before comments section-------------------- */
@@ -234,7 +235,7 @@ textarea::placeholder {
   border-radius: 5px;
   height: 450px;
   margin: 10px;
-  width: 270px;
+  width: auto;
   background-color: #ffffff;
 }
 
