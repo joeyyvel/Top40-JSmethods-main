@@ -228,13 +228,14 @@ textarea::placeholder {
 }
 
 /*---------------------------Begin of Right Menu content-----------  */
-
+/* ------------------------------------------------------------------ */
 .toCreator-page {
   border: 0.2px solid rgb(206, 202, 202);
   border-radius: 5px;
   height: 450px;
   margin: 10px;
-  background-color: white;
+  width: 270px;
+  background-color: #ffffff;
 }
 
 /* -------black padding on top of creators picture */

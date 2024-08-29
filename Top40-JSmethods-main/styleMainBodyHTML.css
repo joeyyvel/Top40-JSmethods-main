@@ -12,7 +12,7 @@
   font-family: Nunito;
   font-size: 18px;
 }
-/* ------------------- image-------------------- */
+/* -------------------back ground image-------------------- */
 .responsive {
   width: 100%;
   height: auto;
@@ -130,7 +130,7 @@
 
   /* --------- adjusting image size on 500px break point----------- */
   .responsive {
-    height: 260px;
+    height: 255px;
   }
   /* --------- @2024JOEYSAYADI--------------------- */
   #signatories {
@@ -212,6 +212,39 @@
     color: hsl(0, 20%, 30%);
     margin-left: 10.3rem;
   }
+
+  /* --------- adjusting image size on 500px break point----------- */
+  .responsive {
+    height: 265px;
+  }
+  /* --------- @2024JOEYSAYADI--------------------- */
+  #signatories {
+    color: yellow;
+    font-size: 10px;
+    margin-top: -340px;
+    text-align: center;
+    width: 30%;
+    margin-left: -5px;
+    position: relative;
+    top: 7.6rem;
+    font-weight: bold;
+    z-index: 5;
+  }
+  /* -------------text inside black square header------------------------------------- */
+  /* --------------------------------------------------------------------------------- */
+  #projectTitle {
+    text-align: center;
+    width: 70%;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    line-height: 1;
+    margin-left: 20px;
+    top: -100px;
+    text-align: left;
+    z-index: 5;
+  }
 }
 
 @media (min-width: 520px) {
@@ -226,12 +259,45 @@
 
 @media (min-width: 530px) {
   body {
-    background-color: rgb(53, 145, 168);
+    background-color: red;
   }
 
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
     margin-left: 11.8rem;
+  }
+
+  /* --------- adjusting image size on 500px break point----------- */
+  .responsive {
+    height: 270px;
+  }
+  /* --------- @2024JOEYSAYADI--------------------- */
+  #signatories {
+    color: yellow;
+    font-size: 10px;
+    margin-top: -340px;
+    text-align: center;
+    width: 30%;
+    margin-left: -5px;
+    position: relative;
+    top: 7.6rem;
+    font-weight: bold;
+    z-index: 5;
+  }
+  /* -------------text inside black square header------------------------------------- */
+  /* --------------------------------------------------------------------------------- */
+  #projectTitle {
+    text-align: center;
+    width: 70%;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    line-height: 1;
+    margin-left: 20px;
+    top: -100px;
+    text-align: left;
+    z-index: 5;
   }
 }
 
@@ -247,11 +313,44 @@
 
 @media (min-width: 550px) {
   body {
-    background-color: rgb(19, 179, 27);
+    background-color: brown;
   }
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
     margin-left: 13.2rem;
+  }
+
+  /* --------- adjusting image size on 500px break point----------- */
+  .responsive {
+    height: 278px;
+  }
+  /* --------- @2024JOEYSAYADI--------------------- */
+  #signatories {
+    color: yellow;
+    font-size: 11px;
+    margin-top: -340px;
+    text-align: center;
+    width: 30%;
+    margin-left: -5px;
+    position: relative;
+    top: 7.6rem;
+    font-weight: bold;
+    z-index: 5;
+  }
+  /* -------------text inside black square header------------------------------------- */
+  /* --------------------------------------------------------------------------------- */
+  #projectTitle {
+    text-align: center;
+    width: 70%;
+    color: white;
+    font-size: 28px;
+    font-weight: bolder;
+    position: relative;
+    line-height: 1;
+    margin-left: 20px;
+    top: -100px;
+    text-align: left;
+    z-index: 5;
   }
 }
 
@@ -287,11 +386,44 @@
 
 @media (min-width: 590px) {
   body {
-    background-color: blue;
+    background-color: orange;
   }
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
     margin-left: 15.4rem;
+  }
+
+  /* --------- adjusting image size on 500px break point----------- */
+  .responsive {
+    height: 297px;
+  }
+  /* --------- @2024JOEYSAYADI--------------------- */
+  #signatories {
+    color: yellow;
+    font-size: 10px;
+    margin-top: -350px;
+    text-align: center;
+    width: 30%;
+    margin-left: -5px;
+    position: relative;
+    top: 7.6rem;
+    font-weight: bold;
+    z-index: 5;
+  }
+  /* -------------text inside black square header------------------------------------- */
+  /* --------------------------------------------------------------------------------- */
+  #projectTitle {
+    text-align: center;
+    width: 70%;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    line-height: 1;
+    margin-left: 35px;
+    top: -115px;
+    text-align: left;
+    z-index: 5;
   }
 }
 
@@ -337,11 +469,44 @@
 
 @media (min-width: 640px) {
   body {
-    background-color: rgb(151, 15, 15);
+    background-color: blue;
   }
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
     margin-left: 18.2rem;
+  }
+
+  /* --------- adjusting image size on 500px break point----------- */
+  .responsive {
+    height: 315px;
+  }
+  /* --------- @2024JOEYSAYADI--------------------- */
+  #signatories {
+    color: yellow;
+    font-size: 10px;
+    margin-top: -380px;
+    text-align: center;
+    width: 30%;
+    margin-left: -5px;
+    position: relative;
+    top: 7.6rem;
+    font-weight: bold;
+    z-index: 5;
+  }
+  /* -------------text inside black square header------------------------------------- */
+  /* --------------------------------------------------------------------------------- */
+  #projectTitle {
+    text-align: center;
+    width: 70%;
+    color: white;
+    font-size: 29px;
+    font-weight: bolder;
+    position: relative;
+    line-height: 1;
+    margin-left: 40px;
+    top: -125px;
+    text-align: left;
+    z-index: 5;
   }
 }
 
@@ -397,7 +562,7 @@
 
 @media (min-width: 700px) {
   body {
-    background-color: rgb(63, 17, 138);
+    background-color: yellow;
   }
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
@@ -417,11 +582,44 @@
 
 @media (min-width: 710px) {
   body {
-    background-color: rgb(52, 19, 95);
+    background-color: yellow;
   }
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
     margin-left: 22.2rem;
+  }
+
+  /* --------- adjusting image size on 500px break point----------- */
+  .responsive {
+    height: 345px;
+  }
+  /* --------- @2024JOEYSAYADI--------------------- */
+  #signatories {
+    color: yellow;
+    font-size: 10px;
+    margin-top: -410px;
+    text-align: center;
+    width: 30%;
+    margin-left: -5px;
+    position: relative;
+    top: 7.6rem;
+    font-weight: bold;
+    z-index: 5;
+  }
+  /* -------------text inside black square header------------------------------------- */
+  /* --------------------------------------------------------------------------------- */
+  #projectTitle {
+    text-align: center;
+    width: 70%;
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    position: relative;
+    line-height: 1;
+    margin-left: 50px;
+    top: -145px;
+    text-align: left;
+    z-index: 5;
   }
 }
 
@@ -447,7 +645,7 @@
 
 @media (min-width: 740px) {
   body {
-    background-color: rgb(16, 131, 121);
+    background-color: orange;
   }
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
@@ -457,7 +655,7 @@
 
 @media (min-width: 750px) {
   body {
-    background-color: rgb(37, 16, 131);
+    background-color: brown;
   }
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
@@ -467,7 +665,7 @@
 
 @media (min-width: 750px) {
   body {
-    background-color: rgb(36, 65, 3);
+    background-color: orange;
   }
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
@@ -477,11 +675,44 @@
 
 @media (min-width: 760px) {
   body {
-    background-color: blue;
+    background-color: yellow;
   }
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
     margin-left: 24.9rem;
+  }
+
+  /* --------- adjusting image size on 500px break point----------- */
+  .responsive {
+    height: 368px;
+  }
+  /* --------- @2024JOEYSAYADI--------------------- */
+  #signatories {
+    color: yellow;
+    font-size: 10px;
+    margin-top: -450px;
+    text-align: center;
+    width: 30%;
+    margin-left: -10px;
+    position: relative;
+    top: 7.6rem;
+    font-weight: bold;
+    z-index: 5;
+  }
+  /* -------------text inside black square header------------------------------------- */
+  /* --------------------------------------------------------------------------------- */
+  #projectTitle {
+    text-align: center;
+    width: 70%;
+    color: white;
+    font-size: 38px;
+    font-weight: bolder;
+    position: relative;
+    line-height: 1;
+    margin-left: 50px;
+    top: -165px;
+    text-align: left;
+    z-index: 5;
   }
 }
 
@@ -529,10 +760,10 @@
   .left-menu {
     background-color: #eee;
     width: 12%;
-    top: 55px;
+    top: 60px;
     padding-top: 55px;
     text-align: center;
-    margin-top: 57px;
+    margin-top: 53px;
     display: block;
     /* position: fixed; */
   }
@@ -751,7 +982,7 @@
 /* ----------search box first break point---------- */
 @media (min-width: 830px) {
   body {
-    background-color: green;
+    background-color: red;
   }
   #burgerMenu {
     display: none;
@@ -788,6 +1019,28 @@
     font-weight: 400;
     font-size: 15px;
     margin-left: 5px;
+  }
+
+  #myInputId {
+    width: 389px;
+  }
+  /* ----------------------------  image break point  ----------------- */
+  .responsive {
+    margin-top: 65px;
+    height: 305px;
+    border-radius: 7px 7px 0 0;
+  }
+
+  /* -------------------------------  left menu break point  -------------------- */
+  .left-menu {
+    background-color: #eee;
+    width: 10%;
+    top: 60px;
+    padding-top: 55px;
+    text-align: center;
+    margin-top: 53px;
+    display: block;
+    /* position: fixed; */
   }
 }
 
@@ -927,7 +1180,7 @@
 /* ----------search box first break point---------- */
 @media (min-width: 870px) {
   body {
-    background-color: rgb(7, 68, 31);
+    background-color: orange;
   }
   #burgerMenu {
     display: none;
@@ -963,7 +1216,25 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 15px;
-    margin-left: 25px;
+    margin-left: 18px;
+  }
+  /* ----------------------------  image break point  ----------------- */
+  .responsive {
+    margin-top: 65px;
+    height: 320px;
+    border-radius: 7px 7px 0 0;
+  }
+
+  /* -------------------------------  left menu break point  -------------------- */
+  .left-menu {
+    background-color: #eee;
+    width: 10%;
+    top: 60px;
+    padding-top: 55px;
+    text-align: center;
+    margin-top: 53px;
+    display: block;
+    /* position: fixed; */
   }
 }
 
@@ -1191,7 +1462,7 @@
 /* ----------search box first break point---------- */
 @media (min-width: 930px) {
   body {
-    background-color: orange;
+    background-color: blue;
   }
   #burgerMenu {
     display: none;
@@ -1228,6 +1499,23 @@
     font-weight: 400;
     font-size: 15px;
     margin-left: 10px;
+  } /* ----------------------------  image break point  ----------------- */
+  .responsive {
+    margin-top: 65px;
+    height: 340px;
+    border-radius: 7px 7px 0 0;
+  }
+
+  /* -------------------------------  left menu break point  -------------------- */
+  .left-menu {
+    background-color: #eee;
+    width: 9%;
+    top: 60px;
+    padding-top: 55px;
+    text-align: center;
+    margin-top: 53px;
+    display: block;
+    /* position: fixed; */
   }
 }
 
@@ -1367,7 +1655,7 @@
 /* ----------search box first break point---------- */
 @media (min-width: 970px) {
   body {
-    background-color: rgb(0, 255, 21);
+    background-color: blue;
   }
   #burgerMenu {
     display: none;
@@ -1405,13 +1693,31 @@
     font-size: 15px;
     margin-left: 10px;
   }
+  /* ----------------------------  image break point  ----------------- */
+  .responsive {
+    margin-top: 65px;
+    height: 360px;
+    border-radius: 7px 7px 0 0;
+  }
+
+  /* -------------------------------  left menu break point  -------------------- */
+  .left-menu {
+    background-color: #eee;
+    width: 9%;
+    top: 60px;
+    padding-top: 55px;
+    text-align: center;
+    margin-top: 53px;
+    display: block;
+    /* position: fixed; */
+  }
 }
 
 /* -------------------------------------------------- */
 /* ----------search box first break point---------- */
 @media (min-width: 980px) {
   body {
-    background-color: rgb(22, 163, 17);
+    background-color: yellow;
   }
   #burgerMenu {
     display: none;
@@ -1455,7 +1761,7 @@
 /* ----------search box first break point---------- */
 @media (min-width: 990px) {
   body {
-    background-color: rgb(20, 204, 35);
+    background-color: orange;
   }
   #burgerMenu {
     display: none;
@@ -1543,7 +1849,7 @@
 /* ----------search box first break point---------- */
 @media (min-width: 1010px) {
   body {
-    background-color: rgb(11, 185, 35);
+    background-color: yellow;
   }
   #burgerMenu {
     display: none;
@@ -1624,6 +1930,46 @@
     font-weight: 400;
     font-size: 15px;
     margin-left: 30px;
+  }
+
+  /* ---------------------main body ----------------------------- */
+  /* ------------------------------------------------------------ */
+  .main-content {
+    width: 70%;
+  }
+
+  /* ----------------------------  image break point  ----------------- */
+  .responsive {
+    margin-top: 65px;
+    height: 382px;
+    border-radius: 7px 7px 0 0;
+  }
+
+  /* -------------------------------  left menu break point  -------------------- */
+  /* ---------------------------------------------------------------------------- */
+  .left-menu {
+    background-color: #eee;
+    width: 10%;
+    top: 60px;
+    padding-top: 55px;
+    text-align: center;
+    margin-top: 53px;
+    display: block;
+    /* position: fixed; */
+  }
+
+  /* ------------------------------------Right Menu-------------------------------------- */
+  /* ------------------------------------------------------------------------------------ */
+
+  .right-menu {
+    /* background-color: #f5f5f5; */
+    background-color: orange;
+    width: 30%;
+    margin-top: 65px;
+    display: block;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
@@ -1807,7 +2153,7 @@
 /* ----------search box first break point---------- */
 @media (min-width: 1070px) {
   body {
-    background-color: green;
+    background-color: orange;
   }
   #burgerMenu {
     display: none;
@@ -1983,7 +2329,7 @@
 /* ----------search box first break point---------- */
 @media (min-width: 1110px) {
   body {
-    background-color: orange;
+    background-color: rgb(124, 88, 21);
   }
   #burgerMenu {
     display: none;
@@ -2333,7 +2679,7 @@
 /* ----------search box first break point---------- */
 @media (min-width: 1200px) {
   body {
-    background-color: rgb(204, 218, 15);
+    background-color: blue;
   }
   #burgerMenu {
     display: none;
