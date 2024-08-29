@@ -13,27 +13,9 @@
   font-size: 18px;
 }
 /* ------------------- image-------------------- */
-header {
-  width: 96%;
-  height: 415px;
-  background-image: url("./image/myPicture.jpg ");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: auto;
-}
-
-/* -------------text inside black square header------------------------------------- */
-/* --------------------------------------------------------------------------------- */
-#projectTitle {
-  text-align: center;
-  width: 70%;
-  color: white;
-  font-size: 32px;
-  font-weight: bolder;
-  position: relative;
-  top: 12.5rem;
-  z-index: 5;
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
 /* ----------------creators name inside the color black square box header------------------------- */
@@ -47,6 +29,19 @@ header {
   position: relative;
   top: 7.6rem;
   font-weight: bold;
+  z-index: 5;
+}
+
+/* -------------text inside black square header------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+#projectTitle {
+  text-align: center;
+  width: 70%;
+  color: white;
+  font-size: 32px;
+  font-weight: bolder;
+  position: relative;
+  top: 12.5rem;
   z-index: 5;
 }
 
@@ -133,38 +128,37 @@ header {
     width: 100%;
   }
 
-  /* --------------- creator name---------------  */
+  /* --------- adjusting image size on 500px break point----------- */
+  .responsive {
+    height: 260px;
+  }
+  /* --------- @2024JOEYSAYADI--------------------- */
   #signatories {
     color: yellow;
     font-size: 10px;
-    margin-top: -75px;
+    margin-top: -340px;
     text-align: center;
     width: 30%;
-    margin-left: 10px;
+    margin-left: -5px;
     position: relative;
     top: 7.6rem;
     font-weight: bold;
     z-index: 5;
   }
-
-  /* ----------------Title of the project--------- */
+  /* -------------text inside black square header------------------------------------- */
+  /* --------------------------------------------------------------------------------- */
   #projectTitle {
     text-align: center;
     width: 70%;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bolder;
     position: relative;
-    top: 9rem;
-    margin-left: -3rem;
+    line-height: 1;
+    margin-left: 20px;
+    top: -100px;
+    text-align: left;
     z-index: 5;
-  }
-
-  /* --------- adjusting image size on 500px break point----------- */
-  header {
-    background-image: url("./image/myPicture.jpg");
-    width: 500px;
-    height: 264px;
   }
 
   #searchBox {
@@ -188,7 +182,6 @@ header {
     margin-left: 5px;
   }
 
-  /* --------- left side menu nav on display none ------- */
   .left-menu {
     background-color: yellow;
     width: 6.4%;
@@ -294,7 +287,7 @@ header {
 
 @media (min-width: 590px) {
   body {
-    background-color: rgb(116, 180, 12);
+    background-color: blue;
   }
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
@@ -314,7 +307,7 @@ header {
 
 @media (min-width: 610px) {
   body {
-    background-color: rgb(40, 163, 15);
+    background-color: orange;
   }
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
@@ -354,7 +347,7 @@ header {
 
 @media (min-width: 650px) {
   body {
-    background-color: rgb(27, 150, 11);
+    background-color: brown;
   }
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
@@ -414,7 +407,7 @@ header {
 
 @media (min-width: 710px) {
   body {
-    background-color: rgb(143, 199, 13);
+    background-color: brown;
   }
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
@@ -434,7 +427,7 @@ header {
 
 @media (min-width: 720px) {
   body {
-    background-color: rgb(7, 161, 66);
+    background-color: blue;
   }
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
@@ -484,7 +477,7 @@ header {
 
 @media (min-width: 760px) {
   body {
-    background-color: rgb(12, 143, 7);
+    background-color: blue;
   }
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
@@ -493,11 +486,11 @@ header {
 }
 
 /* ------------------start of search box change break preview------------ */
-/* --------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
 
 @media (min-width: 770px) {
   body {
-    background-color: rgb(9, 182, 38);
+    background-color: brown;
   }
   #burgerMenu {
     display: none;
@@ -511,7 +504,7 @@ header {
     display: inline;
     margin-left: 10px;
   }
-  /*-----------displaying search box break point------- */
+  /*--------------------displaying search box break point--------------- */
   #searchBox {
     display: flex;
     margin-left: 10px;
@@ -525,7 +518,26 @@ header {
   #myInputId {
     width: 389px;
   }
+  /* ----------------------------  image break point  ----------------- */
+  .responsive {
+    margin-top: 65px;
+    height: 280px;
+    border-radius: 7px 7px 0 0;
+  }
 
+  /* -------------------------------  left menu break point  -------------------- */
+  .left-menu {
+    background-color: #eee;
+    width: 12%;
+    top: 55px;
+    padding-top: 55px;
+    text-align: center;
+    margin-top: 57px;
+    display: block;
+    /* position: fixed; */
+  }
+
+  /* ------------------------------780 break preview------------------------------ */
   @media (min-width: 780px) {
     body {
       background-color: rgb(218, 204, 11);
