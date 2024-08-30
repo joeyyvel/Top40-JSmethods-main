@@ -58,7 +58,7 @@ function functionCommentCount() {
   commentObject.commentClosure();
 }
 
-//-------------show and hide popup comment----------------
+//-------------------------show and hide popup comment----------------
 function functionShowCommentResult() {
   let showPop = document.getElementById("myPopTwo");
   showPop.classList.add("showComment");
@@ -67,4 +67,42 @@ function functionShowCommentResult() {
 function functionHideComment() {
   let hidePop = document.getElementById("myPopTwo");
   hidePop.classList.remove("showComment");
+}
+
+//-------------------------- save section-------------------
+
+let saveID = document.getElementById("saveID");
+
+function savingBook() {
+  let count = 0;
+
+  function closureSave() {
+    count++;
+    console.log(count);
+    saveID.innerHTML = count;
+  }
+
+  return { closureSave };
+}
+
+let saveObject = savingBook();
+
+saveObject.closureSave();
+saveObject.closureSave();
+saveObject.closureSave();
+
+function finalSave() {
+  saveObject.closureSave();
+}
+
+// functions for onmouseover save and on mouse out
+
+function functionSaveBookMarkOver() {
+  let showSave = document.getElementById("myPopThree");
+  showSave.classList.add("showSave");
+}
+
+function functionSaveBookMarkOut() {
+  let showSave = document.getElementById("myPopThree");
+  showSave.classList.remove("showSave");
 }

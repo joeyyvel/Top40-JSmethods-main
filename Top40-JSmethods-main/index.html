@@ -68,21 +68,33 @@
         <br /><br />
         <!--------------------directLink to Comment from left panel down to bottom of the HTML ----------------->
         <div class="commentDiv" 
-             onclick="functionShowCommentResult()"
-             onmouseover="functionShowComment()"
+             onclick="functionCommentCount()"
+             onmouseover="functionShowCommentResult()"
              onmouseout="functionHideComment()"             
              >
-          <a href="#"><i class="fa-regular fa-comment"></i></a>
-            <!-- #comment-section -->
-          
+        <!-------------------- #comment-section ------------------------------------->
+          <a href="#comment-section"><i class="fa-regular fa-comment"></i></a>         
           <span class="popUpTextTwo" id="myPopTwo">Jump to Comments</span>
         </div><br>
         <p style="margin-top: 15px; color: blue; font-weight: bold;" >
                <span id="commentsID">0</span></p>
         <br /><br />
         <!----------------------------------Save to bookmark---------------------------->
-        <div><i class="fa-regular fa-bookmark"></i></div>
+        <div class="saveBookMark"
+             onclick="finalSave()"
+             onmouseover="functionSaveBookMarkOver()"
+             onmouseout="functionSaveBookMarkOut()"
+             >             
+        <!---------------------------------save icon ----------------------------------->
+          <i class="fa-regular fa-bookmark"></i>
+          <span class="popUpSave" id="myPopThree">Save</span>
+        </div><br>
+        <p style="margin-top: 15px; color: blue; font-weight: bold;">
+          <span id="saveID" >0</span>
+        </p>
         <br /><br />
+
+
         <div><i class="fa-solid fa-ellipsis"></i></div>
       </div>
       <!-----------------------------------------End of  Header-------------------------------------->
