@@ -26,8 +26,8 @@ html {
 }
 
 /*----------------------------Temporary left container freeze--------- */
-/* 
-.left-menu {
+
+/* .left-menu {
   background-color: yellow;
   width: 5%;
   top: 60px;
@@ -35,9 +35,8 @@ html {
   text-align: center;
   margin-top: 60px;
 
- position: fixed; 
- 
- */
+  position: fixed;
+} */
 
 /* ---------------------------------Left Menu Icon----------------------------- */
 /* ---------------------------------------------------------------------------- */
@@ -90,8 +89,12 @@ html {
 }
 
 /* -----------ellipse unordered group--------- */
+#group-myEllipsis {
+  visibility: visible;
+}
 
-.group-myEllipsis {
+#group-myEllipsis {
+  visibility: hidden;
   background-color: greenyellow;
   position: absolute;
   margin-left: 40px;

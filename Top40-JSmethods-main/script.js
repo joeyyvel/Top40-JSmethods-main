@@ -106,3 +106,8 @@ function functionSaveBookMarkOut() {
   let showSave = document.getElementById("myPopThree");
   showSave.classList.remove("showSave");
 }
+// ellipse button show and hide options
+
+function showHideEllipseOptions() {
+  let showWindow = document.getElementById("group-myEllipsis");
+}
