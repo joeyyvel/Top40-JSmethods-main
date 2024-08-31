@@ -89,6 +89,29 @@ html {
   padding: 10px;
 }
 
+/* -----------ellipse unordered group--------- */
+
+.group-myEllipsis {
+  background-color: greenyellow;
+  position: absolute;
+  margin-left: 40px;
+  text-align: left;
+  padding: 20px;
+  border-radius: 8px;
+  width: 15rem;
+}
+
+.ul-Ellipsis {
+  list-style-type: none;
+  background-color: orange;
+}
+
+.group-myEllipsis .ul-Ellipsis li {
+  background-color: red;
+  padding-bottom: 16px;
+  font-size: 17px;
+}
+
 /* ------------------------------------Main container---------------------------------- */
 /* ------------------------------------------------------------------------------------ */
 
