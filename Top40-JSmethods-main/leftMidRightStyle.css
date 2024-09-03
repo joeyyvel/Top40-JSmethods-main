@@ -73,6 +73,9 @@ html {
   border: none;
   border-radius: 50%;
   border: none;
+  position: absolute;
+  z-index: 3;
+  margin-left: -30px;
 }
 
 /* ---------fa ellipsis icon---------- */
@@ -86,33 +89,54 @@ html {
   text-align: center;
   align-content: center;
   padding: 10px;
-}
-
-/* -----------ellipse unordered group--------- */
-#group-myEllipsis {
-  visibility: visible;
-}
-
-#group-myEllipsis {
-  visibility: hidden;
-  background-color: greenyellow;
   position: absolute;
-  margin-left: 40px;
+}
+
+/* ------------------show and hide the ellipse content----------------- */
+
+.group-myEllipsis {
+  background-color: white;
+  position: absolute;
+  margin-left: 75px;
+  margin-top: -30px;
   text-align: left;
-  padding: 20px;
+  padding: 10px;
   border-radius: 8px;
-  width: 15rem;
+  width: 13.5rem;
 }
 
 .ul-Ellipsis {
   list-style-type: none;
-  background-color: orange;
+  visibility: hidden;
+}
+
+.group-myEllipsis .ul-Ellipsis {
+  visibility: visible;
 }
 
 .group-myEllipsis .ul-Ellipsis li {
-  background-color: red;
+  background-color: white;
   padding-bottom: 16px;
-  font-size: 17px;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.ul-Ellipsis li:hover {
+  background-color: hsl(240, 52%, 94%);
+  color: hsl(240, 87%, 70%);
+}
+/* copied to clipboard keep invisible and visible upon click */
+/* added by classList to the parent element*/
+
+.copiedToClipBoard {
+  text-align: center;
+  font-size: 15.5px;
+  color: green;
 }
 
 /* ------------------------------------Main container---------------------------------- */

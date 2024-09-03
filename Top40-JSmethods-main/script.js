@@ -106,8 +106,33 @@ function functionSaveBookMarkOut() {
   let showSave = document.getElementById("myPopThree");
   showSave.classList.remove("showSave");
 }
-// ellipse button show and hide options
 
-function showHideEllipseOptions() {
-  let showWindow = document.getElementById("group-myEllipsis");
-}
+//-------------------- ellipse button show and hide options-------------
+
+let threeDots = document.getElementById("threeDots");
+let checkingEllipse = document.getElementById("CheckingEllipse");
+let mainGroupEllipse = document.getElementById("group-myEllipsis");
+let showEllipse = document.querySelector("ul-Ellipsis");
+
+threeDots.addEventListener("click", (event) => {
+  checkingEllipse.classList.toggle("group-myEllipsis");
+});
+
+// ----------------- copy link copied to clipboard----------------------
+
+let copyLink = document.getElementById("copyLink");
+let clipBoard = document.getElementById("copiedToClipBoard");
+
+clipBoard.style.display = "none";
+
+copyLink.addEventListener("click", (event) => {
+  clipBoard.style.display = "block";
+  clipBoard.classList.add("copiedToClipBoard");
+  if ((event.target = clipBoard)) {
+    alert("clipboard clicked");
+  } else if (event.target != threeDots) {
+    window.close();
+  }
+});
+
+// ----------------- close the div window on ellipse section
