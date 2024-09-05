@@ -31,13 +31,17 @@
       <!-- icon type of magnifying glass inside the type search element ------------------->
         <div><i class="fa-solid fa-magnifying-glass"></i></div>
    
-        <div>
+        <div id="inputDiv">
           <input
             type="text"
             placeholder="Find related posts..."
             id="myInputId"                       
             />
+            
         </div>
+         <div id="poweredBy">
+          <p style="font-size: 10px;">Powered by:<span style="color: blue; font-size: 12px; font-weight: bold;">&copysr;Joey</span></p>
+         </div>
         
       </div>
       <div id="loginHeader">Log in</div>
@@ -99,15 +103,15 @@
         <div id="CheckingEllipse" >  
         <ul class="ul-Ellipsis" >
           <li id="copyLink" style="font-weight: bold;"> Copy link  <span style="margin-left: 6rem; color: blue;" ><i class="fa-solid fa-book"></i></span></li>
-          <li id="copiedToClipBoard" > Copied to Clipboard </li>
+          <li id="copiedToClipBoard" onclick="myClipBoard()"> Copied to Clipboard </li>
           <li><a href="https://x.com/?lang=en" target="_blank" >Share to Twitter</a></li>
           <li><a href="https://www.linkedin.com/feed/" target="_blank">Share to Linkedln</a> </li>
           <li><a href="https://www.reddit.com/" target="_blank">Share to Reddit</a></li>
           <li><a href="https://thehackernews.com/" target="_blank">Share to Hacker News</a></li>
           <li><a href="https://www.facebook.com/" target="_blank">Share to Facebook</a> </li>
           <li><a href="https://mastodon.social/explore" target="_blank">Share to Mastodon</a> </li>
-          <li>Share Post via...</li>
-          <li>Report Abuse</li>
+          <li onclick="sharePost()">Share Post via...</li>
+          <li id="myReport" onclick="reportMe()">Report Abuse</li>
          </ul>
         </div>
       

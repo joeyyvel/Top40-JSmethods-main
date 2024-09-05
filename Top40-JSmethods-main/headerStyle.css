@@ -78,6 +78,17 @@
 #myInputId:focus {
   outline: none;
 }
+
+/* --------------------inside search box: powered by the author-------------- */
+#poweredBy {
+  display: inline-flex;
+  margin-left: -110px;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 10px;
+  width: 200px;
+}
+
 /* ----------------------------Log in button-------------------------- */
 #loginHeader {
   color: rgb(88, 87, 87);

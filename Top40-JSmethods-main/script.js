@@ -125,14 +125,26 @@ let clipBoard = document.getElementById("copiedToClipBoard");
 
 clipBoard.style.display = "none";
 
-copyLink.addEventListener("click", (event) => {
-  clipBoard.style.display = "block";
-  clipBoard.classList.add("copiedToClipBoard");
-  if ((event.target = clipBoard)) {
-    alert("clipboard clicked");
-  } else if (event.target != threeDots) {
-    window.close();
-  }
-});
+copyLink.addEventListener(
+  "click",
+  (event) => {
+    clipBoard.style.display = "block";
+    clipBoard.classList.add("copiedToClipBoard");
+    console.log("i am clicked");
+  },
+  true
+);
 
 // ----------------- close the div window on ellipse section
+
+function myClipBoard() {
+  alert("hello my Clipboard");
+}
+
+function reportMe() {
+  alert("hello let us report");
+}
+
+function sharePost() {
+  alert("hello share a post");
+}
