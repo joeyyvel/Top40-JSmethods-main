@@ -148,3 +148,7 @@ function reportMe() {
 function sharePost() {
   alert("hello share a post");
 }
+
+function poweredBy() {
+  alert("Hello i`m powered by joey");
+}

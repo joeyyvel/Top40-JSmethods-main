@@ -9,7 +9,8 @@
       integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />    
+    />
+    <link rel="stylesheet" href="/Top40-JSmethods-main/leftNavigation/leftNav.css">    
     <link rel="stylesheet" href="footerStyle.css" />
     <link rel="stylesheet" href="headerStyle.css" />
     <link rel="stylesheet" href="leftMidRightStyle.css" />
@@ -39,7 +40,7 @@
             />
             
         </div>
-         <div id="poweredBy">
+         <div id="poweredBy" onclick="poweredBy()">
           <p style="font-size: 10px;">Powered by:<span style="color: blue; font-size: 12px; font-weight: bold;">&copysr;Joey</span></p>
          </div>
         
@@ -134,14 +135,37 @@
               >
           <p id="projectTitle">UseFull JavaScript <br> Methods <br> You Must Know!</p>
           <p id="signatories">&copy;2024JOEYSAYADI</p>
-        
-          
+                  
           <p class="colorBlackBackground">
             <!-------------------- all black background on top of image computing  -->
          </p>
-
-        </header>
          
+        </header>
+          <!------------------------end of header ----------------------------->
+         
+          <div id="mySideNav" class="sidenav">
+             <a href="javascript:void(0)"
+                class="closebtn"
+                onclick="closeNav()"
+             >DEV Community &times;</a>
+             <a href="#">About</a>
+             <a href="#">Services</a>
+             <a href="#">Clients</a>
+              <a href="#">Contact</a>
+             <h3 id="myDevPara">DEV Community is a community of 2,004,543 amazing developers</h3>
+             <p id="myDevParaTwo">We're a place where coders share, stay up-to-date and grow their careers.</p>          
+             <span style="color: red;
+                   font-size: 30px;
+                   cursor: pointer;"
+                   onclick="openNav()"     
+             >&#9776;Open</span>
+
+
+          </div>
+
+
+
+
         <div class="content">
           <div
             class="introduction"
@@ -4269,5 +4293,6 @@
       </h1>
     </div>
     <script src="script.js"></script>
+     <script src="../Top40-JSmethods-main/leftNavigation/leftNav.js"></script>
   </body>
 </html>
