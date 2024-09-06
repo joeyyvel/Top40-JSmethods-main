@@ -439,7 +439,7 @@
 
 @media (min-width: 610px) {
   body {
-    background-color: orange;
+    background-color: brown;
   }
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
@@ -532,7 +532,7 @@
 
 @media (min-width: 670px) {
   body {
-    background-color: rgb(197, 214, 41);
+    background-color: red;
   }
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
@@ -562,7 +562,7 @@
 
 @media (min-width: 700px) {
   body {
-    background-color: yellow;
+    background-color: red;
   }
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
@@ -582,7 +582,7 @@
 
 @media (min-width: 710px) {
   body {
-    background-color: yellow;
+    background-color: green;
   }
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
@@ -675,8 +675,15 @@
 
 @media (min-width: 760px) {
   body {
-    background-color: yellow;
+    background-color: brown;
   }
+
+  #mySideParentDiv {
+    color: black;
+    margin: 8px;
+    display: none;
+  }
+
   #magnifyingTwo {
     color: hsl(0, 20%, 30%);
     margin-left: 24.9rem;
