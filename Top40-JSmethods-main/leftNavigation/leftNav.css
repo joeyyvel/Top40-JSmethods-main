@@ -1,22 +1,42 @@
-#myDevPara {
-  color: yellow;
+/* side navigation menu / burger menu */
+
+#mySideParentDiv {
+  color: blue;
 }
 
-#myDevParaTwo {
-  color: orange;
+.burgerIconID {
+  font-size: 25px;
+  padding: 2px;
+}
+
+/* Burger menu */
+#mySideNav {
+  z-index: 5;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.devBox {
+  background-color: white;
+  padding: 10px;
+  border: 0.5px solid hsl(0, 0%, 89%);
+  margin: 10px;
+  border-radius: 5px;
 }
 
 .sidenav {
-  height: 100%;
+  height: 500px;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 5;
   top: 0;
   left: 0;
-  background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
 }
 
 .sidenav a {
@@ -28,7 +48,7 @@
   transition: 0.3s;
 }
 
-.sidenav a:hover {
+.sideNavPanel a:hover {
   color: #f1f1f1;
 }
 
@@ -38,6 +58,11 @@
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+  color: red;
+}
+
+.closebtn:hover {
+  color: blue;
 }
 
 @media screen and (max-height: 450px) {

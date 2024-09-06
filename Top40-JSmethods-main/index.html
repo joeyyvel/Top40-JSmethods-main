@@ -20,9 +20,44 @@
   <body>
     <!--------------------------------Header section--------------------------------------->
     <div class="dev-header">
-      <div >
-        <i class="fa-solid fa-bars" id="burgerMenu"></i>
+      <!--Burger menu and left side nav-->
+      <div id="mySideParentDiv"  onclick="openNav()" >
+        <span         
+         class="burgerIconID"         
+        >&#9776;</span>
       </div>
+
+      <div id="mySideNav" class="sidenav" >
+       <a href="javascript:void(0)"
+          class="closebtn"
+          onclick="closeNav()"
+          >&times;</a>
+        <p style="padding: 20px 15px; font-weight: bold;">DEV Community</p>
+       
+        <div class="devBox">
+          
+          <h3>DEV Community is a community of 2,008,948 amazing developers</h3>
+           <p>We're a place where coders share, stay up-to-date and grow their careers.</p> 
+        </div>
+
+      </div>
+
+      
+
+
+
+       <!-- <div id="mySideNav" class="sidenav" >
+        
+            
+        <a href="#" onclick="about()">About</a>
+           <a href="#">Services</a>
+           <a href="#">Clients</a>
+           <a href="#">Contact</a>
+
+
+        
+      
+      </div> -->
       
       <!-----------Brand LOGO with color black background---------------->
       <div id="brand"><h1>DEV</h1></div>
@@ -143,29 +178,7 @@
         </header>
           <!------------------------end of header ----------------------------->
          
-          <div id="mySideNav" class="sidenav">
-             <a href="javascript:void(0)"
-                class="closebtn"
-                onclick="closeNav()"
-             >DEV Community &times;</a>
-             <a href="#">About</a>
-             <a href="#">Services</a>
-             <a href="#">Clients</a>
-              <a href="#">Contact</a>
-             <h3 id="myDevPara">DEV Community is a community of 2,004,543 amazing developers</h3>
-             <p id="myDevParaTwo">We're a place where coders share, stay up-to-date and grow their careers.</p>          
-             <span style="color: red;
-                   font-size: 30px;
-                   cursor: pointer;"
-                   onclick="openNav()"     
-             >&#9776;Open</span>
-
-
-          </div>
-
-
-
-
+          
         <div class="content">
           <div
             class="introduction"
@@ -4293,6 +4306,6 @@
       </h1>
     </div>
     <script src="script.js"></script>
-     <script src="../Top40-JSmethods-main/leftNavigation/leftNav.js"></script>
+     <script src="/Top40-JSmethods-main/leftNavigation/leftNav.js"></script>
   </body>
 </html>
